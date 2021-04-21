@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameEngineProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{521CD690-7DF7-4484-90DC-F5E08A76B0A1}</UniqueIdentifier>
+      <UniqueIdentifier>{D060828C-C86D-4F90-A739-88ABFB912010}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D28BD81E-D224-4977-BA0A-80FFA24CBFC7}</UniqueIdentifier>
+      <UniqueIdentifier>{E1762930-1A69-4275-9C8B-2B37B47F7723}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameEngineProject">
-      <UniqueIdentifier>{53E9AFEB-BE33-4900-A71D-5F4113C8E5AD}</UniqueIdentifier>
+      <UniqueIdentifier>{8C868E47-FE11-4C40-A8A1-3F891935C548}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject\GameEngineProject.Build.cs">
       <Filter>Source\GameEngineProject</Filter>
@@ -66,7 +66,7 @@
       <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
     <Filter Include="Source\GameEngineProject\Private">
-      <UniqueIdentifier>{F6DCE069-8124-4E74-A1E9-E40F6DC99526}</UniqueIdentifier>
+      <UniqueIdentifier>{761BCDEC-0BE3-45FA-82F6-F777C86B5948}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameEngineProject\Private\HI.cpp">
       <Filter>Source\GameEngineProject\Private</Filter>
@@ -74,13 +74,19 @@
     <ClCompile Include="..\..\Source\GameEngineProject\Private\MyClass_.cpp">
       <Filter>Source\GameEngineProject\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GameEngineProject\Private\MyClass_Test_git.cpp">
+      <Filter>Source\GameEngineProject\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GameEngineProject\Public">
-      <UniqueIdentifier>{2526C134-664D-4C98-9EBB-11089F871281}</UniqueIdentifier>
+      <UniqueIdentifier>{A0976944-1830-4DE8-82AB-7F26482E9BB8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GameEngineProject\Public\HI.h">
       <Filter>Source\GameEngineProject\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GameEngineProject\Public\MyClass_.h">
+      <Filter>Source\GameEngineProject\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GameEngineProject\Public\MyClass_Test_git.h">
       <Filter>Source\GameEngineProject\Public</Filter>
     </ClInclude>
   </ItemGroup>
