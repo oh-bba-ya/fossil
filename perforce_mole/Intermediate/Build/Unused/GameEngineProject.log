@@ -1,0 +1,11 @@
+﻿  Building GameEngineProjectEditor...
+  Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] GameEngineProjectCharacter.cpp
+    [2/4] UE4Editor-GameEngineProject-0034.lib
+       C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0034.lib 라이브러리 및 C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0034.exp 개체를 생성하고 있습니다.
+    [3/4] UE4Editor-GameEngineProject-0034.dll
+       C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0034.suppressed.lib 라이브러리 및 C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0034.suppressed.exp 개체를 생성하고 있습니다.
+    [4/4] GameEngineProjectEditor.target
+  Total time in Parallel executor: 1.81 seconds
+  Total execution time: 2.31 seconds

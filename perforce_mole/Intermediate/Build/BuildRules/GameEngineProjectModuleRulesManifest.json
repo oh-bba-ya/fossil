@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Unreal\\GitMole\\fossil\\perforce_mole\\Source\\GameEngineProject\\GameEngineProject.Build.cs",
-		"C:\\Unreal\\GitMole\\fossil\\perforce_mole\\Source\\GameEngineProject.Target.cs",
-		"C:\\Unreal\\GitMole\\fossil\\perforce_mole\\Source\\GameEngineProjectEditor.Target.cs"
+		"C:\\ue4\\perforce_mole\\Source\\GameEngineProject\\GameEngineProject.Build.cs",
+		"C:\\ue4\\perforce_mole\\Source\\GameEngineProject.Target.cs",
+		"C:\\ue4\\perforce_mole\\Source\\GameEngineProjectEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }

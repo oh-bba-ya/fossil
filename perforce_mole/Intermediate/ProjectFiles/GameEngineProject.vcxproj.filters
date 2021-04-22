@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameEngineProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{DB92602E-111D-4DA3-8D1E-CCE9F9F32D65}</UniqueIdentifier>
+      <UniqueIdentifier>{0BD84D93-CC5C-45EC-A29D-BC619670EAD2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{C5729C0B-9B0A-45C2-B32D-5B9C5E836531}</UniqueIdentifier>
+      <UniqueIdentifier>{9388E2E4-C485-486D-A36C-AA7209475C2E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameEngineProject">
-      <UniqueIdentifier>{4452DA47-E493-4D0E-AE1A-D2CFFA112B93}</UniqueIdentifier>
+      <UniqueIdentifier>{9564A735-53AE-4A9C-BC2E-7DF9A193EFCA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject\GameEngineProject.Build.cs">
       <Filter>Source\GameEngineProject</Filter>
@@ -53,47 +53,17 @@
     <ClInclude Include="..\..\Source\GameEngineProject\GameEngineProjectGameMode.h">
       <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\GameEngineProject\MyClass.cpp">
-      <Filter>Source\GameEngineProject</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\GameEngineProject\MyClass.h">
-      <Filter>Source\GameEngineProject</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\GameEngineProject\PlayerMarker.cpp">
       <Filter>Source\GameEngineProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GameEngineProject\PlayerMarker.h">
       <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
-    <Filter Include="Source\GameEngineProject\Private">
-      <UniqueIdentifier>{FB8556E5-A0CA-4544-902D-E0D414A40356}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\GameEngineProject\Private\HI.cpp">
-      <Filter>Source\GameEngineProject\Private</Filter>
+    <ClCompile Include="..\..\Source\GameEngineProject\Tomato.cpp">
+      <Filter>Source\GameEngineProject</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\GameEngineProject\Private\MyClass_.cpp">
-      <Filter>Source\GameEngineProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GameEngineProject\Private\MyClass_Test_git.cpp">
-      <Filter>Source\GameEngineProject\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GameEngineProject\Private\Test_Git.cpp">
-      <Filter>Source\GameEngineProject\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\GameEngineProject\Public">
-      <UniqueIdentifier>{354422B7-2095-4980-AE95-6908854FBA5E}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\GameEngineProject\Public\HI.h">
-      <Filter>Source\GameEngineProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GameEngineProject\Public\MyClass_.h">
-      <Filter>Source\GameEngineProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GameEngineProject\Public\MyClass_Test_git.h">
-      <Filter>Source\GameEngineProject\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\GameEngineProject\Public\Test_Git.h">
-      <Filter>Source\GameEngineProject\Public</Filter>
+    <ClInclude Include="..\..\Source\GameEngineProject\Tomato.h">
+      <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

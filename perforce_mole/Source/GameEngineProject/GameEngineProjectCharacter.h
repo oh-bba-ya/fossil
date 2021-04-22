@@ -17,15 +17,15 @@ protected:
 
 	virtual void BeginPlay() override;
 
-	enum class EViewMode
+	enum class EMoleMode
 	{
-		V2D,
-		V3D
+		UNDER,
+		GROUND
 	};
 
-	void SetViewMode(EViewMode vm);
-	EViewMode CurrentViewMode = EViewMode::V3D;
-
+	void SetViewMode(EMoleMode vm);
+	void Dig();
+	EMoleMode CurrentMoleMode = EMoleMode::GROUND;
 	FVector DirectionToMove = FVector::ZeroVector;
 
 
@@ -35,9 +35,12 @@ public:
 
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		class USpringArmComponent* SpringArm;
-
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		class UCameraComponent* Camera;
+
+	UPROPERTY(VisibleAnywhere)
+		UParticleSystemComponent* DustParticle;
+	UParticleSystem* particleObj;
 
 	UFUNCTION()
 		void MoveForward(float value);

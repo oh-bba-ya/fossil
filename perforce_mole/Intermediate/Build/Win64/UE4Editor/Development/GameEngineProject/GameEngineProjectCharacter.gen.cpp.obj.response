@@ -31,7 +31,6 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Unreal\GitMole\fossil\perforce_mole\Source\GameEngineProject\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject
-/I C:\Unreal\GitMole\fossil\perforce_mole\Source
-/I C:\Unreal\GitMole\fossil\perforce_mole\Source\GameEngineProject\Public
+/I C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject
+/I C:\ue4\perforce_mole\Source
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
@@ -267,12 +265,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectCharacter.gen.cpp"
-/FI"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h"
-/Fo"C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\GameEngineProjectCharacter.gen.cpp.obj"
+/FI"C:\ue4\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\ue4\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\ue4\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectCharacter.gen.cpp"
+/FI"C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h"
+/Fo"C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\GameEngineProjectCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4

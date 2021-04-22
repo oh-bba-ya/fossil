@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_GameEngineProject();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UParticleSystemComponent_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(AGameEngineProjectCharacter::execTurn)
 	{
@@ -171,6 +172,10 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Camera;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DustParticle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DustParticle;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -207,9 +212,18 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera = { "Camera", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, Camera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_DustParticle_MetaData[] = {
+		{ "Category", "GameEngineProjectCharacter" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_DustParticle = { "DustParticle", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, DustParticle), Z_Construct_UClass_UParticleSystemComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_DustParticle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_DustParticle_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGameEngineProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_DustParticle,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGameEngineProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGameEngineProjectCharacter>::IsAbstract,
@@ -238,7 +252,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 2545306444);
+	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 3009675168);
 	template<> GAMEENGINEPROJECT_API UClass* StaticClass<AGameEngineProjectCharacter>()
 	{
 		return AGameEngineProjectCharacter::StaticClass();
