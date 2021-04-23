@@ -1,2 +1,2 @@
-C:\Unreal\GitMole\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
-C:\Unreal\GitMole\fossil\perforce_mole\Source\GameEngineProject\Public\MyClass_Test_git.h
+C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
+C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Source\GameEngineProject\Public\MyClass_Test_git.h

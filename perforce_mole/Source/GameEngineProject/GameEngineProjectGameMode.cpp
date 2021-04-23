@@ -2,7 +2,9 @@
 
 #include "GameEngineProjectGameMode.h"
 #include "GameEngineProjectCharacter.h"
+#include "ProjectCatCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+
 
 AGameEngineProjectGameMode::AGameEngineProjectGameMode()
 {
@@ -12,4 +14,16 @@ AGameEngineProjectGameMode::AGameEngineProjectGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	//static ConstructorHelpers::FClassFinder<APawn> cat(TEXT("/Game/CatCharacter"));
+	//if (cat.Class != NULL)
+	//{
+	//	DefaultPawnClass = cat.Class;
+	//	UE_LOG(LogTemp, Warning, TEXT("SkeletalMesh Not Error2"));
+	//}
+	//else {
+	//	UE_LOG(LogTemp, Warning, TEXT("SkeletalMesh Error2"));
+	//}
+
+
 }

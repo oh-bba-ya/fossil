@@ -26,7 +26,7 @@ AGameEngineProjectCharacter::AGameEngineProjectCharacter()
 	DustParticle->SetupAttachment(RootComponent);
 	Camera->SetupAttachment(SpringArm);
 
-	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.f), FRotator(0.0f, -90.f, 0.0f));
+	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -80.f), FRotator(0.0f, -90.f, 0.0f));
 	SpringArm->bInheritPitch = false;
 	SpringArm->bInheritRoll = false;
 	SpringArm->bDoCollisionTest = false;
@@ -54,6 +54,10 @@ AGameEngineProjectCharacter::AGameEngineProjectCharacter()
 		DustParticle->bAutoActivate = false;
 		DustParticle->Activate(false);*/
 	}
+	
+
+
+	
 
 }
 
@@ -169,3 +173,4 @@ void AGameEngineProjectCharacter::ViewChange()
 		break;
 	}
 }
+

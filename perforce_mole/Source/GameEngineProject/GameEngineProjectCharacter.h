@@ -42,6 +42,7 @@ public:
 		UParticleSystemComponent* DustParticle;
 	UParticleSystem* particleObj;
 
+
 	UFUNCTION()
 		void MoveForward(float value);
 	UFUNCTION()
@@ -52,5 +53,6 @@ public:
 		void Turn(float value);
 
 	void ViewChange();
+	
 };
 
