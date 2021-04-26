@@ -1,9 +1,11 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "GameEngineProjectGameMode.h"
+#include "GameHUD.h"
 #include "GameEngineProjectCharacter.h"
 #include "ProjectCatCharacter.h"
 #include "UObject/ConstructorHelpers.h"
+#include "Blueprint/UserWidget.h"
 
 
 AGameEngineProjectGameMode::AGameEngineProjectGameMode()
@@ -24,6 +26,20 @@ AGameEngineProjectGameMode::AGameEngineProjectGameMode()
 	//else {
 	//	UE_LOG(LogTemp, Warning, TEXT("SkeletalMesh Error2"));
 	//}
+	static ConstructorHelpers::FClassFinder<UUserWidget> HealthBar(TEXT("/Game/UI/hpUI"));
+	HUDWidgetClass = HealthBar.Class;
 
+	// use our custom HUD class
+	HUDClass = AGameHUD::StaticClass();
 
+	// add Health Bar UI to viewport
+	if (HUDWidgetClass != nullptr)
+	{
+		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), HUDWidgetClass);
+
+		if (CurrentWidget)
+		{
+			CurrentWidget->AddToViewport();
+		}
+	}
 }

@@ -10,6 +10,6 @@ public class GameEngineProject : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay" });
 
-		PublicDependencyModuleNames.AddRange(new string[] { "AIModule", "GameplayTasks" });
+		PublicDependencyModuleNames.AddRange(new string[] { "UMG", "Slate", "SlateCore", "AIModule", "GameplayTasks" });
 	}
 }

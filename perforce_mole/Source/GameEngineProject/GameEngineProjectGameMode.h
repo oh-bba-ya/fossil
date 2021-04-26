@@ -13,6 +13,13 @@ class AGameEngineProjectGameMode : public AGameModeBase
 
 public:
 	AGameEngineProjectGameMode();
+
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<class UUserWidget> HUDWidgetClass;
+
+	UPROPERTY(EditAnywhere)
+		class UUserWidget* CurrentWidget;
+
 };
 
 

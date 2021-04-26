@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Tomato.h"
+#include "DustParticle.h"
 #include "GameEngineProjectCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -28,6 +30,14 @@ protected:
 	EMoleMode CurrentMoleMode = EMoleMode::GROUND;
 	FVector DirectionToMove = FVector::ZeroVector;
 
+	UPROPERTY(EditDefaultsOnly, Category = DustParticle)
+		TSubclassOf<class ADustParticle> Dust;
+
+	UFUNCTION()
+		void UpdateHungryPoint(float deltaTime);
+	UFUNCTION()
+		void UpdateSurviveTime(float deltaTime);
+
 
 public:
 	virtual void Tick(float DeltaTime) override;
@@ -38,10 +48,23 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 		class UCameraComponent* Camera;
 
-	UPROPERTY(VisibleAnywhere)
-		UParticleSystemComponent* DustParticle;
-	UParticleSystem* particleObj;
 
+	UPROPERTY(VisibleAnywhere)
+		class UCapsuleComponent* TriggerCapsule;
+	UPROPERTY(VisibleAnywhere)
+		class AActor* TriggerTomato = nullptr;
+
+
+	float currntHungryPoint;
+	float maxHungryPoint;
+	float surviveTime;
+
+	UFUNCTION(BlueprintPure)
+		float GetHungryPoint();
+	UFUNCTION(BlueprintPure)
+		FText GetHungryPointText();
+	UFUNCTION(BlueprintPure)
+		FText GetSurviveTimeText();
 
 	UFUNCTION()
 		void MoveForward(float value);
@@ -52,7 +75,16 @@ public:
 	UFUNCTION()
 		void Turn(float value);
 
+	UFUNCTION()
 	void ViewChange();
-	
+
+	UFUNCTION()
+		void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UFUNCTION()
+		void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex); 
+	UFUNCTION()
+		void EatTomato();
+	UFUNCTION()
+		void CreateDustParticle();
 };
 

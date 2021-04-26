@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "GameEngineProject",
-			"Path": "C:\\Users\\audtj\\OneDrive\\Desktop\\GameEngine\\perforce_mole\\Source\\GameEngineProject.Target.cs",
+			"Path": "C:\\ue4\\perforce_mole\\Source\\GameEngineProject.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GameEngineProjectEditor",
-			"Path": "C:\\Users\\audtj\\OneDrive\\Desktop\\GameEngine\\perforce_mole\\Source\\GameEngineProjectEditor.Target.cs",
+			"Path": "C:\\ue4\\perforce_mole\\Source\\GameEngineProjectEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
