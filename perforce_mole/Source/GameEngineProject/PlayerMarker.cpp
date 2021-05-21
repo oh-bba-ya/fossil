@@ -25,7 +25,25 @@ void APlayerMarker::Tick(float DeltaTime)
 	{
 		FVector CharacterPos = GetWorld()->GetFirstPlayerController()->GetPawn()->GetActorLocation();
 		SetActorRelativeLocation(FVector(CharacterPos.X, CharacterPos.Y, 1000.f));
+		SetActorRelativeScale3D(AddScale(GetActorScale3D()));
 	}
+}
+
+FVector APlayerMarker::SetScale() {
+	FVector scale(1.0f, 1.0f, 1.0f);
+	return scale;
+	
+}
+
+FVector APlayerMarker::AddScale(FVector _scale) {
+	FVector add(0.01f, 0.01f, 0.01f);
+	if (_scale.Size() > 3.0f) {
+		return SetScale();
+	}
+	else {
+		return _scale += add;
+	}
+
 }
 
 

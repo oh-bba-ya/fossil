@@ -2,7 +2,9 @@
 
 #pragma once
 
+
 #include "CoreMinimal.h"
+#include "Math/Vector.h"
 #include "GameFramework/Actor.h"
 #include "PlayerMarker.generated.h"
 
@@ -12,10 +14,12 @@ class GAMEENGINEPROJECT_API APlayerMarker : public AActor
 	GENERATED_BODY()
 	
 
-
 public:	
 	// Sets default values for this actor's properties
 	APlayerMarker();
+	
+	FVector SetScale();
+	FVector AddScale(FVector _scale);
 
 protected:
 	// Called when the game starts or when spawned
