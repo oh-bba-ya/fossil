@@ -14,7 +14,6 @@ APlayerMarker::APlayerMarker()
 void APlayerMarker::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
@@ -28,4 +27,6 @@ void APlayerMarker::Tick(float DeltaTime)
 		SetActorRelativeLocation(FVector(CharacterPos.X, CharacterPos.Y, 1000.f));
 	}
 }
+
+
 

@@ -11,6 +11,8 @@ class GAMEENGINEPROJECT_API APlayerMarker : public AActor
 {
 	GENERATED_BODY()
 	
+
+
 public:	
 	// Sets default values for this actor's properties
 	APlayerMarker();
@@ -21,5 +23,6 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	
 
 };
