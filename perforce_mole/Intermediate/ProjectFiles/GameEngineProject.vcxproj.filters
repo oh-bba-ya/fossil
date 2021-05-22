@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameEngineProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{33B128EC-19A6-46D2-8AE3-7E61B1A58249}</UniqueIdentifier>
+      <UniqueIdentifier>{AAD33ED1-D465-4DAE-BF44-6D2EDB45897A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2C023493-C49B-4F24-BB6B-5FF95EB46D2A}</UniqueIdentifier>
+      <UniqueIdentifier>{E5749749-FBED-4E85-BD48-19EAA9C36004}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameEngineProject">
-      <UniqueIdentifier>{AC231A1D-BE9D-472C-8352-093CDDFA0075}</UniqueIdentifier>
+      <UniqueIdentifier>{0C0424A9-68BD-4008-B41A-F7BBE9FCD230}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameEngineProject\BTService_FindPlayer.cpp">
       <Filter>Source\GameEngineProject</Filter>
@@ -99,6 +99,12 @@
       <Filter>Source\GameEngineProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GameEngineProject\GameHUD.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\MoleHole.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\MoleHole.h">
       <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GameEngineProject\PlayerMarker.cpp">

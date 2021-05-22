@@ -6,6 +6,7 @@
 #include "GameFramework/Character.h"
 #include "Tomato.h"
 #include "DustParticle.h"
+#include "MoleHole.h"
 #include "GameEngineProjectCharacter.generated.h"
 
 UCLASS(config=Game)
@@ -32,11 +33,15 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category = DustParticle)
 		TSubclassOf<class ADustParticle> Dust;
+	UPROPERTY()
+		TSubclassOf<class AMoleHole> Hole;
 
 	UFUNCTION()
 		void UpdateHungryPoint(float deltaTime);
 	UFUNCTION()
 		void UpdateSurviveTime(float deltaTime);
+	UFUNCTION()
+		void UpdateDigTime(float deltaTime);
 
 
 public:
@@ -54,6 +59,11 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		class AActor* TriggerTomato = nullptr;
 
+	float maxDigTime = 10.f;
+	float currentDigTime;
+	bool overlapHole = false;
+
+	bool digging = false;
 
 	float currntHungryPoint;
 	float maxHungryPoint;
@@ -86,5 +96,7 @@ public:
 		void EatTomato();
 	UFUNCTION()
 		void CreateDustParticle();
+	UFUNCTION()
+		void CreateHole();
 };
 

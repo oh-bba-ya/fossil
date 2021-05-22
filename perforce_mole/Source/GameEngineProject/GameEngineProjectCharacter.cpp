@@ -66,6 +66,11 @@ AGameEngineProjectCharacter::AGameEngineProjectCharacter()
 	{
 		Dust = DUST_PARTICLE.Class;
 	}
+	static ConstructorHelpers::FClassFinder<AMoleHole> HOLE(TEXT("/Game/MoleHole"));
+	if (HOLE.Succeeded())
+	{
+		Hole = HOLE.Class;
+	}
 }
 
 void AGameEngineProjectCharacter::BeginPlay()
@@ -87,6 +92,7 @@ void AGameEngineProjectCharacter::Tick(float DeltaTime)
 
 	UpdateHungryPoint(DeltaTime);
 	UpdateSurviveTime(DeltaTime);
+	UpdateDigTime(DeltaTime);
 
 	if (DirectionToMove.SizeSquared() > 0.0f)
 	{
@@ -118,31 +124,49 @@ void::AGameEngineProjectCharacter::Dig()
 	float WaitTime = 1.f;
 	/*Dust->AbleParticle();
 	Dust->SetActorLocation(GetActorLocation());*/
-		
+	if (!overlapHole)
+		if (currentDigTime != 0 && CurrentMoleMode == EMoleMode::GROUND)
+			return;
+
 	CreateDustParticle();
 
+	if (!overlapHole && CurrentMoleMode == EMoleMode::GROUND)
+	{
+		CreateHole();
+		currentDigTime += 0.001f;
+	}
+	digging = true;
 	GetWorld()->GetTimerManager().SetTimer(WaitHandle, FTimerDelegate::CreateLambda([&]()
 		{
+			bool currUnder = false;
+			if (CurrentMoleMode == EMoleMode::UNDER)
+				currUnder = true;
 			ViewChange();
-			//Dust->DisableParticle();
+			if (!overlapHole && currUnder)
+				CreateHole();
+			digging = false;
 		}), WaitTime, false);
 }
 
 void AGameEngineProjectCharacter::Turn(float value)
 {
-	if(CurrentMoleMode == EMoleMode::GROUND)
-		AddControllerYawInput(value);
+
+	if (!digging)
+		if (CurrentMoleMode == EMoleMode::GROUND)
+			AddControllerYawInput(value);
 }
 void AGameEngineProjectCharacter::MoveForward(float value)
 {
 	//DirectionToMove.X = value;
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), value);
+	if (!digging)
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::X), value);
 }
 
 void AGameEngineProjectCharacter::MoveRight(float value)
 {
 	//DirectionToMove.Y = value;
-	AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), value);
+	if (!digging)
+		AddMovementInput(FRotationMatrix(GetControlRotation()).GetUnitAxis(EAxis::Y), value);
 }
 
 void AGameEngineProjectCharacter::SetViewMode(EMoleMode vm)
@@ -195,14 +219,20 @@ void AGameEngineProjectCharacter::OnOverlapBegin(class UPrimitiveComponent* Over
 {
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
-		TriggerTomato = OtherActor;
+		if (OtherActor->GetClass()->IsChildOf(ATomato::StaticClass()))
+			TriggerTomato = OtherActor;
+		if (OtherActor->GetClass()->IsChildOf(AMoleHole::StaticClass()))
+			overlapHole = true;
 	}
 }
 void AGameEngineProjectCharacter::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
 {
 	if (OtherActor && (OtherActor != this) && OtherComp)
 	{
-		TriggerTomato = nullptr;
+		if (OtherActor->GetClass()->IsChildOf(ATomato::StaticClass()))
+			TriggerTomato = nullptr;
+		if (OtherActor->GetClass()->IsChildOf(AMoleHole::StaticClass()))
+			overlapHole = false;
 	}
 }
 void AGameEngineProjectCharacter::EatTomato()
@@ -226,6 +256,20 @@ void AGameEngineProjectCharacter::UpdateHungryPoint(float deltaTime)
 void AGameEngineProjectCharacter::UpdateSurviveTime(float deltaTime)
 {
 	surviveTime += deltaTime;
+}
+void AGameEngineProjectCharacter::UpdateDigTime(float deltaTime)
+{
+	if (currentDigTime > maxDigTime)
+	{
+		currentDigTime = 0.f;
+
+		if (GEngine)
+		{
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("CanDig"));
+		}
+	}
+	if (currentDigTime != 0.f)
+		currentDigTime += deltaTime;
 }
 float AGameEngineProjectCharacter::GetHungryPoint()
 {
@@ -258,6 +302,21 @@ void AGameEngineProjectCharacter::CreateDustParticle()
 			SpawnParams.Instigator = GetInstigator();
 
 			ADustParticle* DustPar = GetWorld()->SpawnActor<ADustParticle>(Dust, GetActorLocation(), GetActorRotation(), SpawnParams);
+
+		}
+	}
+}
+
+void AGameEngineProjectCharacter::CreateHole()
+{
+	if (Hole)
+	{
+		if (GetWorld())
+		{
+			FActorSpawnParameters SpawnParams;
+			SpawnParams.Instigator = GetInstigator();
+
+			AMoleHole* moleHole = GetWorld()->SpawnActor<AMoleHole>(Hole, FVector(GetActorLocation().X, GetActorLocation().Y, 0.0f), GetActorRotation(), SpawnParams);
 
 		}
 	}

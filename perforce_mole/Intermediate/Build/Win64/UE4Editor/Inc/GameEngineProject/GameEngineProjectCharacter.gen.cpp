@@ -22,10 +22,18 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	GAMEENGINEPROJECT_API UClass* Z_Construct_UClass_ADustParticle_NoRegister();
+	GAMEENGINEPROJECT_API UClass* Z_Construct_UClass_AMoleHole_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCapsuleComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AGameEngineProjectCharacter::execCreateHole)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CreateHole();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AGameEngineProjectCharacter::execCreateDustParticle)
 	{
 		P_FINISH;
@@ -116,6 +124,14 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		*(float*)Z_Param__Result=P_THIS->GetHungryPoint();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AGameEngineProjectCharacter::execUpdateDigTime)
+	{
+		P_GET_PROPERTY(FFloatProperty,Z_Param_deltaTime);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UpdateDigTime(Z_Param_deltaTime);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AGameEngineProjectCharacter::execUpdateSurviveTime)
 	{
 		P_GET_PROPERTY(FFloatProperty,Z_Param_deltaTime);
@@ -137,6 +153,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		UClass* Class = AGameEngineProjectCharacter::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "CreateDustParticle", &AGameEngineProjectCharacter::execCreateDustParticle },
+			{ "CreateHole", &AGameEngineProjectCharacter::execCreateHole },
 			{ "EatTomato", &AGameEngineProjectCharacter::execEatTomato },
 			{ "GetHungryPoint", &AGameEngineProjectCharacter::execGetHungryPoint },
 			{ "GetHungryPointText", &AGameEngineProjectCharacter::execGetHungryPointText },
@@ -146,6 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 			{ "OnOverlapBegin", &AGameEngineProjectCharacter::execOnOverlapBegin },
 			{ "OnOverlapEnd", &AGameEngineProjectCharacter::execOnOverlapEnd },
 			{ "Turn", &AGameEngineProjectCharacter::execTurn },
+			{ "UpdateDigTime", &AGameEngineProjectCharacter::execUpdateDigTime },
 			{ "UpdateHungryPoint", &AGameEngineProjectCharacter::execUpdateHungryPoint },
 			{ "UpdateSurviveTime", &AGameEngineProjectCharacter::execUpdateSurviveTime },
 			{ "ViewChange", &AGameEngineProjectCharacter::execViewChange },
@@ -171,6 +189,28 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameEngineProjectCharacter_CreateDustParticle_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameEngineProjectCharacter, nullptr, "CreateHole", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -531,6 +571,38 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics
+	{
+		struct GameEngineProjectCharacter_eventUpdateDigTime_Parms
+		{
+			float deltaTime;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_deltaTime;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::NewProp_deltaTime = { "deltaTime", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameEngineProjectCharacter_eventUpdateDigTime_Parms, deltaTime), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::NewProp_deltaTime,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameEngineProjectCharacter, nullptr, "UpdateDigTime", nullptr, nullptr, sizeof(GameEngineProjectCharacter_eventUpdateDigTime_Parms), Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateHungryPoint_Statics
 	{
 		struct GameEngineProjectCharacter_eventUpdateHungryPoint_Parms
@@ -633,6 +705,10 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Dust;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Hole_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_Hole;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArm_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm;
@@ -658,6 +734,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGameEngineProjectCharacter_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_CreateDustParticle, "CreateDustParticle" }, // 2568771544
+		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_CreateHole, "CreateHole" }, // 3483771313
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_EatTomato, "EatTomato" }, // 3750263117
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetHungryPoint, "GetHungryPoint" }, // 2522127852
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetHungryPointText, "GetHungryPointText" }, // 2598889089
@@ -667,6 +744,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_OnOverlapBegin, "OnOverlapBegin" }, // 37267895
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_OnOverlapEnd, "OnOverlapEnd" }, // 4102680074
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_Turn, "Turn" }, // 2960003722
+		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateDigTime, "UpdateDigTime" }, // 3624496148
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateHungryPoint, "UpdateHungryPoint" }, // 1320303939
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_UpdateSurviveTime, "UpdateSurviveTime" }, // 2847596734
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_ViewChange, "ViewChange" }, // 998858126
@@ -685,6 +763,12 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust = { "Dust", nullptr, (EPropertyFlags)0x0024080000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, Dust), Z_Construct_UClass_ADustParticle_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole_MetaData[] = {
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole = { "Hole", nullptr, (EPropertyFlags)0x0024080000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, Hole), Z_Construct_UClass_AMoleHole_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_SpringArm_MetaData[] = {
 		{ "Category", "Camera" },
@@ -718,6 +802,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato = { "TriggerTomato", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, TriggerTomato), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGameEngineProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_SpringArm,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCapsule,
@@ -750,7 +835,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 1895255964);
+	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 1888438750);
 	template<> GAMEENGINEPROJECT_API UClass* StaticClass<AGameEngineProjectCharacter>()
 	{
 		return AGameEngineProjectCharacter::StaticClass();
