@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GameEngineProject.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AAD33ED1-D465-4DAE-BF44-6D2EDB45897A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GameEngineProject.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GameEngineProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E5749749-FBED-4E85-BD48-19EAA9C36004}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GameEngineProject">
+      <UniqueIdentifier>{0C0424A9-68BD-4008-B41A-F7BBE9FCD230}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GameEngineProject\BTService_FindPlayer.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\BTService_FindPlayer.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\BTTask_MoveToPlayer.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\BTTask_MoveToPlayer.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\Countdown.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\Countdown.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\DustParticle.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\DustParticle.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\EnemyAIController.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\EnemyAIController.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\EnemyCharacter.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\EnemyCharacter.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\Farmer.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\Farmer.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GameEngineProject\GameEngineProject.Build.cs">
+      <Filter>Source\GameEngineProject</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GameEngineProject\GameEngineProject.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\GameEngineProject.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\GameEngineProjectCharacter.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\GameEngineProjectCharacter.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\GameEngineProjectGameMode.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\GameEngineProjectGameMode.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\GameHUD.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\GameHUD.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\MoleHole.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\MoleHole.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\PlayerMarker.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\PlayerMarker.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\ProjectCatCharacter.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\ProjectCatCharacter.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\Tomato.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\Tomato.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
