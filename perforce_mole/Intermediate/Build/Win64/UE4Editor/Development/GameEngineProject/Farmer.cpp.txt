@@ -1,6 +1,0 @@
-C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
-C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Source\GameEngineProject\Farmer.h
-C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\Farmer.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
