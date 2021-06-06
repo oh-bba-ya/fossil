@@ -75,6 +75,8 @@ public:
 		FText GetHungryPointText();
 	UFUNCTION(BlueprintPure)
 		FText GetSurviveTimeText();
+	UFUNCTION(BluePrintPure)
+		float GetCurrentDigPercent();
 
 	UFUNCTION()
 		void MoveForward(float value);

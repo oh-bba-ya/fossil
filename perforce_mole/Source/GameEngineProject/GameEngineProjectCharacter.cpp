@@ -279,6 +279,10 @@ FText AGameEngineProjectCharacter::GetSurviveTimeText()
 	FText STText = FText::FromString(SurviveHUD);
 	return STText;
 }
+float AGameEngineProjectCharacter::GetCurrentDigPercent()
+{
+	return (currentDigTime / maxDigTime);
+}
 void AGameEngineProjectCharacter::CreateDustParticle()
 {
 	if (Dust)
