@@ -1,0 +1,1633 @@
+﻿Log file open, 06/07/21 00:03:53
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: GameEngineProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.233526
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2004) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce RTX 2060 SUPER
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.06-15.03.53:809][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.06-15.03.53:810][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.06-15.03.53:810][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.06-15.03.53:810][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.06.06-15.03.53:810][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:810][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:905][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.06-15.03.53:905][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.06-15.03.53:906][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.06-15.03.53:906][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.06-15.03.53:906][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.06-15.03.53:906][  0]LogHAL: Display: Platform has ~ 32 GB [34306473984 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.06-15.03.53:906][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.06-15.03.53:906][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.06-15.03.53:907][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.06-15.03.53:908][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.06-15.03.53:908][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.06-15.03.53:908][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.06-15.03.53:908][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.06-15.03.53:908][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.06-15.03.53:908][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Config/Windows/Editor.ini]
+[2021.06.06-15.03.53:908][  0]LogInit: Computer: DESKTOP-BKK8KGL
+[2021.06.06-15.03.53:908][  0]LogInit: User: audtj
+[2021.06.06-15.03.53:908][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.06.06-15.03.53:908][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.06-15.03.53:908][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2021.06.06-15.03.53:908][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.06-15.03.53:908][  0]LogMemory: Process Physical Memory: 136.12 MB used, 136.13 MB peak
+[2021.06.06-15.03.53:908][  0]LogMemory: Process Virtual Memory: 123.85 MB used, 123.85 MB peak
+[2021.06.06-15.03.53:908][  0]LogMemory: Physical Memory: 13582.41 MB used,  19134.79 MB free, 32717.20 MB total
+[2021.06.06-15.03.53:908][  0]LogMemory: Virtual Memory: 134213008.00 MB used,  4719.49 MB free, 134217728.00 MB total
+[2021.06.06-15.03.53:917][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.06-15.03.54:006][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.06-15.03.54:007][  0]LogInit: Using OS detected language (ko-KR).
+[2021.06.06-15.03.54:007][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.06.06-15.03.54:014][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.06.06-15.03.54:091][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.06-15.03.54:138][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.06-15.03.54:154][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.06-15.03.54:154][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.06-15.03.54:446][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.06.06-15.03.54:446][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.06-15.03.54:446][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.06-15.03.54:446][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.06-15.03.54:540][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060 SUPER' (Feature Level 11_0)
+[2021.06.06-15.03.54:540][  0]LogD3D11RHI:       8031/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.06.06-15.03.54:542][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.06-15.03.54:542][  0]LogD3D11RHI:       0/0/16358 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.06-15.03.54:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.06-15.03.54:551][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.06-15.03.54:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1f06 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.06-15.03.54:551][  0]LogWindows: EnumDisplayDevices:
+[2021.06.06-15.03.54:551][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060 SUPER' (P:1 D:1)
+[2021.06.06-15.03.54:552][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:1)
+[2021.06.06-15.03.54:553][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2021.06.06-15.03.54:553][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060 SUPER' (P:0 D:0)
+[2021.06.06-15.03.54:554][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.06.06-15.03.54:554][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060 SUPER
+[2021.06.06-15.03.54:554][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.06.06-15.03.54:554][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.06.06-15.03.54:554][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.06.06-15.03.54:612][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.06-15.03.54:613][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.06-15.03.54:613][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.06-15.03.54:641][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.06-15.03.54:643][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.06.06-15.03.54:997][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.06-15.03.55:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.06-15.03.55:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.06-15.03.55:051][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.06-15.03.55:064][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.06.06-15.03.55:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.06.06-15.03.55:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.06.06-15.03.55:098][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.06.06-15.03.55:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.06.06-15.03.55:121][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.06.06-15.03.55:133][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.06.06-15.03.55:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.06-15.03.55:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.06-15.03.55:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.06.06-15.03.55:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.06.06-15.03.55:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.06.06-15.03.55:204][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.06.06-15.03.55:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.06-15.03.55:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.06-15.03.55:233][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.06-15.03.55:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.06-15.03.55:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.06-15.03.55:265][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.06-15.03.55:265][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.06-15.03.55:276][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.06-15.03.55:374][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.06.06-15.03.55:374][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Intermediate/Shaders/WorkingDirectory/20140/).
+[2021.06.06-15.03.55:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/audtj/AppData/Local/Temp/UnrealShaderWorkingDir/71556B4D4D01A10EB2BE58B26124DA8A/'.
+[2021.06.06-15.03.55:375][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.06-15.03.55:375][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.06-15.03.56:042][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.06-15.03.56:114][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/audtj/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.06-15.03.56:114][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/audtj/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.06.06-15.03.56:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.06-15.03.56:115][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.06-15.03.56:115][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.06-15.03.56:115][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.06.06-15.03.56:126][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.06-15.03.56:127][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.06-15.03.56:127][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.06.06-15.03.56:134][  0]LogDerivedDataCache: Speed tests for C:/Users/audtj/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2021.06.06-15.03.56:134][  0]LogDerivedDataCache: Display: Performance to C:/Users/audtj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.08ms. RandomReadSpeed=712.08MBs, RandomWriteSpeed=189.52MBs. Assigned SpeedClass 'Local'
+[2021.06.06-15.03.56:134][  0]LogDerivedDataCache: Using Local data cache path C:/Users/audtj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.06-15.03.56:134][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.06-15.03.56:134][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.06-15.03.56:175][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.06-15.03.56:176][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.06-15.03.56:207][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.06.06-15.03.56:433][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.06-15.03.56:433][  0]LogInit: Active device profile: [0000019592FE1B00][000001959141B7C0 49] Windows
+[2021.06.06-15.03.56:433][  0]LogInit: Profiles: [0000019592FE1B00][000001959141B7C0 49] Windows, [0000019592FDE800][000001959141F900 49] WindowsNoEditor, [0000019592FE1D00][0000019591427A80 49] WindowsServer, [0000019592FDCC00][000001959142BC00 49] WindowsClient, [0000019592FE0E00][000001959142E0C0 49] IOS, [0000019592FDF900][0000019591432240 49] iPadAir, [0000019592FE3000][00000195914363C0 49] iPadAir2, [0000019592F8AB00][0000019590C30680 49] IPadPro, [0000019592F8AC00][000001959143A6C0 49] iPadAir3, [0000019592FE1200][0000019590C34840 49] iPadAir4, [0000019592F8A800][0000019590C389C0 49] iPadMini2, [0000019592FE3100][0000019590C3CB40 49] iPadMini3, [0000019592F89800][0000019590C40CC0 49] iPadMini4, [0000019592FE2A00][0000019590C44E40 49] iPadMini5, [0000019592FBA400][0000019590C4D100 49] iPhone6, [0000019592FBA500][0000019590C49140 49] iPodTouch6, [0000019592FDC200][0000019590C55400 49] iPhone7, [0000019592FDC500][0000019590C51440 49] iPodTouch7, [0000019592FBBC00][0000019590C595C0 49] iPhone5S, [0000019592FDE300][0000019591423700 49] iPhone6Plus, [0000019592FB9600][0000019590C5D840 49] iPhone6S, [0000019592FDDE00][0000019590C61980 49] iPhone6SPlus, [0000019592FB8700][0000019590C65AC0 49] iPhone7Plus, [0000019592FDD100][0000019590C6DC40 49] iPhoneSE, [0000019592FBB400][0000019590C70100 49] iPhone8, [0000019592FDE200][0000019590C74280 49] iPhone8Plus, [0000019592FB8200][0000019590C78400 49] iPhoneX, [0000019592FDEE00][0000019590C7C580 49] iPhoneXS, [0000019592FBAF00][0000019590C80700 49] iPhoneXSMax, [0000019592FDE900][0000019590C84880 49] iPhoneXR, [0000019592FB8D00][0000019590C88A00 49] iPhone11, [0000019592FDEB00][0000019590C8CB80 49] iPhone11Pro, [0000019592FBB200][0000019590C90D00 49] iPhone11ProMax, [0000019592FDFC00][0000019590C94E80 49] iPhoneSE2, [0000019592FBAD00][0000019590C99000 49] iPhone12Mini, [0000019592FDC100][0000019590C9D180 49] iPhone12, [0000019592FBAC00][0000019590CA1300 49] iPhone12Pro, [0000019592FDE700][0000019590CA5480 49] iPhone12ProMax, [0000019592FE0A00][0000019590CA9600 49] iPadPro105, [0000019592FB9B00][0000019590C69740 49] iPadPro129, [0000019592FE1300][0000019590CAD880 49] iPadPro97, [0000019592FB8E00][0000019590CB19C0 49] iPadPro2_129, [0000019592FE1900][0000019590CB5B00 49] iPad5, [0000019592FB9F00][0000019590CBDC80 49] iPad6, [0000019592FE2700][0000019590CC0140 49] iPad7, [0000019592FDD000][0000019590CC42C0 49] iPad8, [0000019592FE0700][0000019590CC8440 49] iPadPro11, [0000019592FDCB00][0000019590CCC5C0 49] iPadPro2_11, [0000019592FE3200][0000019590CD0740 49] iPadPro3_129, [0000019592FDEC00][0000019590CD48C0 49] iPadPro4_129, [0000019592FE0400][0000019590CD8A40 49] AppleTV, [0000019592FDEA00][0000019590CDCBC0 49] AppleTV4K, [0000019592FE1C00][0000019590CE0D40 49] TVOS, [0000019592FDFD00][0000019590CE4EC0 49] Mac, [0000019592FE2000][0000019590CE9040 49] MacClient, [0000019592FDF100][0000019590CED1C0 49] MacNoEditor, [0000019592FE1700][0000019590CF1340 49] MacServer, [0000019592FDDC00][0000019590CF54C0 49] Linux, [0000019592FE1600][0000019590CF9640 49] LinuxAArch64, [0000019592FDF800][0000019590CFD7C0 49] LinuxNoEditor, [0000019592FE0600][0000019590CB9900 49] LinuxAArch64NoEditor, [0000019592FDDF00][0000019590D01A40 49] LinuxClient, [0000019592FE3E00][0000019590D05B80 49] LinuxAArch64Client, [0000019592FDC400][0000019590D0DD00 49] LinuxServer, [0000019592FE2C00][0000019590D101C0 49] LinuxAArch64Server, [0000019592FDFE00][0000019590D14340 49] Android, [0000019592FE3400][0000019590D184C0 49] Android_Low, [0000019592FDDD00][0000019590D1C640 49] Android_Mid, [0000019592FE2600][0000019590D207C0 49] Android_High, [0000019592FDD200][0000019590D24940 49] Android_Default, [0000019592FE1F00][0000019590D28AC0 49] Android_Adreno4xx, [0000019592FDCF00][0000019590D2CC40 49] Android_Adreno5xx_Low, [0000019592FE2E00][0000019590D30DC0 49] Android_Adreno5xx, [0000019592FDC600][0000019590D34F40 49] Android_Adreno6xx, [0000019592FE3800][0000019590D390C0 49] Android_Adreno6xx_Vulkan, [0000019592FDD500][0000019590D3D240 49] Android_Mali_T6xx, [0000019592FE1000][0000019590D413C0 49] Android_Mali_T7xx, [0000019592FDF600][0000019590D45540 49] Android_Mali_T8xx, [0000019592FE0500][0000019590D496C0 49] Android_Mali_G71, [0000019592FDC900][0000019590D4D840 49] Android_Mali_G72, [0000019592FE1E00][0000019590D09980 49] Android_Mali_G72_Vulkan, [0000019592FDD400][0000019590D51AC0 49] Android_Mali_G76, [0000019592FE0D00][0000019590D55C00 49] Android_Mali_G76_Vulkan, [0000019592FDC300][0000019590D5C0C0 49] Android_Mali_G77, [0000019592FE0900][0000019590D60240 49] Android_Mali_G77_Vulkan, [0000019592FDFB00][0000019590D643C0 49] Android_Vulkan_SM5, [0000019592FE2400][0000019590D68540 49] Android_PowerVR_G6xxx, [0000019592FDFA00][0000019590D6C6C0 49] Android_PowerVR_GT7xxx, [0000019592F89E00][0000019590D70840 49] Android_PowerVR_GE8xxx, [0000019592FB8F00][0000019590D749C0 49] Android_PowerVR_GM9xxx, [0000019592F88800][0000019590D78B40 49] Android_PowerVR_GM9xxx_Vulkan, [0000019592FB9200][0000019590D7CCC0 49] Android_TegraK1, [0000019592F88100][0000019590D80E40 49] Android_Unknown_Vulkan, [0000019592FB9500][0000019590D84FC0 49] Lumin, [0000019592F8B000][0000019590D89140 49] Lumin_Desktop, [0000019592FB9A00][0000019590D8D2C0 49] HoloLens, 
+[2021.06.06-15.03.56:495][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.06-15.03.56:495][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.06-15.03.56:495][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.06-15.03.56:495][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.06-15.03.56:496][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.06-15.03.56:566][  0]LogNetVersion: GameEngineProject 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3826654974)
+[2021.06.06-15.03.57:032][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.06.06-15.03.57:080][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.047445 seconds
+[2021.06.06-15.03.57:085][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.06.06-15.03.57:085][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.06.06-15.03.57:085][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.06-15.03.57:532][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.06-15.03.57:537][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.06-15.03.57:754][  0]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.06-15.03.58:098][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.06-15.03.58:119][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.06-15.03.58:119][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.06-15.03.58:206][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.06.06-15.03.58:409][  0]LogSourceControl: Warning: '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/' is not part of a Git repository
+[2021.06.06-15.03.58:527][  0]LogUProjectInfo: Found projects:
+[2021.06.06-15.03.58:550][  0]LogCollectionManager: Loaded 0 collections in 0.001460 seconds
+[2021.06.06-15.03.58:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Collections/' took 0.00s
+[2021.06.06-15.03.58:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Developers/audtj/Collections/' took 0.00s
+[2021.06.06-15.03.58:582][  0]LogFileCache: Scanning file cache for directory 'C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Collections/' took 0.00s
+[2021.06.06-15.03.58:582][  0]LogOcInput: OculusInput pre-init called
+[2021.06.06-15.03.58:604][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.06.06-15.03.58:604][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.06.06-15.03.58:658][  0]LogEngine: Initializing Engine...
+[2021.06.06-15.03.58:743][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2021.06.06-15.03.58:743][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.06-15.03.58:744][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.06.06-15.03.58:838][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.06-15.03.58:848][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.06-15.03.58:855][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.06.06-15.03.58:861][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.06.06-15.03.58:861][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.03.58:861][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.03.58:861][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.03.58:861][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.03.58:889][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.03.58:889][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.03.58:929][  0]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.03.58:935][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.03.58:937][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.03.58:937][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.03.58:938][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.03.58:938][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.03.58:938][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.03.58:939][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.03.58:939][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.03.58:939][  0]LogInit: FAudioDevice initialized.
+[2021.06.06-15.03.58:939][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.06.06-15.03.58:939][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.06-15.03.59:020][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/audtj/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.06-15.03.59:020][  0]LogInit: Texture streaming: Enabled
+[2021.06.06-15.03.59:037][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.06.06-15.03.59:042][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.06-15.03.59:042][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.06-15.03.59:044][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.06-15.03.59:078][  0]LogInit: Transaction tracking system initialized
+[2021.06.06-15.03.59:108][  0]BlueprintLog: New page: 에디터 로드
+[2021.06.06-15.03.59:206][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.06.06-15.03.59:239][  0]TimingProfiler: Initialize
+[2021.06.06-15.03.59:239][  0]TimingProfiler: OnSessionChanged
+[2021.06.06-15.03.59:239][  0]LoadingProfiler: Initialize
+[2021.06.06-15.03.59:239][  0]LoadingProfiler: OnSessionChanged
+[2021.06.06-15.03.59:239][  0]NetworkingProfiler: Initialize
+[2021.06.06-15.03.59:239][  0]NetworkingProfiler: OnSessionChanged
+[2021.06.06-15.03.59:239][  0]MemoryProfiler: Initialize
+[2021.06.06-15.03.59:240][  0]MemoryProfiler: OnSessionChanged
+[2021.06.06-15.03.59:401][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.06.06-15.03.59:401][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.06-15.03.59:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/' took 0.01s
+[2021.06.06-15.03.59:809][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.06.06-15.03.59:813][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.309
+[2021.06.06-15.03.59:813][  0]Cmd: MAP LOAD FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/level/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.06-15.03.59:813][  0]LightingResults: New page: 라이팅 빌드
+[2021.06.06-15.03.59:814][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.03.59:814][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.03.59:814][  0]MapCheck: New page: 맵 체크
+[2021.06.06-15.03.59:814][  0]LightingResults: New page: 라이팅 빌드
+[2021.06.06-15.03.59:820][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.06.06-15.04.00:393][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2021.06.06-15.04.00:394][  0]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.04.00:585][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.06.06-15.04.00:693][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.06.06-15.04.00:693][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.06-15.04.00:694][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.835ms.
+[2021.06.06-15.04.00:694][  0]LogFileHelpers: Loading map 'Map1' took 0.882
+[2021.06.06-15.04.00:699][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.196
+[2021.06.06-15.04.00:816][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.04.00:822][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.04.00:828][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.04.00:834][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.04.00:849][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0089 seconds. Added 3615 classes and 861 folders.
+[2021.06.06-15.04.00:851][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.06.06-15.04.00:854][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.06-15.04.00:854][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:854][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.06-15.04.00:854][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2021.06.06-15.04.00:855][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.06-15.04.00:855][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:855][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.06-15.04.00:855][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.06.06-15.04.00:856][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:856][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.06-15.04.00:856][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
+[2021.06.06-15.04.00:857][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.06-15.04.00:857][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:857][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.06-15.04.00:857][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2021.06.06-15.04.00:858][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.06-15.04.00:858][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:858][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.06-15.04.00:858][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.06.06-15.04.00:859][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.06-15.04.00:859][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:859][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.06-15.04.00:859][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.06-15.04.00:860][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:860][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.06-15.04.00:860][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2021.06.06-15.04.00:861][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.06-15.04.00:861][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:861][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.06-15.04.00:861][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.06-15.04.00:862][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:862][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.06-15.04.00:862][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2021.06.06-15.04.00:863][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.06-15.04.00:863][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:863][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.06-15.04.00:863][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.06-15.04.00:864][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:864][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.06-15.04.00:865][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2021.06.06-15.04.00:865][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.06-15.04.00:865][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:865][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.06-15.04.00:865][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.06.06-15.04.00:866][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.06-15.04.00:866][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:866][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.06-15.04.00:866][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.06-15.04.00:867][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:867][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.06-15.04.00:867][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2021.06.06-15.04.00:868][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.06-15.04.00:868][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:868][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.06-15.04.00:868][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2021.06.06-15.04.00:869][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.06-15.04.00:869][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:869][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.06-15.04.00:869][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.06-15.04.00:870][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:870][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.06.06-15.04.00:870][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2021.06.06-15.04.00:871][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.06-15.04.00:871][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:871][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.06-15.04.00:871][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
+[2021.06.06-15.04.00:872][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.06-15.04.00:872][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:872][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.06-15.04.00:872][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.06.06-15.04.00:872][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.06-15.04.00:873][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.06-15.04.00:873][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.06-15.04.00:873][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.06.06-15.04.00:926][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.06-15.04.00:929][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.06.06-15.04.01:145][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.06-15.04.01:148][  0]LogSlate: Took 0.001701 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.06.06-15.04.01:150][  0]LogSlate: Took 0.001910 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.06.06-15.04.01:151][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.06-15.04.01:154][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.06-15.04.01:313][  0]LogRenderer: Reallocating scene render targets to support 1276x620 Format 10 NumSamples 1 (Frame:1).
+[2021.06.06-15.04.01:397][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.06-15.04.01:565][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.06.06-15.04.01:565][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.06.06-15.04.01:565][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.06.06-15.04.01:565][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.06.06-15.04.01:565][  0]LogLoad: (Engine Initialization) Total time: 9.06 seconds
+[2021.06.06-15.04.01:565][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.06-15.04.01:565][  0]LogInit: First time updating LLM stats...
+[2021.06.06-15.04.01:584][  0]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.06-15.04.01:618][  0]LogAssetRegistry: Asset discovery search completed in 5.4117 seconds
+[2021.06.06-15.04.01:619][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.06.06-15.04.01:661][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.06-15.04.02:582][ 79]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.06-15.04.45:167][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/bottom.png)
+[2021.06.06-15.04.45:169][  4]LogTexture: Display: 텍스처 빌드: bottom (AutoDXT, 100X100)
+[2021.06.06-15.04.45:174][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/bottom.png.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:176][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Floor.mat' 임포트에 실패했습니다. 알려지지 않은 'mat' 확장자입니다.
+[2021.06.06-15.04.45:179][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Floor.mat.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:184][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/floor.png)
+[2021.06.06-15.04.45:205][  4]LogTexture: Display: 텍스처 빌드: floor (AutoDXT, 1024X1024)
+[2021.06.06-15.04.45:424][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/floor.png.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:426][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/GUIScript.cs' 임포트에 실패했습니다. 알려지지 않은 'cs' 확장자입니다.
+[2021.06.06-15.04.45:429][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/GUIScript.cs.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:431][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/logo_side.png)
+[2021.06.06-15.04.45:446][  4]LogTexture: Display: 텍스처 빌드: logo_side (BGRA8, 2119X525)
+[2021.06.06-15.04.45:473][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/logo_side.png.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:476][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog.mat' 임포트에 실패했습니다. 알려지지 않은 'mat' 확장자입니다.
+[2021.06.06-15.04.45:479][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog.mat.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:482][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog_Blue.mat' 임포트에 실패했습니다. 알려지지 않은 'mat' 확장자입니다.
+[2021.06.06-15.04.45:486][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog_Blue.mat.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:489][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog_Red.mat' 임포트에 실패했습니다. 알려지지 않은 'mat' 확장자입니다.
+[2021.06.06-15.04.45:492][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials/Stone frog_Red.mat.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:495][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Materials.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:498][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbm/Stone frog.jpg)
+[2021.06.06-15.04.45:546][  4]LogTexture: Display: 텍스처 빌드: Stone_frog (AutoDXT, 2048X2048)
+[2021.06.06-15.04.45:839][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbm/Stone frog.jpg.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:842][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbm.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.04.45:849][  4]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbx)
+[2021.06.06-15.04.46:305][  4]LogFbx: Loading FBX Scene from C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbx
+[2021.06.06-15.04.46:391][  4]LogFbx: FBX Scene Loaded Succesfully
+[2021.06.06-15.05.10:258][  4]LogSlate: Window 'FBX 임포트 옵션' being destroyed
+[2021.06.06-15.05.10:285][  4]LogFbx: Warning: Not valid bind pose for Pose (Default Pose) - Node Golem_mesh : The relative matrices do not match
+[2021.06.06-15.05.10:285][  4]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
+[2021.06.06-15.05.10:285][  4]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Golem_mesh
+[2021.06.06-15.05.10:285][  4]LogFbx: Warning: Recreating bind pose succeeded.
+[2021.06.06-15.05.10:287][  4]LogMaterial: Display: Material /Game/BagIdea/Model/Stone_Frog/Golem_surf.Golem_surf needed to have new flag set bUsedWithSkeletalMesh !
+[2021.06.06-15.05.10:288][  4]LogMaterial: Display: Missing cached shader map for material Golem_surf, compiling. 
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 24
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 21
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 18
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 15
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 12
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (6/13): shaders left to compile 9
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (7/13): shaders left to compile 6
+[2021.06.06-15.05.10:347][  4]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 3
+[2021.06.06-15.05.10:347][  4]LogTexture: Display: 텍스처 빌드: Stone_frog1 (AutoDXT, 2048X2048)
+[2021.06.06-15.05.10:503][  4]LogMaterial: Display: Missing cached shader map for material Golem_surf, compiling. 
+[2021.06.06-15.05.10:564][  4]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 24
+[2021.06.06-15.05.10:564][  4]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 21
+[2021.06.06-15.05.10:564][  4]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 18
+[2021.06.06-15.05.10:564][  4]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 15
+[2021.06.06-15.05.10:564][  4]LogFbx: Triangulating skeletal mesh Golem_mesh
+[2021.06.06-15.05.10:578][  4]LogFbx: Warning: Bones digested - 13  Depth of hierarchy - 4
+[2021.06.06-15.05.10:589][  4]LogSkeletalMesh: Section 0: Material=0, 356 triangles
+[2021.06.06-15.05.10:664][  4]LogSkeletalMesh: Building Skeletal Mesh Stone_Frog...
+[2021.06.06-15.05.10:671][  4]LogSkeletalMesh: Section 0: Material=0, 356 triangles
+[2021.06.06-15.05.10:672][  4]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/BagIdea/Model/Stone_Frog/Stone_Frog.Stone_Frog
+[2021.06.06-15.05.10:705][  4]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.05.10:706][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(0) Golem
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(1) Pelvis
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(2) Body01
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(3) Body02
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(4) Body03
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(5) Leg_B-L1
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(6) Leg_B-L2
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(7) Leg_F-L1
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(8) Leg_F-L2
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(9) Leg_B-R1
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(10) Leg_B-R2
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(11) Leg_F-R1
+[2021.06.06-15.05.10:709][  4]LogFbx: SortedLinks :(12) Leg_F-R2
+[2021.06.06-15.05.10:715][  4]LogFbx: Parsing AnimStack Base Stack
+[2021.06.06-15.05.10:887][  4]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Anim.Stone_Frog_Anim
+[2021.06.06-15.05.10:894][  4]FBXImport: Warning: 이 FBX 씬에 스무딩 그룹 정보가 없습니다. FBX 익스포트 플러그인에서 파일을 익스포트하기 전, 'Export Smoothing Groups' (스무딩 그룹 익스포트)를 켰는지 확인해 주시기 바랍니다. 스무딩 그룹을 지원하지 않는 툴의 경우에도, 임포트시 버텍스 노멀을 제대로 유추할 수 있도록 FBX 익스포터가 익스포트시 적합한 스무딩 데이터를 생성해 줍니다. 
+[2021.06.06-15.05.10:944][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog.fbx.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.10:947][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog.jpg)
+[2021.06.06-15.05.10:963][  4]LogTexture: Display: 텍스처 빌드: Stone_frog (AutoDXT, 1024X1024)
+[2021.06.06-15.05.11:065][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog.jpg.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:068][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog_blue.jpg)
+[2021.06.06-15.05.11:086][  4]LogTexture: Display: 텍스처 빌드: Stone_frog_blue (AutoDXT, 1024X1024)
+[2021.06.06-15.05.11:242][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog_blue.jpg.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:244][  4]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog_red.jpg)
+[2021.06.06-15.05.11:262][  4]LogTexture: Display: 텍스처 빌드: Stone_frog_red (AutoDXT, 1024X1024)
+[2021.06.06-15.05.11:348][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone frog_red.jpg.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:354][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog/Stone_Frog_Texture.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:361][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model/Stone_Frog.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:369][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Model.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:375][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Blue.prefab' 임포트에 실패했습니다. 알려지지 않은 'prefab' 확장자입니다.
+[2021.06.06-15.05.11:382][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Blue.prefab.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:525][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Green.prefab' 임포트에 실패했습니다. 알려지지 않은 'prefab' 확장자입니다.
+[2021.06.06-15.05.11:531][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Green.prefab.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:537][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Red.prefab' 임포트에 실패했습니다. 알려지지 않은 'prefab' 확장자입니다.
+[2021.06.06-15.05.11:543][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab/Stone_Frog_Red.prefab.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:549][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Prefab.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:554][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Scenes/Model.unity' 임포트에 실패했습니다. 알려지지 않은 'unity' 확장자입니다.
+[2021.06.06-15.05.11:561][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Scenes/Model.unity.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:566][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Scenes/ShowModel.unity' 임포트에 실패했습니다. 알려지지 않은 'unity' 확장자입니다.
+[2021.06.06-15.05.11:571][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Scenes/ShowModel.unity.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:576][  4]LogAssetTools: Warning: 'C:\Users\audtj\OneDrive\Desktop\BagIdea/Scenes.meta' 임포트에 실패했습니다. 알려지지 않은 'meta' 확장자입니다.
+[2021.06.06-15.05.11:910][  4]LogShaderCompilers: Display: Worker (4/13): shaders left to compile 12
+[2021.06.06-15.05.11:910][  4]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 10
+[2021.06.06-15.05.11:945][  4]LogShaderCompilers: Display: Worker (12/13): shaders left to compile 9
+[2021.06.06-15.05.11:950][  4]LogShaderCompilers: Display: Worker (3/13): shaders left to compile 8
+[2021.06.06-15.05.12:209][  4]LogShaderCompilers: Display: Worker (9/13): shaders left to compile 7
+[2021.06.06-15.05.12:209][  4]LogShaderCompilers: Display: Worker (11/13): shaders left to compile 6
+[2021.06.06-15.05.12:242][  4]LogShaderCompilers: Display: Worker (1/13): shaders left to compile 5
+[2021.06.06-15.05.12:253][  4]LogShaderCompilers: Display: Worker (2/13): shaders left to compile 4
+[2021.06.06-15.05.12:350][  4]LogShaderCompilers: Display: Worker (5/13): shaders left to compile 3
+[2021.06.06-15.05.12:350][  4]LogShaderCompilers: Display: Worker (10/13): shaders left to compile 2
+[2021.06.06-15.05.12:350][  4]LogSlate: Took 0.000502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.06-15.05.12:354][  4]LogSlate: Took 0.004116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.06.06-15.05.12:456][ 11]LogShaderCompilers: Display: Worker (8/13): shaders left to compile 1
+[2021.06.06-15.05.15:386][240]LogSlate: Window '메시지 로그' being destroyed
+[2021.06.06-15.05.36:453][618]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Stone_Frog)
+[2021.06.06-15.05.37:567][748]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Stone_Frog)
+[2021.06.06-15.05.37:858][781]Cmd: DELETE
+[2021.06.06-15.05.37:858][781]Cmd: ACTOR DELETE
+[2021.06.06-15.05.37:947][781]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2021.06.06-15.05.37:958][781]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.06.06-15.05.37:961][781]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2021.06.06-15.05.45:352][563]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Anim.Stone_Frog_Anim
+[2021.06.06-15.05.45:367][563]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.06.06-15.05.45:500][563]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.06.06-15.05.45:501][563]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.06.06-15.05.45:779][563]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.06.06-15.06.33:369][954]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.06-15.06.46:369][234]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.06-15.07.20:544][395]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_Anim6C21B52641D443D6CFC98CB9F572BB47.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_Anim.uasset'
+[2021.06.06-15.07.20:559][395]AssetCheck: New page: 애셋 저장: Stone_Frog_Anim
+[2021.06.06-15.07.20:559][395]LogContentValidation: Display: AnimSequence /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Anim.Stone_Frog_Anim 유효성 검사
+[2021.06.06-15.07.21:998][506]LogSlate: Window 'Stone_Frog_Anim' being destroyed
+[2021.06.06-15.07.22:003][506]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.07.22:003][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.07.22:014][506]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.07.22:014][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.07.22:064][506]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.07.22:065][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.07.34:776][734]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Myeong/AI/Navimesh/BT_Cat03.BT_Cat03
+[2021.06.06-15.07.34:860][734]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Myeong/AI/Navimesh/Cat03_AI.Cat03_AI
+[2021.06.06-15.07.35:018][734]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.06.06-15.07.35:367][734]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP
+[2021.06.06-15.07.35:664][734]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Myeong/Range/Cat02/Cat02BP.Cat02BP
+[2021.06.06-15.07.35:963][734]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp
+[2021.06.06-15.07.35:969][734]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.06.06-15.07.35:969][734]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.36:423][734]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MoleCharacter.MoleCharacter
+[2021.06.06-15.07.36:986][734]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:022][734]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_23:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:031][734]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.06-15.07.37:094][735]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:104][735]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.06-15.07.37:127][736]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:157][737]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:169][738]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:197][739]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:221][740]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:249][741]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:278][742]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:306][743]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:334][744]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:348][745]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:362][746]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.07.37:375][747]LogScript: Warning: CallFunc_TryGetPawnOwner_ReturnValue_1 프로퍼티를 읽으려던 중 None 에 접근했습니다.
+	Cat02AnimBp_C /Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.Cat02AnimBp_C_0
+	Function /Game/Myeong/Range/Cat02/Cat02AnimBp.Cat02AnimBp_C:ExecuteUbergraph_Cat02AnimBp:0202
+[2021.06.06-15.08.24:378][177]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.08.24:378][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.08.24:490][177]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.06.06-15.08.45:275][449]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.06.06-15.08.54:437][872]LogSlate: Window '변수 유형 변경' being destroyed
+[2021.06.06-15.09.01:564][225]LogSlate: Window '변수 유형 변경' being destroyed
+[2021.06.06-15.09.06:926][545]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2021.06.06-15.09.06:931][545]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2021.06.06-15.09.39:855][681]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.09.39:858][681]LogBlueprint: Warning: [AssetLog] C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Content\Myeong\AI\Navimesh\Cat03BP.uasset: [Compiler] 'Cat03BP_C' 에서 "DistancePlayerChar" 라는 이름의 변수를 찾을 수 없습니다.
+ DistancePlayerChar 설정  에 대해 'Cat03BP_C' 컴파일이 되었는지 확인하세요.
+[2021.06.06-15.09.39:859][681]LogBlueprint: Error: [AssetLog] C:\Users\audtj\OneDrive\Desktop\GameEngine\perforce_mole\Content\Myeong\AI\Navimesh\Cat03BP.uasset: [Compiler] Distance Player Char  와 연관된 프로퍼티를 찾지 못했습니다.
+[2021.06.06-15.09.39:939][681]LogUObjectHash: Compacting FUObjectHashTables data took   4.32ms
+[2021.06.06-15.09.40:353][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.09.40:369][702]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BPF79A12174732B8551AD363A1E48EF2CA.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.09.40:386][702]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.09.40:386][702]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.09.55:415][585]LogSlate: Window '변수 유형 변경' being destroyed
+[2021.06.06-15.09.57:340][694]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2021.06.06-15.09.57:345][694]LogSlate: Window '블루프린트에서 찾기' being destroyed
+[2021.06.06-15.10.15:277][807]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.10.15:328][807]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.06.06-15.10.26:553][495]LogRenderer: Reallocating scene render targets to support 1276x712 Format 10 NumSamples 1 (Frame:1).
+[2021.06.06-15.14.01:807][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.06.06-15.14.03:673][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Map1_Auto12276F32748818E4047C21B8BF10F5472.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/level/Map1_Auto1.umap'
+[2021.06.06-15.14.03:677][ 69]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/level/Map1' took 1.901
+[2021.06.06-15.14.03:677][ 69]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.901
+[2021.06.06-15.14.03:678][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Myeong/AI/Navimesh/Cat03BP] ([1] browsable assets)...
+[2021.06.06-15.14.03:686][ 69]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP]
+[2021.06.06-15.14.03:686][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/Myeong/AI/Navimesh/Cat03BP]
+[2021.06.06-15.14.03:701][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BP_Auto158D184B94122469244294F8C29F36BB8.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/Myeong/AI/Navimesh/Cat03BP_Auto1.uasset'
+[2021.06.06-15.14.03:703][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/bottom] ([1] browsable assets)...
+[2021.06.06-15.14.03:704][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/bottom.bottom]
+[2021.06.06-15.14.03:704][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/bottom]
+[2021.06.06-15.14.03:705][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/bottom_Auto146AE937D44902B3788976794BF47E43E.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/bottom_Auto1.uasset'
+[2021.06.06-15.14.03:706][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/floor] ([1] browsable assets)...
+[2021.06.06-15.14.03:710][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/floor.floor]
+[2021.06.06-15.14.03:710][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/floor]
+[2021.06.06-15.14.03:716][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/floor_Auto13233DB2D4CE0321A8BE8EC82CFC67311.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/floor_Auto1.uasset'
+[2021.06.06-15.14.03:717][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/logo_side] ([1] browsable assets)...
+[2021.06.06-15.14.03:718][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/logo_side.logo_side]
+[2021.06.06-15.14.03:718][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/logo_side]
+[2021.06.06-15.14.03:721][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/logo_side_Auto12301A37D4A6B94DB09AD0A986F56178E.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/logo_side_Auto1.uasset'
+[2021.06.06-15.14.03:723][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog] ([1] browsable assets)...
+[2021.06.06-15.14.03:727][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog.Stone_frog]
+[2021.06.06-15.14.03:727][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog]
+[2021.06.06-15.14.03:736][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_Auto1B088D6A34B18DA71DFBD0EA704732C4F.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog_Auto1.uasset'
+[2021.06.06-15.14.03:737][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog] ([1] browsable assets)...
+[2021.06.06-15.14.03:747][ 69]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/BagIdea/Model/Stone_Frog/Stone_Frog.Stone_Frog]
+[2021.06.06-15.14.03:747][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog]
+[2021.06.06-15.14.03:755][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_Auto157A47958479FBDAA623C7EBE6B3350C8.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Auto1.uasset'
+[2021.06.06-15.14.03:757][ 69]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Skeleton] ([1] browsable assets)...
+[2021.06.06-15.14.03:757][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Skeleton]
+[2021.06.06-15.14.03:758][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_Skeleton_Auto146C3945140E5A50E24253E8C34CD30B0.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Skeleton_Auto1.uasset'
+[2021.06.06-15.14.03:759][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset] ([1] browsable assets)...
+[2021.06.06-15.14.03:768][ 69]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset.Stone_Frog_PhysicsAsset]
+[2021.06.06-15.14.03:768][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset]
+[2021.06.06-15.14.03:777][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_PhysicsAsset_Auto17E423FB94815655171CFB2AD2C5BEE8A.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset_Auto1.uasset'
+[2021.06.06-15.14.03:779][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog] ([1] browsable assets)...
+[2021.06.06-15.14.03:783][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog.Stone_frog]
+[2021.06.06-15.14.03:783][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog]
+[2021.06.06-15.14.03:787][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_Auto18420E3B64964CA8F0544389BAED5E02C.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_Auto1.uasset'
+[2021.06.06-15.14.03:789][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue] ([1] browsable assets)...
+[2021.06.06-15.14.03:793][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue.Stone_frog_blue]
+[2021.06.06-15.14.03:793][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue]
+[2021.06.06-15.14.03:797][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_blue_Auto160A6F1B54C76A9B6E2F2B4B3C51D4D36.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue_Auto1.uasset'
+[2021.06.06-15.14.03:798][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red] ([1] browsable assets)...
+[2021.06.06-15.14.03:802][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red.Stone_frog_red]
+[2021.06.06-15.14.03:802][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red]
+[2021.06.06-15.14.03:807][ 69]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_red_Auto18E6A1A9D4D1D57AB915100915C28AD8B.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Autosaves/Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red_Auto1.uasset'
+[2021.06.06-15.14.03:808][ 69]LogFileHelpers: Auto-saving content packages took 0.131
+[2021.06.06-15.15.34:217][800]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.15.34:309][800]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2021.06.06-15.15.34:728][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.15.34:744][821]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BP9CF508DE40EBAF6F3BD69E99B5FF1E86.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.15.34:761][821]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.15.34:761][821]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.19.28:968][501]LogEditorTransaction: Undo 회전 설정
+[2021.06.06-15.19.28:992][501]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.06.06-15.20.16:966][241]LogEditorTransaction: Undo 컴포넌트 위치 수정
+[2021.06.06-15.20.16:978][241]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.06.06-15.20.31:759][ 85]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.20.31:851][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2021.06.06-15.20.32:306][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.20.32:322][108]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BP6BEEB7B547D43034702CF2AAF4CAEC37.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.20.32:339][108]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.20.32:339][108]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.21.26:133][331]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.21.26:190][331]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2021.06.06-15.21.26:560][348]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.21.26:579][348]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BPBFE8C9FC448D159E4EDF83B72AA22C3A.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.21.26:593][348]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.21.26:593][348]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.22.10:638][992]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.22.10:698][992]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2021.06.06-15.22.11:183][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.22.11:201][ 17]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BP3C3FE6CE40BC36C1C7631FAD697259F6.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.22.11:219][ 17]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.22.11:219][ 17]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.24.17:463][668]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.24.17:522][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2021.06.06-15.24.19:576][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.24.19:601][785]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BPB80B173148499ED68EA70D867C3C993D.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.24.19:617][785]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.24.19:617][785]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.24.21:078][869]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.24.21:086][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-15.24.21:087][869]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:24:21)
+[2021.06.06-15.24.21:088][869]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.06-15.24.21:089][869]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.06-15.24.21:089][869]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.24.21:403][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.313693s)
+[2021.06.06-15.24.21:404][869]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.24.21:405][869]LogPlayLevel: PIE: World Init took: (0.001941s)
+[2021.06.06-15.24.21:405][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.316348s)
+[2021.06.06-15.24.21:433][869]LogUObjectHash: Compacting FUObjectHashTables data took   3.96ms
+[2021.06.06-15.24.21:435][869]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.24.21:435][869]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.24.21:435][869]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.24.21:436][869]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.24.21:436][869]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.24.21:448][869]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.24.21:448][869]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.24.21:466][869]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.24.21:467][869]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.24.21:467][869]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.24.21:467][869]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.24.21:467][869]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.24.21:467][869]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.24.21:467][869]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.24.21:468][869]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.24.21:468][869]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.24.21:468][869]LogInit: FAudioDevice initialized.
+[2021.06.06-15.24.21:468][869]LogAudio: Display: Audio Device (ID: 2) registered with world 'Map1'.
+[2021.06.06-15.24.21:487][869]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.24.21:614][869]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.24.21
+[2021.06.06-15.24.21:618][869]LogWorld: Bringing up level for play took: 0.129741
+[2021.06.06-15.24.21:618][869]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.06.06-15.24.21:626][869]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.06.06-15.24.21:634][869]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.24.21:636][869]PIE: 에디터에서 플레이 총 시작 시간 0.552초입니다.
+[2021.06.06-15.24.21:642][869]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.24.21:642][869]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.24.21:954][870]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.24.21:982][871]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.24.21:982][871]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.24.22:838][913]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.24.22:838][913]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.24.24:973][ 68]LogActor: Warning: DustParticleBP_C /Game/level/UEDPIE_0_Map1.Map1:PersistentLevel.DustParticleBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.06-15.24.25:990][149]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.24.25:991][149]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 나갔어
+[2021.06.06-15.24.28:832][391]LogCharacterMovement: Cat03BP_2 is stuck and failed to move! Velocity: X=94.37 Y=-105.31 Z=0.00 Location: X=917.72 Y=-759.68 Z=108.03 Normal: X=-0.61 Y=0.72 Z=-0.33 PenetrationDepth:0.095 Actor:Stone_Frog_Anim_5 Component:SkeletalMeshComponent0 BoneName:Leg_F-R2 (0 other events since notify)
+[2021.06.06-15.24.30:101][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.24.30:101][496]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.24.30:105][496]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.24.30:132][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.24.30:143][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-15.24.30:171][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.24.30:224][496]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.06-15.24.30:225][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.24.30:226][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.24.30:239][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.24.30:320][496]LogUObjectHash: Compacting FUObjectHashTables data took   4.61ms
+[2021.06.06-15.24.30:368][497]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.06.06-15.25.10:785][858]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.25.10:873][858]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.06.06-15.25.11:258][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.25.11:285][877]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BP0CBCB6E641C577C4CBB17E8E245C9471.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.25.11:302][877]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.25.11:302][877]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.25.11:921][915]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.25.11:930][915]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-15.25.11:930][915]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:25:11)
+[2021.06.06-15.25.11:959][915]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.25.12:267][915]LogPlayLevel: PIE: StaticDuplicateObject took: (0.309024s)
+[2021.06.06-15.25.12:268][915]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.25.12:270][915]LogPlayLevel: PIE: World Init took: (0.002173s)
+[2021.06.06-15.25.12:270][915]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.311811s)
+[2021.06.06-15.25.12:297][915]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.06.06-15.25.12:298][915]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.25.12:298][915]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.25.12:298][915]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.25.12:299][915]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.25.12:299][915]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.25.12:309][915]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.25.12:309][915]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.25.12:327][915]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.25.12:327][915]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.25.12:327][915]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.25.12:327][915]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.25.12:327][915]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.25.12:328][915]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.25.12:328][915]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.25.12:339][915]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.25.12:339][915]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.25.12:339][915]LogInit: FAudioDevice initialized.
+[2021.06.06-15.25.12:339][915]LogAudio: Display: Audio Device (ID: 3) registered with world 'Map1'.
+[2021.06.06-15.25.12:358][915]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.25.12:478][915]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.25.12
+[2021.06.06-15.25.12:482][915]LogWorld: Bringing up level for play took: 0.122787
+[2021.06.06-15.25.12:482][915]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.06.06-15.25.12:491][915]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.25.12:492][915]PIE: 에디터에서 플레이 총 시작 시간 0.566초입니다.
+[2021.06.06-15.25.12:497][915]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.25.12:497][915]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.25.12:527][916]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.25.12:757][924]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.25.12:757][924]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.25.13:477][968]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.25.13:477][968]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.25.14:935][ 74]LogActor: Warning: DustParticleBP_C /Game/level/UEDPIE_0_Map1.Map1:PersistentLevel.DustParticleBP_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2021.06.06-15.25.15:946][156]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.25.15:946][156]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 나갔어
+[2021.06.06-15.25.18:511][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.25.18:511][372]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.25.18:515][372]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.25.18:544][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.25.18:553][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-15.25.18:580][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.25.18:607][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.25.18:620][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.25.18:621][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.25.18:674][372]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.06.06-15.25.18:719][373]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.06.06-15.25.27:003][748]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Stone_Frog_Anim)
+[2021.06.06-15.25.27:791][809]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Stone_Frog_Anim)
+[2021.06.06-15.25.28:124][834]Cmd: DELETE
+[2021.06.06-15.25.28:124][834]Cmd: ACTOR DELETE
+[2021.06.06-15.25.28:213][834]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2021.06.06-15.25.28:239][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.30ms
+[2021.06.06-15.25.28:243][834]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2021.06.06-15.25.29:676][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Map1" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/level/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-15.25.29:701][948]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.06-15.25.31:568][948]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Map1B379B89C4C918940B1C9399C9F14329C.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/level/Map1.umap'
+[2021.06.06-15.25.31:604][948]AssetCheck: New page: 애셋 저장: Map1
+[2021.06.06-15.25.31:604][948]LogContentValidation: Display: World /Game/level/Map1.Map1 유효성 검사
+[2021.06.06-15.25.34:397][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.06.06-15.25.36:212][ 18]LogSlate: Window '콘텐츠 저장' being destroyed
+[2021.06.06-15.25.36:244][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BagIdea/bottom" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/bottom.uasset" SILENT=true
+[2021.06.06-15.25.36:245][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/bottom79FA3CA64BF9D70931AB9EA4EB4EA785.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/bottom.uasset'
+[2021.06.06-15.25.36:247][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BagIdea/floor" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/floor.uasset" SILENT=true
+[2021.06.06-15.25.36:319][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/floorFD143BBF41674CD081576A97F979EBA6.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/floor.uasset'
+[2021.06.06-15.25.36:334][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Golem_surf96BF14FF4B8378992217B5B8A7D4CF83.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Golem_surf.uasset'
+[2021.06.06-15.25.36:336][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BagIdea/logo_side" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/logo_side.uasset" SILENT=true
+[2021.06.06-15.25.36:356][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/logo_sideA16C16E242050AB4E21B26A51E1F142C.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/logo_side.uasset'
+[2021.06.06-15.25.36:362][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_FrogCCA277DC417B8506D922EC93E5391F02.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog.uasset'
+[2021.06.06-15.25.36:481][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frogBBF6DAAC475375525E3EB1B5BBA5D9DE.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog.uasset'
+[2021.06.06-15.25.36:518][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog71A52C1847F16BC56F6D1D843347BF92.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog.uasset'
+[2021.06.06-15.25.36:634][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog1FA01216844DEC00718371E8C03602D92.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_frog1.uasset'
+[2021.06.06-15.25.36:674][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_blue6C586B6D4C2757EF3B3FD495A4F5B65D.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue.uasset'
+[2021.06.06-15.25.36:680][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_PhysicsAsset3FD30A034C994900798AC28FFF8592F6.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset.uasset'
+[2021.06.06-15.25.36:719][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_frog_red38EF464D4D270E3EE04E0C99140A0A74.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red.uasset'
+[2021.06.06-15.25.36:721][ 18]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Stone_Frog_SkeletonB8BCDBCC4F2A2E0F42AE3895ED265C7F.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/BagIdea/Model/Stone_Frog/Stone_Frog_Skeleton.uasset'
+[2021.06.06-15.25.36:740][ 18]AssetCheck: New page: 애셋 저장: 애셋이 다수입니다.
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_red.Stone_frog_red 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog_blue.Stone_frog_blue 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Texture/Stone_frog.Stone_frog 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: PhysicsAsset /Game/BagIdea/Model/Stone_Frog/Stone_Frog_PhysicsAsset.Stone_Frog_PhysicsAsset 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Skeleton /Game/BagIdea/Model/Stone_Frog/Stone_Frog_Skeleton.Stone_Frog_Skeleton 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_frog1.Stone_frog1 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: Material /Game/BagIdea/Model/Stone_Frog/Golem_surf.Golem_surf 유효성 검사
+[2021.06.06-15.25.36:740][ 18]LogContentValidation: Display: SkeletalMesh /Game/BagIdea/Model/Stone_Frog/Stone_Frog.Stone_Frog 유효성 검사
+[2021.06.06-15.25.36:741][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/Model/Stone_Frog/Stone_Frog_fbm/Stone_frog.Stone_frog 유효성 검사
+[2021.06.06-15.25.36:741][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/logo_side.logo_side 유효성 검사
+[2021.06.06-15.25.36:741][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/floor.floor 유효성 검사
+[2021.06.06-15.25.36:741][ 18]LogContentValidation: Display: Texture2D /Game/BagIdea/bottom.bottom 유효성 검사
+[2021.06.06-15.38.33:889][431]BlueprintLog: New page: Cat02BP 컴파일
+[2021.06.06-15.38.33:946][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.06.06-15.38.34:420][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/Range/Cat02/Cat02BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/Range/Cat02/Cat02BP.uasset" SILENT=true
+[2021.06.06-15.38.34:471][456]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat02BPBA0C034742E69AE54D2E96B604A7CBDB.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/Range/Cat02/Cat02BP.uasset'
+[2021.06.06-15.38.34:487][456]AssetCheck: New page: 애셋 저장: Cat02BP
+[2021.06.06-15.38.34:487][456]LogContentValidation: Display: Blueprint /Game/Myeong/Range/Cat02/Cat02BP.Cat02BP 유효성 검사
+[2021.06.06-15.39.04:144][682]BlueprintLog: New page: Cat03BP 컴파일
+[2021.06.06-15.39.04:200][682]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2021.06.06-15.39.45:349][834]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Myeong/Range/Cat01State.Cat01State
+[2021.06.06-15.39.48:370][108]LogSlate: Window 'Cat01State' being destroyed
+[2021.06.06-15.39.48:376][108]LogSlate: Window 'Cat01State' being destroyed
+[2021.06.06-15.39.48:413][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.06.06-15.39.48:413][108]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.39.48:413][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.39.48:457][108]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.06.06-15.39.48:457][108]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.39.48:457][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.39.48:514][108]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.39.48:514][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.39.48:523][108]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.39.48:523][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.39.48:605][108]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.39.48:605][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.39.54:063][635]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP
+[2021.06.06-15.40.35:666][412]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.40.35:673][412]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2021.06.06-15.40.35:674][412]LogPlayLevel: [PlayLevel] Compiling Cat03BP before play...
+[2021.06.06-15.40.35:756][412]LogUObjectHash: Compacting FUObjectHashTables data took   4.28ms
+[2021.06.06-15.40.35:758][412]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2021.06.06-15.40.35:758][412]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:40:35)
+[2021.06.06-15.40.35:758][412]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.40.36:064][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.306147s)
+[2021.06.06-15.40.36:065][412]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.40.36:066][412]LogPlayLevel: PIE: World Init took: (0.002155s)
+[2021.06.06-15.40.36:067][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.308866s)
+[2021.06.06-15.40.36:093][412]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.06.06-15.40.36:094][412]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.40.36:094][412]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.40.36:094][412]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.40.36:094][412]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.40.36:105][412]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.40.36:105][412]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.40.36:123][412]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.40.36:124][412]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.40.36:124][412]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.40.36:124][412]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.40.36:124][412]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.40.36:124][412]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.40.36:124][412]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.40.36:135][412]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.40.36:135][412]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.40.36:135][412]LogInit: FAudioDevice initialized.
+[2021.06.06-15.40.36:135][412]LogAudio: Display: Audio Device (ID: 4) registered with world 'Map1'.
+[2021.06.06-15.40.36:147][412]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.40.36:269][412]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.40.36
+[2021.06.06-15.40.36:272][412]LogWorld: Bringing up level for play took: 0.124331
+[2021.06.06-15.40.36:272][412]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.06.06-15.40.36:281][412]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.40.36:282][412]PIE: 에디터에서 플레이 총 시작 시간 0.611초입니다.
+[2021.06.06-15.40.36:287][412]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.40.36:287][412]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.40.36:349][413]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.40.36:590][424]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.40.36:590][424]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.40.37:316][474]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.40.37:316][474]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.40.42:939][984]LogBlueprintUserMessages: [MoleCharacter_C_0] GameOver
+[2021.06.06-15.40.43:734][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.40.43:734][ 51]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.40.43:738][ 51]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.40.43:766][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.40.43:778][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-15.40.43:789][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.40.43:814][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.40.43:823][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.40.43:824][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.40.43:860][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.06.06-15.40.43:892][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.06.06-15.40.52:460][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/AI/Navimesh/Cat03BP" FILE="../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset" SILENT=true
+[2021.06.06-15.40.52:487][624]LogSavePackage: Moving '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Saved/Cat03BPCBFE2CB7421EBCBC32E732A49E49CE94.tmp' to '../../../../../../Users/audtj/OneDrive/Desktop/GameEngine/perforce_mole/Content/Myeong/AI/Navimesh/Cat03BP.uasset'
+[2021.06.06-15.40.52:506][624]AssetCheck: New page: 애셋 저장: Cat03BP
+[2021.06.06-15.40.52:506][624]LogContentValidation: Display: Blueprint /Game/Myeong/AI/Navimesh/Cat03BP.Cat03BP 유효성 검사
+[2021.06.06-15.40.53:362][679]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.40.53:368][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-15.40.53:368][679]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:40:53)
+[2021.06.06-15.40.53:393][679]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.40.53:701][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307969s)
+[2021.06.06-15.40.53:701][679]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.40.53:702][679]LogPlayLevel: PIE: World Init took: (0.001667s)
+[2021.06.06-15.40.53:703][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.310251s)
+[2021.06.06-15.40.53:727][679]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2021.06.06-15.40.53:730][679]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.40.53:730][679]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.40.53:730][679]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.40.53:730][679]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.40.53:741][679]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.40.53:741][679]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.40.53:758][679]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.40.53:758][679]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.40.53:758][679]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.40.53:758][679]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.40.53:759][679]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.40.53:759][679]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.40.53:759][679]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.40.53:770][679]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.40.53:770][679]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.40.53:770][679]LogInit: FAudioDevice initialized.
+[2021.06.06-15.40.53:770][679]LogAudio: Display: Audio Device (ID: 5) registered with world 'Map1'.
+[2021.06.06-15.40.53:785][679]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.40.53:906][679]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.40.53
+[2021.06.06-15.40.53:909][679]LogWorld: Bringing up level for play took: 0.123499
+[2021.06.06-15.40.53:909][679]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.06.06-15.40.53:918][679]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.40.53:919][679]PIE: 에디터에서 플레이 총 시작 시간 0.552초입니다.
+[2021.06.06-15.40.53:923][679]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.40.53:923][679]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.40.53:954][680]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.40.54:187][689]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.40.54:187][689]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.40.54:953][740]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.40.54:953][740]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.40.56:148][847]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 나갔어
+[2021.06.06-15.40.56:170][849]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.40.56:170][849]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.40.57:994][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.40.57:994][ 13]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.40.57:998][ 13]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.40.58:026][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.40.58:036][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-15.40.58:047][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.40.58:074][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.40.58:074][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.40.58:075][ 13]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.40.58:118][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.06.06-15.40.58:149][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.06.06-15.41.00:277][209]LogEditorViewport: Clicking on Actor (LMB): Cat03BP_C (Cat03BP)
+[2021.06.06-15.41.04:041][295]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.41.04:053][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-15.41.04:053][295]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:41:04)
+[2021.06.06-15.41.04:053][295]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.41.04:359][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.305628s)
+[2021.06.06-15.41.04:360][295]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.41.04:361][295]LogPlayLevel: PIE: World Init took: (0.001649s)
+[2021.06.06-15.41.04:361][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.307810s)
+[2021.06.06-15.41.04:385][295]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.06.06-15.41.04:388][295]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.41.04:388][295]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.41.04:388][295]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.41.04:388][295]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.41.04:399][295]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.41.04:399][295]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.41.04:416][295]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.41.04:416][295]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.41.04:427][295]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.41.04:427][295]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.41.04:428][295]LogInit: FAudioDevice initialized.
+[2021.06.06-15.41.04:428][295]LogAudio: Display: Audio Device (ID: 6) registered with world 'Map1'.
+[2021.06.06-15.41.04:437][295]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.41.04:556][295]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.41.04
+[2021.06.06-15.41.04:559][295]LogWorld: Bringing up level for play took: 0.121709
+[2021.06.06-15.41.04:560][295]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.06.06-15.41.04:569][295]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.41.04:569][295]PIE: 에디터에서 플레이 총 시작 시간 0.523초입니다.
+[2021.06.06-15.41.04:574][295]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.41.04:574][295]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.41.04:601][296]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.41.04:837][302]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.41.04:837][302]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.41.05:516][359]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.41.05:516][359]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.41.10:534][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.41.10:534][813]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.41.10:538][813]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-15.41.10:565][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.41.10:575][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-15.41.10:618][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-15.41.10:638][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-15.41.10:642][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.41.10:643][813]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-15.41.10:689][813]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.06.06-15.41.10:736][814]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.06.06-15.42.50:341][470]BlueprintLog: New page: Cat02BP 컴파일
+[2021.06.06-15.42.50:396][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.06.06-15.42.51:095][516]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.06-15.42.51:101][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-15.42.51:101][516]PIE: New page: PIE 세션: Map1 (2021. 6. 7. 오전 9:42:51)
+[2021.06.06-15.42.51:132][516]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.06-15.42.51:439][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.307711s)
+[2021.06.06-15.42.51:440][516]LogAIModule: Creating AISystem for world Map1
+[2021.06.06-15.42.51:442][516]LogPlayLevel: PIE: World Init took: (0.002290s)
+[2021.06.06-15.42.51:442][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.310870s)
+[2021.06.06-15.42.51:468][516]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.06.06-15.42.51:468][516]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-15.42.51:468][516]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-15.42.51:468][516]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-15.42.51:469][516]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-15.42.51:469][516]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-15.42.51:480][516]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-15.42.51:480][516]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Using Audio Device 스피커(High Definition Audio Device)
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-15.42.51:498][516]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-15.42.51:498][516]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-15.42.51:510][516]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-15.42.51:510][516]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-15.42.51:510][516]LogInit: FAudioDevice initialized.
+[2021.06.06-15.42.51:510][516]LogAudio: Display: Audio Device (ID: 7) registered with world 'Map1'.
+[2021.06.06-15.42.51:521][516]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.06-15.42.51:644][516]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2021.06.07-00.42.51
+[2021.06.06-15.42.51:648][516]LogWorld: Bringing up level for play took: 0.125089
+[2021.06.06-15.42.51:648][516]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2021.06.06-15.42.51:656][516]PIE: 서버가 로그인했습니다.
+[2021.06.06-15.42.51:657][516]PIE: 에디터에서 플레이 총 시작 시간 0.557초입니다.
+[2021.06.06-15.42.51:662][516]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.42.51:662][516]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.42.51:687][517]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 나갔어
+[2021.06.06-15.42.51:923][529]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.06-15.42.51:923][529]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.06-15.42.52:509][580]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,071,249.00, Y=1,071,249.00, Z=1,071,249.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:509][580]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,071,249.00, Y=1,071,249.00, Z=1,071,249.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:522][581]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,142,498.00, Y=2,142,498.00, Z=2,142,498.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:522][581]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,142,498.00, Y=2,142,498.00, Z=2,142,498.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:535][582]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,284,996.00, Y=4,284,996.00, Z=4,284,996.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:535][582]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,284,996.00, Y=4,284,996.00, Z=4,284,996.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:548][583]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,569,992.00, Y=8,569,992.00, Z=8,569,992.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:548][583]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,569,992.00, Y=8,569,992.00, Z=8,569,992.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:560][584]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,139,984.00, Y=17,139,984.00, Z=17,139,984.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:560][584]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,139,984.00, Y=17,139,984.00, Z=17,139,984.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:573][585]PIE: Warning: 유효하지 않은 스케일 적용 V(X=34,279,968.00, Y=34,279,968.00, Z=34,279,968.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:573][585]PIE: Warning: 유효하지 않은 스케일 적용 V(X=34,279,968.00, Y=34,279,968.00, Z=34,279,968.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:586][586]PIE: Warning: 유효하지 않은 스케일 적용 V(X=68,559,936.00, Y=68,559,936.00, Z=68,559,936.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:586][586]PIE: Warning: 유효하지 않은 스케일 적용 V(X=68,559,936.00, Y=68,559,936.00, Z=68,559,936.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:599][587]PIE: Warning: 유효하지 않은 스케일 적용 V(X=137,119,872.00, Y=137,119,872.00, Z=137,119,872.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:599][587]PIE: Warning: 유효하지 않은 스케일 적용 V(X=137,119,872.00, Y=137,119,872.00, Z=137,119,872.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:602][587]LogBlueprintUserMessages: [Cat03_AI_C_0] 누군가 들어왔어
+[2021.06.06-15.42.52:602][587]LogBlueprintUserMessages: [Cat03_AI_C_0] 공격
+[2021.06.06-15.42.52:612][588]PIE: Warning: 유효하지 않은 스케일 적용 V(X=274,239,744.00, Y=274,239,744.00, Z=274,239,744.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:613][588]PIE: Warning: 유효하지 않은 스케일 적용 V(X=274,239,744.00, Y=274,239,744.00, Z=274,239,744.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:626][589]PIE: Warning: 유효하지 않은 스케일 적용 V(X=548,479,488.00, Y=548,479,488.00, Z=548,479,488.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:626][589]PIE: Warning: 유효하지 않은 스케일 적용 V(X=548,479,488.00, Y=548,479,488.00, Z=548,479,488.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:639][590]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,096,958,976.00, Y=1,096,958,976.00, Z=1,096,958,976.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:639][590]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,096,958,976.00, Y=1,096,958,976.00, Z=1,096,958,976.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:652][591]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,193,917,952.00, Y=2,193,917,952.00, Z=2,193,917,952.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:652][591]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,193,917,952.00, Y=2,193,917,952.00, Z=2,193,917,952.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:665][592]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,387,835,904.00, Y=4,387,835,904.00, Z=4,387,835,904.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:665][592]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,387,835,904.00, Y=4,387,835,904.00, Z=4,387,835,904.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:678][593]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,775,671,808.00, Y=8,775,671,808.00, Z=8,775,671,808.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:678][593]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,775,671,808.00, Y=8,775,671,808.00, Z=8,775,671,808.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:698][594]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,551,343,616.00, Y=17,551,343,616.00, Z=17,551,343,616.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:698][594]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,551,343,616.00, Y=17,551,343,616.00, Z=17,551,343,616.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:711][595]PIE: Warning: 유효하지 않은 스케일 적용 V(X=35,102,687,232.00, Y=35,102,687,232.00, Z=35,102,687,232.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:711][595]PIE: Warning: 유효하지 않은 스케일 적용 V(X=35,102,687,232.00, Y=35,102,687,232.00, Z=35,102,687,232.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:724][596]PIE: Warning: 유효하지 않은 스케일 적용 V(X=70,205,374,464.00, Y=70,205,374,464.00, Z=70,205,374,464.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:724][596]PIE: Warning: 유효하지 않은 스케일 적용 V(X=70,205,374,464.00, Y=70,205,374,464.00, Z=70,205,374,464.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:737][597]PIE: Warning: 유효하지 않은 스케일 적용 V(X=140,410,748,928.00, Y=140,410,748,928.00, Z=140,410,748,928.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:737][597]PIE: Warning: 유효하지 않은 스케일 적용 V(X=140,410,748,928.00, Y=140,410,748,928.00, Z=140,410,748,928.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:750][598]PIE: Warning: 유효하지 않은 스케일 적용 V(X=280,821,497,856.00, Y=280,821,497,856.00, Z=280,821,497,856.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:750][598]PIE: Warning: 유효하지 않은 스케일 적용 V(X=280,821,497,856.00, Y=280,821,497,856.00, Z=280,821,497,856.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:764][599]PIE: Warning: 유효하지 않은 스케일 적용 V(X=561,642,995,712.00, Y=561,642,995,712.00, Z=561,642,995,712.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:764][599]PIE: Warning: 유효하지 않은 스케일 적용 V(X=561,642,995,712.00, Y=561,642,995,712.00, Z=561,642,995,712.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:777][600]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,123,285,991,424.00, Y=1,123,285,991,424.00, Z=1,123,285,991,424.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:777][600]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,123,285,991,424.00, Y=1,123,285,991,424.00, Z=1,123,285,991,424.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:791][601]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,246,571,982,848.00, Y=2,246,571,982,848.00, Z=2,246,571,982,848.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:791][601]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,246,571,982,848.00, Y=2,246,571,982,848.00, Z=2,246,571,982,848.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:804][602]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,493,143,965,696.00, Y=4,493,143,965,696.00, Z=4,493,143,965,696.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:804][602]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,493,143,965,696.00, Y=4,493,143,965,696.00, Z=4,493,143,965,696.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:818][603]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,986,287,931,392.00, Y=8,986,287,931,392.00, Z=8,986,287,931,392.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:818][603]PIE: Warning: 유효하지 않은 스케일 적용 V(X=8,986,287,931,392.00, Y=8,986,287,931,392.00, Z=8,986,287,931,392.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:831][604]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,972,575,862,784.00, Y=17,972,575,862,784.00, Z=17,972,575,862,784.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:831][604]PIE: Warning: 유효하지 않은 스케일 적용 V(X=17,972,575,862,784.00, Y=17,972,575,862,784.00, Z=17,972,575,862,784.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:845][605]PIE: Warning: 유효하지 않은 스케일 적용 V(X=35,945,151,725,568.00, Y=35,945,151,725,568.00, Z=35,945,151,725,568.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:845][605]PIE: Warning: 유효하지 않은 스케일 적용 V(X=35,945,151,725,568.00, Y=35,945,151,725,568.00, Z=35,945,151,725,568.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:858][606]PIE: Warning: 유효하지 않은 스케일 적용 V(X=71,890,303,451,136.00, Y=71,890,303,451,136.00, Z=71,890,303,451,136.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:858][606]PIE: Warning: 유효하지 않은 스케일 적용 V(X=71,890,303,451,136.00, Y=71,890,303,451,136.00, Z=71,890,303,451,136.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:871][607]PIE: Warning: 유효하지 않은 스케일 적용 V(X=143,780,606,902,272.00, Y=143,780,606,902,272.00, Z=143,780,606,902,272.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:871][607]PIE: Warning: 유효하지 않은 스케일 적용 V(X=143,780,606,902,272.00, Y=143,780,606,902,272.00, Z=143,780,606,902,272.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:884][608]PIE: Warning: 유효하지 않은 스케일 적용 V(X=287,561,213,804,544.00, Y=287,561,213,804,544.00, Z=287,561,213,804,544.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:884][608]PIE: Warning: 유효하지 않은 스케일 적용 V(X=287,561,213,804,544.00, Y=287,561,213,804,544.00, Z=287,561,213,804,544.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:897][609]PIE: Warning: 유효하지 않은 스케일 적용 V(X=575,122,427,609,088.00, Y=575,122,427,609,088.00, Z=575,122,427,609,088.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:897][609]PIE: Warning: 유효하지 않은 스케일 적용 V(X=575,122,427,609,088.00, Y=575,122,427,609,088.00, Z=575,122,427,609,088.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:910][610]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,150,244,855,218,176.00, Y=1,150,244,855,218,176.00, Z=1,150,244,855,218,176.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:910][610]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,150,244,855,218,176.00, Y=1,150,244,855,218,176.00, Z=1,150,244,855,218,176.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:923][611]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,300,489,710,436,352.00, Y=2,300,489,710,436,352.00, Z=2,300,489,710,436,352.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:923][611]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,300,489,710,436,352.00, Y=2,300,489,710,436,352.00, Z=2,300,489,710,436,352.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:936][612]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,600,979,420,872,704.00, Y=4,600,979,420,872,704.00, Z=4,600,979,420,872,704.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:936][612]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,600,979,420,872,704.00, Y=4,600,979,420,872,704.00, Z=4,600,979,420,872,704.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:949][613]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,201,958,841,745,408.00, Y=9,201,958,841,745,408.00, Z=9,201,958,841,745,408.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:949][613]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,201,958,841,745,408.00, Y=9,201,958,841,745,408.00, Z=9,201,958,841,745,408.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:962][614]PIE: Warning: 유효하지 않은 스케일 적용 V(X=18,403,917,683,490,816.00, Y=18,403,917,683,490,816.00, Z=18,403,917,683,490,816.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:962][614]PIE: Warning: 유효하지 않은 스케일 적용 V(X=18,403,917,683,490,816.00, Y=18,403,917,683,490,816.00, Z=18,403,917,683,490,816.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:975][615]PIE: Warning: 유효하지 않은 스케일 적용 V(X=36,807,835,366,981,632.00, Y=36,807,835,366,981,632.00, Z=36,807,835,366,981,632.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:976][615]PIE: Warning: 유효하지 않은 스케일 적용 V(X=36,807,835,366,981,632.00, Y=36,807,835,366,981,632.00, Z=36,807,835,366,981,632.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:988][616]PIE: Warning: 유효하지 않은 스케일 적용 V(X=73,615,670,733,963,264.00, Y=73,615,670,733,963,264.00, Z=73,615,670,733,963,264.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.52:988][616]PIE: Warning: 유효하지 않은 스케일 적용 V(X=73,615,670,733,963,264.00, Y=73,615,670,733,963,264.00, Z=73,615,670,733,963,264.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:001][617]PIE: Warning: 유효하지 않은 스케일 적용 V(X=147,231,341,467,926,528.00, Y=147,231,341,467,926,528.00, Z=147,231,341,467,926,528.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:001][617]PIE: Warning: 유효하지 않은 스케일 적용 V(X=147,231,341,467,926,528.00, Y=147,231,341,467,926,528.00, Z=147,231,341,467,926,528.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:015][618]PIE: Warning: 유효하지 않은 스케일 적용 V(X=294,462,682,935,853,056.00, Y=294,462,682,935,853,056.00, Z=294,462,682,935,853,056.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:015][618]PIE: Warning: 유효하지 않은 스케일 적용 V(X=294,462,682,935,853,056.00, Y=294,462,682,935,853,056.00, Z=294,462,682,935,853,056.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:028][619]PIE: Warning: 유효하지 않은 스케일 적용 V(X=588,925,365,871,706,112.00, Y=588,925,365,871,706,112.00, Z=588,925,365,871,706,112.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:028][619]PIE: Warning: 유효하지 않은 스케일 적용 V(X=588,925,365,871,706,112.00, Y=588,925,365,871,706,112.00, Z=588,925,365,871,706,112.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:041][620]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,177,850,731,743,412,224.00, Y=1,177,850,731,743,412,224.00, Z=1,177,850,731,743,412,224.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:041][620]PIE: Warning: 유효하지 않은 스케일 적용 V(X=1,177,850,731,743,412,224.00, Y=1,177,850,731,743,412,224.00, Z=1,177,850,731,743,412,224.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:054][621]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,355,701,463,486,824,448.00, Y=2,355,701,463,486,824,448.00, Z=2,355,701,463,486,824,448.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:054][621]PIE: Warning: 유효하지 않은 스케일 적용 V(X=2,355,701,463,486,824,448.00, Y=2,355,701,463,486,824,448.00, Z=2,355,701,463,486,824,448.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:067][622]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,711,402,926,973,648,896.00, Y=4,711,402,926,973,648,896.00, Z=4,711,402,926,973,648,896.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:067][622]PIE: Warning: 유효하지 않은 스케일 적용 V(X=4,711,402,926,973,648,896.00, Y=4,711,402,926,973,648,896.00, Z=4,711,402,926,973,648,896.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:080][623]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,422,805,853,947,297,792.00, Y=9,422,805,853,947,297,792.00, Z=9,422,805,853,947,297,792.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:080][623]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,422,805,853,947,297,792.00, Y=9,422,805,853,947,297,792.00, Z=9,422,805,853,947,297,792.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:094][624]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,223,372,036,854,775,808.00, Y=9,223,372,036,854,775,808.00, Z=9,223,372,036,854,775,808.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:094][624]PIE: Warning: 유효하지 않은 스케일 적용 V(X=9,223,372,036,854,775,808.00, Y=9,223,372,036,854,775,808.00, Z=9,223,372,036,854,775,808.00) 바디에 Cat02BP_2
+[2021.06.06-15.42.53:096][624]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.06.06-15.42.54:170][624]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.073 s
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: === Handled ensure: ===
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: 
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Renderer/Private/RendererScene.cpp] [Line: 1402]
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: Nans found on Bounds for Primitive Plane: Origin X=2470.000 Y=-580.000 Z=942280550210357690368.000, BoxExtent X=942280550210357690368.000 Y=942280550210357690368.000 Z=942280550210357690368.000, SphereRadius inf
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: Stack: 
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8f3217a83 UE4Editor-Renderer.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8f2e57406 UE4Editor-Renderer.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c76fa3e0 UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c762f788 UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c7b503af UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c7b46bea UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c7b9be58 UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8c77572ff UE4Editor-Engine.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8f87c944e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff8f90e50e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff70c8b9bc2 UE4Editor.exe!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff70c8d117c UE4Editor.exe!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff70c8d125a UE4Editor.exe!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff70c8e52bd UE4Editor.exe!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff70c8e7fea UE4Editor.exe!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff986ca7034 KERNEL32.DLL!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: [Callstack] 0x00007ff987a82651 ntdll.dll!UnknownFunction []
+[2021.06.06-15.42.54:170][624]LogOutputDevice: Error: 
