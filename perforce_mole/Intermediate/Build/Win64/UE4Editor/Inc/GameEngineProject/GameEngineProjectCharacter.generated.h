@@ -28,6 +28,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execTurn); \
 	DECLARE_FUNCTION(execMoveRight); \
 	DECLARE_FUNCTION(execMoveForward); \
+	DECLARE_FUNCTION(execGetCurrentDigPercent); \
 	DECLARE_FUNCTION(execGetSurviveTimeText); \
 	DECLARE_FUNCTION(execGetHungryPointText); \
 	DECLARE_FUNCTION(execGetHungryPoint); \
@@ -47,6 +48,7 @@ struct FHitResult;
 	DECLARE_FUNCTION(execTurn); \
 	DECLARE_FUNCTION(execMoveRight); \
 	DECLARE_FUNCTION(execMoveForward); \
+	DECLARE_FUNCTION(execGetCurrentDigPercent); \
 	DECLARE_FUNCTION(execGetSurviveTimeText); \
 	DECLARE_FUNCTION(execGetHungryPointText); \
 	DECLARE_FUNCTION(execGetHungryPoint); \

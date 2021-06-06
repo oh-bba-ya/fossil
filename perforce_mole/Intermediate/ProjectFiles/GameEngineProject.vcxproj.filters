@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameEngineProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B81B6E90-D56E-4A7C-B9E3-9B3C67A85438}</UniqueIdentifier>
+      <UniqueIdentifier>{081A0CE8-ECDA-40E4-8940-DA856C6FB1B8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6D16E73C-7E48-4081-A7B2-0DD283630E8F}</UniqueIdentifier>
+      <UniqueIdentifier>{ABC8C224-AB0F-4828-BF02-EB9843A3B36B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameEngineProject">
-      <UniqueIdentifier>{00D0FA7B-0AFD-494A-A1C9-A38AA490BB48}</UniqueIdentifier>
+      <UniqueIdentifier>{FB1D4FFA-92B4-47D4-A09C-7543E6A0DC60}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameEngineProject\BTService_FindPlayer.cpp">
       <Filter>Source\GameEngineProject</Filter>
