@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameEngineProject.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{79BBC634-C7AB-473F-9339-36191E691C65}</UniqueIdentifier>
+      <UniqueIdentifier>{73B698E6-5823-4BB2-AA18-B9ACA062A330}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameEngineProject.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{547379F0-5445-4E5B-95AA-EDD960162A26}</UniqueIdentifier>
+      <UniqueIdentifier>{27647E7D-D6E5-40A4-8A70-8BCA7D0893E5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GameEngineProject">
-      <UniqueIdentifier>{4D8E9EAB-6776-4592-A9C7-21B3751E1498}</UniqueIdentifier>
+      <UniqueIdentifier>{0673F33B-07F3-46DB-8E45-6681AE1A756C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameEngineProject\BTService_FindPlayer.cpp">
       <Filter>Source\GameEngineProject</Filter>
@@ -48,6 +48,18 @@
       <Filter>Source\GameEngineProject</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GameEngineProject\Countdown.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\CropChar.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\CropChar.h">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameEngineProject\CropChar_AI.cpp">
+      <Filter>Source\GameEngineProject</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameEngineProject\CropChar_AI.h">
       <Filter>Source\GameEngineProject</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GameEngineProject\DustParticle.cpp">
