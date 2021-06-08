@@ -1,9 +1,9 @@
-C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
+C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\ue4\perforce_mole\Source\GameEngineProject/GameEngineProjectGameMode.h
+C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject/GameEngineProjectGameMode.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectGameMode.generated.h
+C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectGameMode.generated.h
