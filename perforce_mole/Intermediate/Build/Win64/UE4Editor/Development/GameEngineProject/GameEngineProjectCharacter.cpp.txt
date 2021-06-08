@@ -1,18 +1,20 @@
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\GameEngineProjectCharacter.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\Definitions.GameEngineProject.h
+C:\ue4\perforce_mole\Source\GameEngineProject\GameEngineProjectCharacter.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\Tomato.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\Tomato.generated.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\DustParticle.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\DustParticle.generated.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\MoleHole.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\MoleHole.generated.h
-C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectCharacter.generated.h
+C:\ue4\perforce_mole\Source\GameEngineProject\Tomato.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\Tomato.generated.h
+C:\ue4\perforce_mole\Source\GameEngineProject\CropChar.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\CropChar.generated.h
+C:\ue4\perforce_mole\Source\GameEngineProject\DustParticle.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\DustParticle.generated.h
+C:\ue4\perforce_mole\Source\GameEngineProject\MoleHole.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\MoleHole.generated.h
+C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Inc\GameEngineProject\GameEngineProjectCharacter.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h

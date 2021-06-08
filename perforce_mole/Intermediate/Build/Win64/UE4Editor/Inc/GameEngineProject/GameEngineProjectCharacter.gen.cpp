@@ -764,6 +764,10 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerTomato_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerTomato;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerCropChar_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerCropChar;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -841,6 +845,13 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato = { "TriggerTomato", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, TriggerTomato), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar_MetaData[] = {
+		{ "Category", "GameEngineProjectCharacter" },
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar = { "TriggerCropChar", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, TriggerCropChar), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGameEngineProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole,
@@ -848,6 +859,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Camera,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCapsule,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGameEngineProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGameEngineProjectCharacter>::IsAbstract,
@@ -876,7 +888,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 1436398420);
+	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 3413937837);
 	template<> GAMEENGINEPROJECT_API UClass* StaticClass<AGameEngineProjectCharacter>()
 	{
 		return AGameEngineProjectCharacter::StaticClass();

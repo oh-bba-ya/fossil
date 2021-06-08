@@ -1,11 +1,51 @@
-﻿  Building GameEngineProjectEditor...
+﻿  Creating makefile for GameEngineProjectEditor (game project files are newer)
+  Parsing headers for GameEngineProjectEditor
+    Running UnrealHeaderTool "C:\ue4\perforce_mole\GameEngineProject.uproject" "C:\ue4\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\GameEngineProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\이로운\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for GameEngineProjectEditor in 11.5461358 seconds
+  Building GameEngineProjectEditor...
   Using Visual Studio 2019 14.28.29337 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] GameEngineProjectCharacter.cpp
-    [2/4] UE4Editor-GameEngineProject-0004.lib
-       C:\ue4\gitCopy\fossil-main\fossil-main\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0004.lib 라이브러리 및 C:\ue4\gitCopy\fossil-main\fossil-main\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0004.exp 개체를 생성하고 있습니다.
-    [3/4] UE4Editor-GameEngineProject-0004.dll
-       C:\ue4\gitCopy\fossil-main\fossil-main\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0004.suppressed.lib 라이브러리 및 C:\ue4\gitCopy\fossil-main\fossil-main\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0004.suppressed.exp 개체를 생성하고 있습니다.
-    [4/4] GameEngineProjectEditor.target
-  Total time in Parallel executor: 2.06 seconds
-  Total execution time: 2.69 seconds
+  Building 38 actions with 12 processes...
+    [1/38] SharedPCH.Engine.ShadowErrors.cpp
+    [2/38] Countdown.cpp
+C:\ue4\perforce_mole\Source\GameEngineProject\Countdown.cpp(44): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+C:\ue4\perforce_mole\Source\GameEngineProject\Countdown.cpp(64): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    [3/38] GameEngineProject.cpp
+    [4/38] EnemyCharacter.cpp
+    [5/38] CropChar.cpp
+    [6/38] Farmer.cpp
+    [7/38] MoleHole.cpp
+    [8/38] DustParticle.cpp
+    [9/38] PlayerMarker.cpp
+    [10/38] Tomato.cpp
+    [11/38] GameEngineProjectCharacter.cpp
+    [12/38] CropChar_AI.cpp
+    [13/38] ProjectCatCharacter.cpp
+    [14/38] Countdown.gen.cpp
+    [15/38] CropChar.gen.cpp
+    [16/38] DustParticle.gen.cpp
+    [17/38] BTService_FindPlayer.cpp
+    [18/38] Farmer.gen.cpp
+    [19/38] GameEngineProject.init.gen.cpp
+    [20/38] BTService_FindPlayer.gen.cpp
+    [21/38] BTTask_MoveToPlayer.gen.cpp
+    [22/38] EnemyCharacter.gen.cpp
+    [23/38] EnemyAIController.cpp
+    [24/38] BTTask_MoveToPlayer.cpp
+    [25/38] CropChar_AI.gen.cpp
+    [26/38] PlayerMarker.gen.cpp
+    [27/38] MoleHole.gen.cpp
+    [28/38] GameHUD.gen.cpp
+    [29/38] GameEngineProjectGameMode.gen.cpp
+    [30/38] Tomato.gen.cpp
+    [31/38] GameEngineProjectCharacter.gen.cpp
+    [32/38] ProjectCatCharacter.gen.cpp
+    [33/38] GameEngineProjectGameMode.cpp
+    [34/38] GameHUD.cpp
+    [35/38] EnemyAIController.gen.cpp
+    [36/38] UE4Editor-GameEngineProject-0001.lib
+       C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0001.lib 라이브러리 및 C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0001.exp 개체를 생성하고 있습니다.
+    [37/38] UE4Editor-GameEngineProject-0001.dll
+       C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0001.suppressed.lib 라이브러리 및 C:\ue4\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-0001.suppressed.exp 개체를 생성하고 있습니다.
+    [38/38] GameEngineProjectEditor.target
+  Total time in Parallel executor: 35.35 seconds
+  Total execution time: 49.55 seconds

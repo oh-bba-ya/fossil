@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Tomato.h"
+#include "CropChar.h"
 #include "DustParticle.h"
 #include "MoleHole.h"
 #include "GameEngineProjectCharacter.generated.h"
@@ -58,6 +59,8 @@ public:
 		class UCapsuleComponent* TriggerCapsule;
 	UPROPERTY(VisibleAnywhere)
 		class AActor* TriggerTomato = nullptr;
+	UPROPERTY(VisibleAnywhere)
+		class AActor* TriggerCropChar = nullptr;
 
 	float maxDigTime = 10.f;
 	float currentDigTime;

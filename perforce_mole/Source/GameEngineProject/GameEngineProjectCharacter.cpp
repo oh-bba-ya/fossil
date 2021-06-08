@@ -211,6 +211,8 @@ void AGameEngineProjectCharacter::OnOverlapBegin(class UPrimitiveComponent* Over
 			TriggerTomato = OtherActor;
 		if (OtherActor->GetClass()->IsChildOf(AMoleHole::StaticClass()))
 			overlapHole = true;
+		if (OtherActor->GetClass()->IsChildOf(ACropChar::StaticClass()))
+			TriggerCropChar = OtherActor;
 	}
 }
 void AGameEngineProjectCharacter::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
@@ -221,6 +223,8 @@ void AGameEngineProjectCharacter::OnOverlapEnd(class UPrimitiveComponent* Overla
 			TriggerTomato = nullptr;
 		if (OtherActor->GetClass()->IsChildOf(AMoleHole::StaticClass()))
 			overlapHole = false;
+		if (OtherActor->GetClass()->IsChildOf(ACropChar::StaticClass()))
+			TriggerCropChar = nullptr;
 	}
 }
 void AGameEngineProjectCharacter::EatTomato()
@@ -229,6 +233,14 @@ void AGameEngineProjectCharacter::EatTomato()
 	{
 		TriggerTomato->Destroy();
 		
+		currntHungryPoint = (currntHungryPoint + 10.f);
+		if (currntHungryPoint > 100.f)
+			currntHungryPoint = 100.f;
+	}
+	if (TriggerCropChar)
+	{
+		TriggerCropChar->Destroy();
+
 		currntHungryPoint = (currntHungryPoint + 10.f);
 		if (currntHungryPoint > 100.f)
 			currntHungryPoint = 100.f;
