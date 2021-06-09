@@ -1,0 +1,1812 @@
+﻿Log file open, 06/09/21 17:17:21
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: GameEngineProject
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.252235
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/dpel9/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Warning: Incompatible or missing module: GameEngineProject
+Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dpel9\Documents\GitHub\fossil).
+Creating makefile for GameEngineProjectEditor (no existing makefile)
+@progress push 5%
+Parsing headers for GameEngineProjectEditor
+  Running UnrealHeaderTool "C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\GameEngineProject.uproject" "C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\GameEngineProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\dpel9\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for GameEngineProjectEditor in 4.9785919 seconds
+@progress pop
+Building GameEngineProjectEditor...
+Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 38 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 3%
+  [1/38] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 5%
+  [2/38] EnemyCharacter.cpp
+  @progress 'Compiling C++ source code...' 8%
+  [3/38] Farmer.gen.cpp
+  @progress 'Compiling C++ source code...' 11%
+  [4/38] EnemyCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 13%
+  [5/38] ProjectCatCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 16%
+  [6/38] Farmer.cpp
+  @progress 'Compiling C++ source code...' 18%
+  [7/38] Tomato.gen.cpp
+  @progress 'Compiling C++ source code...' 21%
+  [8/38] MoleHole.cpp
+  @progress 'Compiling C++ source code...' 24%
+  [9/38] Countdown.gen.cpp
+  @progress 'Compiling C++ source code...' 26%
+  [10/38] CropChar_AI.gen.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [11/38] EnemyAIController.gen.cpp
+  @progress 'Compiling C++ source code...' 32%
+  [12/38] BTService_FindPlayer.cpp
+  @progress 'Compiling C++ source code...' 34%
+  [13/38] PlayerMarker.gen.cpp
+  @progress 'Compiling C++ source code...' 37%
+  [14/38] MoleHole.gen.cpp
+  @progress 'Compiling C++ source code...' 39%
+  [15/38] GameHUD.gen.cpp
+  @progress 'Compiling C++ source code...' 42%
+  [16/38] BTTask_MoveToPlayer.cpp
+  @progress 'Compiling C++ source code...' 45%
+  [17/38] GameHUD.cpp
+  @progress 'Compiling C++ source code...' 47%
+  [18/38] GameEngineProjectGameMode.cpp
+  @progress 'Compiling C++ source code...' 50%
+  [19/38] DustParticle.gen.cpp
+  @progress 'Compiling C++ source code...' 53%
+  [20/38] BTService_FindPlayer.gen.cpp
+  @progress 'Compiling C++ source code...' 55%
+  [21/38] GameEngineProject.init.gen.cpp
+  @progress 'Compiling C++ source code...' 58%
+  [22/38] GameEngineProjectCharacter.cpp
+  @progress 'Compiling C++ source code...' 61%
+  [23/38] Countdown.cpp
+  C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\Countdown.cpp(44): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Source\GameEngineProject\Countdown.cpp(64): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  @progress 'Compiling C++ source code...' 63%
+  [24/38] BTTask_MoveToPlayer.gen.cpp
+  @progress 'Compiling C++ source code...' 66%
+  [25/38] DustParticle.cpp
+  @progress 'Compiling C++ source code...' 68%
+  [26/38] CropChar.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [27/38] GameEngineProjectCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 74%
+  [28/38] Tomato.cpp
+  @progress 'Compiling C++ source code...' 76%
+  [29/38] PlayerMarker.cpp
+  @progress 'Compiling C++ source code...' 79%
+  [30/38] ProjectCatCharacter.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [31/38] GameEngineProjectGameMode.gen.cpp
+  @progress 'Compiling C++ source code...' 84%
+  [32/38] GameEngineProject.cpp
+  @progress 'Compiling C++ source code...' 87%
+  [33/38] CropChar.gen.cpp
+  @progress 'Compiling C++ source code...' 89%
+  [34/38] CropChar_AI.cpp
+  @progress 'Compiling C++ source code...' 92%
+  [35/38] EnemyAIController.cpp
+  @progress 'Compiling C++ source code...' 95%
+  [36/38] UE4Editor-GameEngineProject.lib
+     C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 97%
+  [37/38] UE4Editor-GameEngineProject.dll
+     C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject.suppressed.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+  @progress 'Compiling C++ source code...' 100%
+  [38/38] GameEngineProjectEditor.target
+Total time in Parallel executor: 45.25 seconds
+Total execution time: 52.69 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.06.09-08.18.16:618][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.06.09-08.18.16:618][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:619][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:632][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.09-08.18.16:632][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.09-08.18.16:633][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.09-08.18.16:634][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.09-08.18.16:634][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.06.09-08.18.16:635][  0]LogHAL: Display: Platform has ~ 8 GB [8475025408 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.06.09-08.18.16:635][  0]LogInit: Going up to parent DeviceProfile []
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.06.09-08.18.16:635][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Scalability.ini]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.06.09-08.18.16:636][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Engine.ini]
+[2021.06.09-08.18.16:636][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Config/Windows/Editor.ini]
+[2021.06.09-08.18.16:637][  0]LogInit: Computer: LAPTOP-1J2KJOCQ
+[2021.06.09-08.18.16:637][  0]LogInit: User: dpel9
+[2021.06.09-08.18.16:637][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.06.09-08.18.16:637][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.06.09-08.18.16:637][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2021.06.09-08.18.16:637][  0]LogMemory: Platform Memory Stats for Windows
+[2021.06.09-08.18.16:637][  0]LogMemory: Process Physical Memory: 138.18 MB used, 138.18 MB peak
+[2021.06.09-08.18.16:637][  0]LogMemory: Process Virtual Memory: 113.70 MB used, 113.70 MB peak
+[2021.06.09-08.18.16:637][  0]LogMemory: Physical Memory: 4977.98 MB used,  3104.43 MB free, 8082.41 MB total
+[2021.06.09-08.18.16:637][  0]LogMemory: Virtual Memory: 134211008.00 MB used,  6718.15 MB free, 134217728.00 MB total
+[2021.06.09-08.18.16:646][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.06.09-08.18.16:747][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.06.09-08.18.16:749][  0]LogInit: Using OS detected language (ko-KR).
+[2021.06.09-08.18.16:749][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.06.09-08.18.16:776][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.06.09-08.18.16:908][  0]LogInit: Setting process to per monitor DPI aware
+[2021.06.09-08.18.16:944][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.09-08.18.16:989][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.06.09-08.18.16:989][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.06.09-08.18.17:455][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.06.09-08.18.17:455][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.06.09-08.18.17:455][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.06.09-08.18.17:455][  0]LogD3D11RHI: D3D11 adapters:
+[2021.06.09-08.18.17:619][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (Feature Level 11_0)
+[2021.06.09-08.18.17:619][  0]LogD3D11RHI:       3962/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.06.09-08.18.17:650][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2021.06.09-08.18.17:650][  0]LogD3D11RHI:       128/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.06.09-08.18.17:656][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.06.09-08.18.17:656][  0]LogD3D11RHI:       0/0/4041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.06.09-08.18.17:656][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.06.09-08.18.17:690][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.06.09-08.18.17:690][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2021.06.09-08.18.17:690][  0]LogWindows: EnumDisplayDevices:
+[2021.06.09-08.18.17:690][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2021.06.09-08.18.17:690][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2021.06.09-08.18.17:691][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2021.06.09-08.18.17:691][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650 with Max-Q Design' (P:0 D:0)
+[2021.06.09-08.18.17:691][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2021.06.09-08.18.17:691][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 with Max-Q Design
+[2021.06.09-08.18.17:692][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2021.06.09-08.18.17:692][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2021.06.09-08.18.17:692][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2021.06.09-08.18.17:752][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.06.09-08.18.17:753][  0]LogD3D11RHI: Async texture creation enabled
+[2021.06.09-08.18.17:753][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.06.09-08.18.18:026][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.06.09-08.18.18:047][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.06.09-08.18.18:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.06.09-08.18.18:431][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.06.09-08.18.18:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.06.09-08.18.18:467][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.06.09-08.18.18:481][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.06.09-08.18.18:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.06.09-08.18.18:504][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.06.09-08.18.18:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.06.09-08.18.18:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.06.09-08.18.18:538][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.06.09-08.18.18:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.06.09-08.18.18:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.06.09-08.18.18:579][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.06.09-08.18.18:590][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.06.09-08.18.18:607][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.06.09-08.18.18:619][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.06.09-08.18.18:630][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.06.09-08.18.18:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.06.09-08.18.18:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.06.09-08.18.18:661][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.06.09-08.18.18:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.06.09-08.18.18:685][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.06.09-08.18.18:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.06.09-08.18.18:696][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.06.09-08.18.18:718][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.06.09-08.18.18:900][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.06.09-08.18.18:904][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Intermediate/Shaders/WorkingDirectory/21232/).
+[2021.06.09-08.18.18:904][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/dpel9/AppData/Local/Temp/UnrealShaderWorkingDir/51414A2B4B9D83245BF0E88E9303C405/'.
+[2021.06.09-08.18.18:906][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.06.09-08.18.18:906][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.06.09-08.18.19:984][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/dpel9/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/dpel9/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.09-08.18.20:095][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.06.09-08.18.20:111][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.06.09-08.18.20:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.06.09-08.18.20:111][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.06.09-08.18.20:147][  0]LogDerivedDataCache: Speed tests for C:/Users/dpel9/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2021.06.09-08.18.20:147][  0]LogDerivedDataCache: Display: Performance to C:/Users/dpel9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=1.05ms. RandomReadSpeed=65.46MBs, RandomWriteSpeed=116.91MBs. Assigned SpeedClass 'Fast'
+[2021.06.09-08.18.20:147][  0]LogDerivedDataCache: Using Local data cache path C:/Users/dpel9/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.06.09-08.18.20:147][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.06.09-08.18.20:147][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.06.09-08.18.20:205][  0]LogSlate: Using FreeType 2.10.0
+[2021.06.09-08.18.20:209][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.06.09-08.18.20:255][  0]LogAssetRegistry: FAssetRegistry took 0.0058 seconds to start up
+[2021.06.09-08.18.20:662][  0]LogInit: Selected Device Profile: [Windows]
+[2021.06.09-08.18.20:663][  0]LogInit: Active device profile: [000001B202CF6200][000001B2023C5140 49] Windows
+[2021.06.09-08.18.20:663][  0]LogInit: Profiles: [000001B202CF6200][000001B2023C5140 49] Windows, [000001B202C8DA00][000001B2023CD2C0 49] WindowsNoEditor, [000001B202CF7200][000001B2023D1440 49] WindowsServer, [000001B202C8E500][000001B2023D55C0 49] WindowsClient, [000001B202CF4F00][000001B2023C9700 49] IOS, [000001B202C8D100][000001B2023D9840 49] iPadAir, [000001B202CF5C00][000001B2023DD980 49] iPadAir2, [000001B202C2DE00][000001B2023E9C00 49] IPadPro, [000001B202C2DF00][000001B2023E1C40 49] iPadAir3, [000001B202C8C500][000001B2023EC100 49] iPadAir4, [000001B202C2F700][000001B2023F0280 49] iPadMini2, [000001B202C8E800][000001B2023F4400 49] iPadMini3, [000001B202C2D400][000001B2023F8580 49] iPadMini4, [000001B202C8D700][000001B2023FC700 49] iPadMini5, [000001B202CA1500][000001B2034149C0 49] iPhone6, [000001B202CA1600][000001B203410A00 49] iPodTouch6, [000001B202C2CF00][000001B20341CCC0 49] iPhone7, [000001B202C2CE00][000001B203418D00 49] iPodTouch7, [000001B202CA2D00][000001B203420E80 49] iPhone5S, [000001B202C2EA00][000001B203425000 49] iPhone6Plus, [000001B202CA3E00][000001B203429180 49] iPhone6S, [000001B202C2C100][000001B20342D300 49] iPhone6SPlus, [000001B202CA0700][000001B203431480 49] iPhone7Plus, [000001B202C2CA00][000001B203435600 49] iPhoneSE, [000001B202CA2500][000001B2023E5740 49] iPhone8, [000001B202C2D500][000001B203439880 49] iPhone8Plus, [000001B202CA0200][000001B20343D9C0 49] iPhoneX, [000001B202C2E900][000001B203441B00 49] iPhoneXS, [000001B202CA2000][000001B203449C80 49] iPhoneXSMax, [000001B202C2D700][000001B20344C140 49] iPhoneXR, [000001B202CA0D00][000001B2034502C0 49] iPhone11, [000001B202C2E500][000001B203454440 49] iPhone11Pro, [000001B202CA2300][000001B2034585C0 49] iPhone11ProMax, [000001B202C2FF00][000001B20345C740 49] iPhoneSE2, [000001B202CA3500][000001B2034608C0 49] iPhone12Mini, [000001B202C2EF00][000001B203464A40 49] iPhone12, [000001B202CA1D00][000001B203468BC0 49] iPhone12Pro, [000001B202C2F000][000001B20346CD40 49] iPhone12ProMax, [000001B202CF4B00][000001B203470EC0 49] iPadPro105, [000001B202C2C400][000001B203475040 49] iPadPro129, [000001B202CF5300][000001B2034791C0 49] iPadPro97, [000001B202C2F400][000001B20347D340 49] iPadPro2_129, [000001B202CF6700][000001B2034814C0 49] iPad5, [000001B202C2CB00][000001B203485640 49] iPad6, [000001B202CF4300][000001B2034897C0 49] iPad7, [000001B202C2D100][000001B203445900 49] iPad8, [000001B202CF5900][000001B20348DA40 49] iPadPro11, [000001B202C2CD00][000001B203491B80 49] iPadPro2_11, [000001B202CF5600][000001B203499D00 49] iPadPro3_129, [000001B202C2DD00][000001B20349C1C0 49] iPadPro4_129, [000001B202CF4400][000001B2034A0340 49] AppleTV, [000001B202C2E600][000001B2034A44C0 49] AppleTV4K, [000001B202CF6400][000001B2034A8640 49] TVOS, [000001B202C2C500][000001B2034AC7C0 49] Mac, [000001B202CF6B00][000001B2034B0940 49] MacClient, [000001B202C2C600][000001B2034B4AC0 49] MacNoEditor, [000001B202CF5800][000001B2034B8C40 49] MacServer, [000001B202C2F800][000001B2034BCDC0 49] Linux, [000001B202CF4500][000001B2034C0F40 49] LinuxAArch64, [000001B202C2FC00][000001B2034C50C0 49] LinuxNoEditor, [000001B202CF5B00][000001B2034C9240 49] LinuxAArch64NoEditor, [000001B202C2D900][000001B2034CD3C0 49] LinuxClient, [000001B202CF5E00][000001B2034D1540 49] LinuxAArch64Client, [000001B202C2FD00][000001B2034D56C0 49] LinuxServer, [000001B202CF5F00][000001B2034D9840 49] LinuxAArch64Server, [000001B202C2E700][000001B203495980 49] Android, [000001B202CF5D00][000001B2034DDAC0 49] Android_Low, [000001B202C2F300][000001B2034E1C00 49] Android_Mid, [000001B202CF5700][000001B2034E80C0 49] Android_High, [000001B202C2EB00][000001B2034EC240 49] Android_Default, [000001B202CF4700][000001B2034F03C0 49] Android_Adreno4xx, [000001B202C2E300][000001B2034F4540 49] Android_Adreno5xx_Low, [000001B202CF6600][000001B2034F86C0 49] Android_Adreno5xx, [000001B202C2D600][000001B2034FC840 49] Android_Adreno6xx, [000001B202CF4E00][000001B2035009C0 49] Android_Adreno6xx_Vulkan, [000001B202C8CC00][000001B203504B40 49] Android_Mali_T6xx, [000001B202CA1200][000001B203508CC0 49] Android_Mali_T7xx, [000001B202C8E300][000001B20350CE40 49] Android_Mali_T8xx, [000001B202CA2900][000001B203510FC0 49] Android_Mali_G71, [000001B202C8F900][000001B203515140 49] Android_Mali_G72, [000001B202CA1300][000001B2035192C0 49] Android_Mali_G72_Vulkan, [000001B202C8F200][000001B20351D440 49] Android_Mali_G76, [000001B202CA0E00][000001B2035215C0 49] Android_Mali_G76_Vulkan, [000001B202C8F400][000001B203525740 49] Android_Mali_G77, [000001B202CA2100][000001B2035298C0 49] Android_Mali_G77_Vulkan, [000001B202C8D000][000001B2034E5A00 49] Android_Vulkan_SM5, [000001B202CA0400][000001B20352DB40 49] Android_PowerVR_G6xxx, [000001B202C8DE00][000001B203531C80 49] Android_PowerVR_GT7xxx, [000001B202CA3B00][000001B203534100 49] Android_PowerVR_GE8xxx, [000001B202C8D900][000001B20353C280 49] Android_PowerVR_GM9xxx, [000001B202CA2B00][000001B203540400 49] Android_PowerVR_GM9xxx_Vulkan, [000001B202C8DD00][000001B203544580 49] Android_TegraK1, [000001B202CA2C00][000001B203548700 49] Android_Unknown_Vulkan, [000001B202C8F500][000001B20354C880 49] Lumin, [000001B202CA0800][000001B203550A00 49] Lumin_Desktop, [000001B202C8F100][000001B203554B80 49] HoloLens, 
+[2021.06.09-08.18.20:999][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.06.09-08.18.20:999][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.06.09-08.18.20:999][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.06.09-08.18.20:999][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.06.09-08.18.20:999][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.06.09-08.18.21:054][  0]LogNetVersion: GameEngineProject 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3826654974)
+[2021.06.09-08.18.22:361][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.06.09-08.18.22:548][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.184122 seconds
+[2021.06.09-08.18.22:559][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.06.09-08.18.22:559][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.06.09-08.18.22:559][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.06.09-08.18.23:837][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.06.09-08.18.23:849][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.06.09-08.18.24:174][  0]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.18.24:320][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2021.06.09-08.18.25:190][  0]LogUProjectInfo: Found projects:
+[2021.06.09-08.18.25:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.06.09-08.18.25:634][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.09-08.18.25:634][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.06.09-08.18.25:719][  0]LogCollectionManager: Loaded 0 collections in 0.001891 seconds
+[2021.06.09-08.18.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Collections/' took 0.00s
+[2021.06.09-08.18.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Developers/dpel9/Collections/' took 0.00s
+[2021.06.09-08.18.25:759][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Collections/' took 0.00s
+[2021.06.09-08.18.25:759][  0]LogOcInput: OculusInput pre-init called
+[2021.06.09-08.18.25:780][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.06.09-08.18.25:780][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.06.09-08.18.25:869][  0]LogEngine: Initializing Engine...
+[2021.06.09-08.18.25:872][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.06.09-08.18.25:872][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.06.09-08.18.25:875][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2021.06.09-08.18.26:013][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.06.09-08.18.26:044][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.06.09-08.18.26:047][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.06.09-08.18.26:056][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.06.09-08.18.26:056][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.18.26:058][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.18.26:058][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.18.26:061][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.18.26:062][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.18.26:100][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.18.26:100][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.18.26:439][  0]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.18.26:443][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.18.26:448][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.18.26:448][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.18.26:450][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.18.26:450][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.18.26:450][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.18.26:451][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.18.26:451][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.18.26:451][  0]LogInit: FAudioDevice initialized.
+[2021.06.09-08.18.26:452][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.06.09-08.18.26:452][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.06.09-08.18.26:513][  0]LogDerivedDataCache: Saved boot cache 0.06s 93MB C:/Users/dpel9/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.06.09-08.18.26:513][  0]LogInit: Texture streaming: Enabled
+[2021.06.09-08.18.26:535][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.06.09-08.18.26:543][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.06.09-08.18.26:543][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.06.09-08.18.26:559][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.06.09-08.18.26:633][  0]LogInit: Transaction tracking system initialized
+[2021.06.09-08.18.26:700][  0]BlueprintLog: New page: 에디터 로드
+[2021.06.09-08.18.26:922][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2021.06.09-08.18.27:013][  0]TimingProfiler: Initialize
+[2021.06.09-08.18.27:015][  0]TimingProfiler: OnSessionChanged
+[2021.06.09-08.18.27:015][  0]LoadingProfiler: Initialize
+[2021.06.09-08.18.27:015][  0]LoadingProfiler: OnSessionChanged
+[2021.06.09-08.18.27:016][  0]NetworkingProfiler: Initialize
+[2021.06.09-08.18.27:016][  0]NetworkingProfiler: OnSessionChanged
+[2021.06.09-08.18.27:016][  0]MemoryProfiler: Initialize
+[2021.06.09-08.18.27:016][  0]MemoryProfiler: OnSessionChanged
+[2021.06.09-08.18.27:279][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.06.09-08.18.27:279][  0]LogCook: Display: Mobile HDR setting 1
+[2021.06.09-08.18.27:496][  0]LogFileCache: Scanning file cache for directory 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/' took 0.09s
+[2021.06.09-08.18.27:914][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.06.09-08.18.27:923][  0]LogUnrealEdMisc: Loading editor; pre map load, took 67.499
+[2021.06.09-08.18.27:923][  0]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.18.27:925][  0]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.18.27:929][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.18.27:930][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.18.27:931][  0]MapCheck: New page: 맵 체크
+[2021.06.09-08.18.27:931][  0]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.18.27:944][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2021.06.09-08.18.27:980][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartMenu'.
+[2021.06.09-08.18.27:982][  0]LogAIModule: Creating AISystem for world StartMenu
+[2021.06.09-08.18.27:985][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.09-08.18.27:998][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.06.09-08.18.27:998][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.18.27:999][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.204ms.
+[2021.06.09-08.18.27:999][  0]LogFileHelpers: Loading map 'StartMenu' took 0.076
+[2021.06.09-08.18.28:018][  0]LogUnrealEdMisc: Total Editor Startup Time, took 67.594
+[2021.06.09-08.18.28:768][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.06.09-08.18.28:873][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.18.28:891][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.18.28:902][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.18.28:912][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.18.28:951][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0132 seconds. Added 3617 classes and 861 folders.
+[2021.06.09-08.18.28:961][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.06.09-08.18.28:968][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.09-08.18.28:969][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:969][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.09-08.18.28:969][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.06.09-08.18.28:971][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.09-08.18.28:971][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:971][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.09-08.18.28:971][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.06.09-08.18.28:973][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.06.09-08.18.28:973][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:973][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.06.09-08.18.28:973][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.06.09-08.18.28:974][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.09-08.18.28:974][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:974][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.09-08.18.28:974][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2021.06.09-08.18.28:976][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.09-08.18.28:976][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:976][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.09-08.18.28:976][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2021.06.09-08.18.28:977][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.09-08.18.28:978][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:978][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.09-08.18.28:978][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.06.09-08.18.28:979][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.09-08.18.28:979][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:979][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.09-08.18.28:979][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
+[2021.06.09-08.18.28:981][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.09-08.18.28:981][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:981][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.09-08.18.28:981][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.06.09-08.18.28:983][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.09-08.18.28:983][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:983][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.09-08.18.28:983][  0]LogPakFile: OnPakFileMounted2Time == 0.000042
+[2021.06.09-08.18.28:985][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.06.09-08.18.28:985][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:985][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.06.09-08.18.28:985][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.06.09-08.18.28:986][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.06.09-08.18.28:986][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:987][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.06.09-08.18.28:987][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.06.09-08.18.28:988][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.09-08.18.28:988][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:988][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.09-08.18.28:988][  0]LogPakFile: OnPakFileMounted2Time == 0.000055
+[2021.06.09-08.18.28:990][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.09-08.18.28:990][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:990][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.09-08.18.28:990][  0]LogPakFile: OnPakFileMounted2Time == 0.000058
+[2021.06.09-08.18.28:991][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.09-08.18.28:991][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:991][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.09-08.18.28:991][  0]LogPakFile: OnPakFileMounted2Time == 0.000063
+[2021.06.09-08.18.28:993][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.06.09-08.18.28:993][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:993][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.06.09-08.18.28:993][  0]LogPakFile: OnPakFileMounted2Time == 0.000067
+[2021.06.09-08.18.28:995][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.09-08.18.28:995][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:995][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.09-08.18.28:995][  0]LogPakFile: OnPakFileMounted2Time == 0.000072
+[2021.06.09-08.18.28:997][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.06.09-08.18.28:997][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:997][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.06.09-08.18.28:997][  0]LogPakFile: OnPakFileMounted2Time == 0.000076
+[2021.06.09-08.18.28:999][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.09-08.18.28:999][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.28:999][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.09-08.18.28:999][  0]LogPakFile: OnPakFileMounted2Time == 0.000081
+[2021.06.09-08.18.29:001][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.09-08.18.29:001][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:001][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.09-08.18.29:001][  0]LogPakFile: OnPakFileMounted2Time == 0.000085
+[2021.06.09-08.18.29:003][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.09-08.18.29:003][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:003][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.09-08.18.29:003][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2021.06.09-08.18.29:004][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.06.09-08.18.29:004][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:004][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.06.09-08.18.29:004][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2021.06.09-08.18.29:006][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.06.09-08.18.29:006][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:006][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.06.09-08.18.29:006][  0]LogPakFile: OnPakFileMounted2Time == 0.000096
+[2021.06.09-08.18.29:008][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.06.09-08.18.29:008][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:008][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.06.09-08.18.29:008][  0]LogPakFile: OnPakFileMounted2Time == 0.000102
+[2021.06.09-08.18.29:010][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.06.09-08.18.29:010][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:010][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.06.09-08.18.29:010][  0]LogPakFile: OnPakFileMounted2Time == 0.000106
+[2021.06.09-08.18.29:012][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.06.09-08.18.29:012][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:012][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.06.09-08.18.29:012][  0]LogPakFile: OnPakFileMounted2Time == 0.000111
+[2021.06.09-08.18.29:014][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.06.09-08.18.29:014][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.06.09-08.18.29:014][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.06.09-08.18.29:014][  0]LogPakFile: OnPakFileMounted2Time == 0.000115
+[2021.06.09-08.18.29:212][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.09-08.18.29:226][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.06.09-08.18.29:432][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.06.09-08.18.29:432][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.06.09-08.18.29:433][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.06.09-08.18.29:433][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.06.09-08.18.29:433][  0]LogLoad: (Engine Initialization) Total time: 69.01 seconds
+[2021.06.09-08.18.29:433][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.06.09-08.18.29:433][  0]LogInit: First time updating LLM stats...
+[2021.06.09-08.18.29:719][  0]LogAssetRegistry: Asset discovery search completed in 9.4651 seconds
+[2021.06.09-08.18.29:721][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000012 seconds (updated 0 objects)
+[2021.06.09-08.18.29:728][  0]LogRenderer: Reallocating scene render targets to support 64x64 Format 10 NumSamples 1 (Frame:1).
+[2021.06.09-08.18.29:728][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.06.09-08.18.29:740][  0]LogSlate: Took 0.001808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.06.09-08.18.29:750][  0]LogSlate: Took 0.009643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2021.06.09-08.18.29:764][  0]LogSlate: Took 0.010164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2021.06.09-08.18.29:766][  0]LogSlate: Took 0.002094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.06.09-08.18.29:769][  0]LogSlate: Took 0.001009 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.06.09-08.18.29:882][  0]LogRenderer: Reallocating scene render targets to support 1176x256 Format 10 NumSamples 1 (Frame:1).
+[2021.06.09-08.18.29:882][  0]LogSlate: Took 0.001256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.09-08.18.58:153][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.06.09-08.18.58:167][686]LogSlate: Took 0.001845 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.09-08.18.58:277][686]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.18.58:277][686]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.18.58:279][686]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.18.58:295][686]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.18.58:296][686]LoadErrors: 로드에 실패했습니다. /Game/level/test_BuiltData.test_BuiltData 참조한 것: PersistentLevel
+[2021.06.09-08.18.58:338][686]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/test.test
+[2021.06.09-08.18.58:338][686]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.18.58:338][686]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.18.58:338][686]LoadErrors: New page: 맵 로드중: test.umap
+[2021.06.09-08.18.58:341][686]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.18.58:342][686]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.18.58:342][686]MapCheck: New page: 맵 체크
+[2021.06.09-08.18.58:342][686]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.18.58:350][686]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.18.58:355][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2021.06.09-08.18.58:355][686]LogAudio: Display: Audio Device (ID: 1) registered with world 'test'.
+[2021.06.09-08.18.58:441][686]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.09-08.18.58:441][686]LogAIModule: Creating AISystem for world test
+[2021.06.09-08.18.58:456][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2021.06.09-08.18.58:468][686]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.18.58:468][686]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.187ms.
+[2021.06.09-08.18.58:468][686]LogFileHelpers: Loading map 'test' took 0.130
+[2021.06.09-08.19.22:290][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.06.09-08.19.22:324][112]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/test.test
+[2021.06.09-08.19.22:324][112]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.19.22:325][112]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.22:325][112]LoadErrors: New page: 맵 로드중: test.umap
+[2021.06.09-08.19.22:328][112]LogWorld: UWorld::CleanupWorld for test, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.22:328][112]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.22:328][112]MapCheck: New page: 맵 체크
+[2021.06.09-08.19.22:328][112]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.22:335][112]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.22:340][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2021.06.09-08.19.22:344][112]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.22:344][112]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.22:345][112]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.22:347][112]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\test.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.22:347][112]LoadErrors: 로드에 실패했습니다. /Game/level/test_BuiltData.test_BuiltData 참조한 것: PersistentLevel
+[2021.06.09-08.19.22:351][112]LogAudio: Display: Audio Device (ID: 1) registered with world 'test'.
+[2021.06.09-08.19.22:353][112]LogAIModule: Creating AISystem for world test
+[2021.06.09-08.19.22:435][112]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.09-08.19.22:505][112]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.06.09-08.19.22:521][112]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.19.22:521][112]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.242ms.
+[2021.06.09-08.19.22:521][112]LogFileHelpers: Loading map 'test' took 0.196
+[2021.06.09-08.19.22:587][112]LogSlate: Took 0.000864 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.09-08.19.22:599][112]LogSlate: Took 0.011133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2021.06.09-08.19.26:726][356]LogSlate: Window '메시지 로그' being destroyed
+[2021.06.09-08.19.26:735][356]LogSlate: Window '메시지 로그' being destroyed
+[2021.06.09-08.19.29:061][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2021.06.09-08.19.29:097][492]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/StartMenu.StartMenu
+[2021.06.09-08.19.29:098][492]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.19.29:098][492]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.29:098][492]LoadErrors: New page: 맵 로드중: StartMenu.umap
+[2021.06.09-08.19.29:099][492]LogWorld: UWorld::CleanupWorld for test, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.29:099][492]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.29:099][492]MapCheck: New page: 맵 체크
+[2021.06.09-08.19.29:099][492]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.29:105][492]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.29:108][492]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.06.09-08.19.29:108][492]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartMenu'.
+[2021.06.09-08.19.29:187][492]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.09-08.19.29:187][492]LogAIModule: Creating AISystem for world StartMenu
+[2021.06.09-08.19.29:197][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.06.09-08.19.29:209][492]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.19.29:210][492]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.249ms.
+[2021.06.09-08.19.29:210][492]LogFileHelpers: Loading map 'StartMenu' took 0.111
+[2021.06.09-08.19.35:653][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.06.09-08.19.36:068][799]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:069][799]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:069][799]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:072][799]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:072][799]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:378][799]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.36:378][799]LoadErrors: 로드에 실패했습니다. /Game/level/Map1_BuiltData.Map1_BuiltData 참조한 것: PersistentLevel
+[2021.06.09-08.19.37:034][799]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/Map1.Map1
+[2021.06.09-08.19.37:035][799]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.19.37:035][799]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.37:035][799]LoadErrors: New page: 맵 로드중: Map1.umap
+[2021.06.09-08.19.37:039][799]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.37:039][799]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.37:039][799]MapCheck: New page: 맵 체크
+[2021.06.09-08.19.37:039][799]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.37:114][799]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.37:121][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.06.09-08.19.37:121][799]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2021.06.09-08.19.38:034][799]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.06.09-08.19.38:035][799]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.19.38:185][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2021.06.09-08.19.38:200][799]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.19.38:202][799]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.905ms.
+[2021.06.09-08.19.38:202][799]LogFileHelpers: Loading map 'Map1' took 1.167
+[2021.06.09-08.19.41:345][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.06.09-08.19.41:386][958]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/StartMenu.StartMenu
+[2021.06.09-08.19.41:386][958]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/StartMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.19.41:386][958]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.41:386][958]LoadErrors: New page: 맵 로드중: StartMenu.umap
+[2021.06.09-08.19.41:469][958]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.41:471][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.41:473][958]MapCheck: New page: 맵 체크
+[2021.06.09-08.19.41:473][958]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.41:483][958]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.41:540][958]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.06.09-08.19.41:541][958]LogAudio: Display: Audio Device (ID: 1) registered with world 'StartMenu'.
+[2021.06.09-08.19.41:623][958]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.09-08.19.41:623][958]LogAIModule: Creating AISystem for world StartMenu
+[2021.06.09-08.19.41:633][958]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.06.09-08.19.41:648][958]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.19.41:648][958]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.214ms.
+[2021.06.09-08.19.41:648][958]LogFileHelpers: Loading map 'StartMenu' took 0.262
+[2021.06.09-08.19.42:720][ 15]LogRenderer: Reallocating scene render targets to support 1392x308 Format 10 NumSamples 1 (Frame:58).
+[2021.06.09-08.19.45:178][159]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.19.45:196][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.19.45:197][159]PIE: New page: PIE 세션: StartMenu (2021. 6. 10. 오전 2:19:45)
+[2021.06.09-08.19.45:202][159]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.09-08.19.45:204][159]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.09-08.19.45:205][159]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_StartMenu
+[2021.06.09-08.19.45:209][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004784s)
+[2021.06.09-08.19.45:211][159]LogAIModule: Creating AISystem for world StartMenu
+[2021.06.09-08.19.45:211][159]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2021.06.09-08.19.45:211][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/StartMenu.StartMenu to /Game/level/UEDPIE_0_StartMenu.StartMenu (0.007181s)
+[2021.06.09-08.19.45:218][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.06.09-08.19.45:220][159]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.19.45:220][159]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.19.45:220][159]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.19.45:221][159]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.19.45:221][159]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.19.45:232][159]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.19.45:232][159]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.19.45:251][159]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.19.45:252][159]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.19.45:252][159]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.19.45:252][159]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.19.45:252][159]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.19.45:252][159]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.19.45:252][159]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.19.45:275][159]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.19.45:275][159]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.19.45:275][159]LogInit: FAudioDevice initialized.
+[2021.06.09-08.19.45:275][159]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartMenu'.
+[2021.06.09-08.19.45:286][159]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.19.45:304][159]LogWorld: Bringing World /Game/level/UEDPIE_0_StartMenu.StartMenu up for play (max tick rate 60) at 2021.06.09-17.19.45
+[2021.06.09-08.19.45:306][159]LogWorld: Bringing up level for play took: 0.001998
+[2021.06.09-08.19.45:307][159]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.06.09-08.19.45:323][159]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.06.09-08.19.45:335][159]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.19.45:337][159]PIE: 에디터에서 플레이 총 시작 시간 0.147초입니다.
+[2021.06.09-08.19.47:452][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.19.47:452][280]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_StartMenu
+[2021.06.09-08.19.47:454][280]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.47:454][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.47:463][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.19.47:466][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.47:472][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.19.47:473][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.19.47:475][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.19.47:504][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2021.06.09-08.19.47:521][281]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.06.09-08.19.48:404][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.06.09-08.19.48:487][333]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:488][333]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:488][333]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:490][333]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:490][333]LogLinker: Warning: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:744][333]LogLinker: Warning: [AssetLog] C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Content\level\Map1.umap: '{FileName}': 애셋에 대한 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2021.06.09-08.19.48:744][333]LoadErrors: 로드에 실패했습니다. /Game/level/Map1_BuiltData.Map1_BuiltData 참조한 것: PersistentLevel
+[2021.06.09-08.19.49:150][333]LogAssetEditorSubsystem: Opening Asset editor for World /Game/level/Map1.Map1
+[2021.06.09-08.19.49:150][333]Cmd: MAP LOAD FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.09-08.19.49:150][333]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.49:150][333]LoadErrors: New page: 맵 로드중: Map1.umap
+[2021.06.09-08.19.49:152][333]LogWorld: UWorld::CleanupWorld for StartMenu, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.49:152][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.49:152][333]MapCheck: New page: 맵 체크
+[2021.06.09-08.19.49:152][333]LightingResults: New page: 라이팅 빌드
+[2021.06.09-08.19.49:208][333]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.49:212][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2021.06.09-08.19.49:213][333]LogAudio: Display: Audio Device (ID: 1) registered with world 'Map1'.
+[2021.06.09-08.19.50:046][333]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2021.06.09-08.19.50:047][333]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.19.50:189][333]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.06.09-08.19.50:200][333]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.09-08.19.50:201][333]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.953ms.
+[2021.06.09-08.19.50:201][333]LogFileHelpers: Loading map 'Map1' took 1.051
+[2021.06.09-08.19.51:278][373]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.19.51:289][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.19.51:289][373]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:19:51)
+[2021.06.09-08.19.51:289][373]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.19.51:858][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.568638s)
+[2021.06.09-08.19.51:859][373]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.19.51:861][373]LogPlayLevel: PIE: World Init took: (0.003119s)
+[2021.06.09-08.19.51:863][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.573346s)
+[2021.06.09-08.19.51:876][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.06.09-08.19.51:879][373]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.19.51:879][373]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.19.51:879][373]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.19.51:880][373]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.19.51:880][373]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.19.51:886][373]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.19.51:887][373]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.19.51:911][373]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.19.51:912][373]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.19.51:912][373]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.19.51:912][373]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.19.51:912][373]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.19.51:913][373]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.19.51:913][373]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.19.51:936][373]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.19.51:936][373]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.19.51:936][373]LogInit: FAudioDevice initialized.
+[2021.06.09-08.19.51:936][373]LogAudio: Display: Audio Device (ID: 3) registered with world 'Map1'.
+[2021.06.09-08.19.51:946][373]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.19.52:192][373]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.19.52
+[2021.06.09-08.19.52:209][373]LogWorld: Bringing up level for play took: 0.261691
+[2021.06.09-08.19.52:210][373]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2021.06.09-08.19.52:227][373]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.19.52:227][373]PIE: 에디터에서 플레이 총 시작 시간 0.94초입니다.
+[2021.06.09-08.19.53:888][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.19.53:888][457]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.19.53:894][457]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.19.53:934][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.53:950][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.19.53:961][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.19.53:971][457]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.19.53:999][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.19.54:000][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.19.54:029][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.19.54:076][457]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2021.06.09-08.19.54:109][458]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2021.06.09-08.19.58:245][667]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/UI/hpUI.hpUI
+[2021.06.09-08.19.58:469][667]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 126 classes and 0 folders.
+[2021.06.09-08.20.00:375][667]LogSlate: Took 0.000856 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.09-08.20.11:371][ 84]LogSlate: Took 0.001226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.09-08.20.31:042][878]LogSlate: Last resort fallback font was requested. Font: '/Game/UI/font/Stacked_pixel.Stacked_pixel', Character: '생 (U+c0dd)'
+[2021.06.09-08.20.31:057][878]LogSlate: Took 0.010337 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.06.09-08.20.39:735][203]BlueprintLog: New page: hpUI 컴파일
+[2021.06.09-08.20.39:819][203]LogUObjectHash: Compacting FUObjectHashTables data took   5.95ms
+[2021.06.09-08.20.40:950][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/hpUI" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset" SILENT=true
+[2021.06.09-08.20.40:989][236]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/hpUI1F138E3747E4750016022BBB0709C9F0.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset'
+[2021.06.09-08.20.41:016][236]AssetCheck: New page: 애셋 저장: hpUI
+[2021.06.09-08.20.41:016][236]LogContentValidation: Display: WidgetBlueprint /Game/UI/hpUI.hpUI 유효성 검사
+[2021.06.09-08.20.46:422][515]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.22.47:910][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/hpUI" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset" SILENT=true
+[2021.06.09-08.22.48:157][788]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/hpUIC883F8AF4B5FCAA67A1E56AFDBFA5D36.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset'
+[2021.06.09-08.22.48:448][788]AssetCheck: New page: 애셋 저장: hpUI
+[2021.06.09-08.22.48:448][788]LogContentValidation: Display: WidgetBlueprint /Game/UI/hpUI.hpUI 유효성 검사
+[2021.06.09-08.22.50:504][845]BlueprintLog: New page: hpUI 컴파일
+[2021.06.09-08.22.50:653][845]LogUObjectHash: Compacting FUObjectHashTables data took  16.72ms
+[2021.06.09-08.22.52:588][912]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.22.52:614][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.22.52:619][912]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:22:52)
+[2021.06.09-08.22.52:621][912]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.22.53:550][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.928856s)
+[2021.06.09-08.22.53:555][912]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.22.53:560][912]LogPlayLevel: PIE: World Init took: (0.010061s)
+[2021.06.09-08.22.53:562][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.941298s)
+[2021.06.09-08.22.53:610][912]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2021.06.09-08.22.53:616][912]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.22.53:617][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.22.53:618][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.22.53:619][912]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.22.53:619][912]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.22.53:636][912]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.22.53:636][912]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.22.53:679][912]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.22.53:679][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.22.53:679][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.22.53:679][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.22.53:680][912]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.22.53:680][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.22.53:680][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.22.53:815][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.22.53:815][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.22.53:815][912]LogInit: FAudioDevice initialized.
+[2021.06.09-08.22.53:816][912]LogAudio: Display: Audio Device (ID: 4) registered with world 'Map1'.
+[2021.06.09-08.22.53:871][912]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.22.54:395][912]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.22.54
+[2021.06.09-08.22.54:424][912]LogWorld: Bringing up level for play took: 0.548942
+[2021.06.09-08.22.54:426][912]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.06.09-08.22.54:469][912]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.22.54:471][912]PIE: 에디터에서 플레이 총 시작 시간 1.862초입니다.
+[2021.06.09-08.22.56:804][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.22.56:805][996]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.22.56:822][996]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.22.56:888][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.22.56:917][996]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.22.56:936][996]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.22.57:029][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.22.57:040][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.22.57:042][996]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.22.57:208][996]LogUObjectHash: Compacting FUObjectHashTables data took   7.56ms
+[2021.06.09-08.22.57:274][997]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.06.09-08.23.31:041][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/hpUI" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset" SILENT=true
+[2021.06.09-08.23.31:083][159]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/hpUI09D6C3364ACB319BEED7E98C68EBE14A.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset'
+[2021.06.09-08.23.31:118][159]AssetCheck: New page: 애셋 저장: hpUI
+[2021.06.09-08.23.31:118][159]LogContentValidation: Display: WidgetBlueprint /Game/UI/hpUI.hpUI 유효성 검사
+[2021.06.09-08.23.32:836][213]BlueprintLog: New page: hpUI 컴파일
+[2021.06.09-08.23.32:937][213]LogUObjectHash: Compacting FUObjectHashTables data took  10.35ms
+[2021.06.09-08.24.08:891][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/hpUI" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset" SILENT=true
+[2021.06.09-08.24.08:941][463]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/hpUI59522DA34DD8880D4B9F939BCB349084.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/UI/hpUI.uasset'
+[2021.06.09-08.24.08:972][463]AssetCheck: New page: 애셋 저장: hpUI
+[2021.06.09-08.24.08:973][463]LogContentValidation: Display: WidgetBlueprint /Game/UI/hpUI.hpUI 유효성 검사
+[2021.06.09-08.24.09:365][474]BlueprintLog: New page: hpUI 컴파일
+[2021.06.09-08.24.09:476][474]LogUObjectHash: Compacting FUObjectHashTables data took  10.04ms
+[2021.06.09-08.24.11:650][558]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.24.11:672][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.24.11:672][558]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:24:11)
+[2021.06.09-08.24.11:672][558]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.24.12:562][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.889638s)
+[2021.06.09-08.24.12:566][558]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.24.12:569][558]LogPlayLevel: PIE: World Init took: (0.005222s)
+[2021.06.09-08.24.12:571][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.898179s)
+[2021.06.09-08.24.12:641][558]LogUObjectHash: Compacting FUObjectHashTables data took  11.09ms
+[2021.06.09-08.24.12:646][558]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.24.12:646][558]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.24.12:646][558]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.24.12:647][558]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.24.12:647][558]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.24.12:658][558]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.24.12:658][558]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.24.12:690][558]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.24.12:690][558]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.24.12:690][558]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.24.12:690][558]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.24.12:691][558]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.24.12:691][558]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.24.12:691][558]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.24.12:724][558]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.24.12:725][558]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.24.12:725][558]LogInit: FAudioDevice initialized.
+[2021.06.09-08.24.12:725][558]LogAudio: Display: Audio Device (ID: 5) registered with world 'Map1'.
+[2021.06.09-08.24.12:739][558]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.24.13:098][558]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.24.13
+[2021.06.09-08.24.13:109][558]LogWorld: Bringing up level for play took: 0.367671
+[2021.06.09-08.24.13:110][558]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.06.09-08.24.13:127][558]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.24.13:128][558]PIE: 에디터에서 플레이 총 시작 시간 1.46초입니다.
+[2021.06.09-08.24.15:760][676]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.24.15:761][676]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.24.15:764][676]LogBlueprintUserMessages: [MyTomato_2] 토마토생성
+[2021.06.09-08.24.18:745][834]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.24.18:768][835]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.24.18:769][835]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.24.18:770][835]LogBlueprintUserMessages: [MyTomato_2] 토마토생성
+[2021.06.09-08.24.21:762][987]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.24.21:763][987]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.24.21:788][988]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.24.22:961][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.24.22:961][ 49]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.24.22:971][ 49]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.24.23:044][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.24.23:067][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.24.23:095][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.24.23:152][ 49]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.24.23:153][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.24.23:154][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.24.23:201][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.24.23:351][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   8.02ms
+[2021.06.09-08.24.23:409][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.06.09-08.24.25:036][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/Map1" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/Map1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.09-08.24.25:091][122]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2021.06.09-08.24.29:193][122]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Map124315B6B45F9563FBCE14792765A6379.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/level/Map1.umap'
+[2021.06.09-08.24.29:289][122]AssetCheck: New page: 애셋 저장: Map1
+[2021.06.09-08.24.29:289][122]LogContentValidation: Display: World /Game/level/Map1.Map1 유효성 검사
+[2021.06.09-08.24.48:281][140]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Source/GameEngineProject/GameEngineProjectCharacter.h'
+[2021.06.09-08.25.44:060][430]Candidate modules for hot reload:
+[2021.06.09-08.25.44:060][430]  GameEngineProject
+[2021.06.09-08.25.44:062][430]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameEngineProject,9806 GameEngineProjectEditor Win64 Development -Project="C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject" "C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject"  -IgnoreJunk]
+[2021.06.09-08.25.44:079][430]Warning: Starting HotReload took  1.0s.
+[2021.06.09-08.25.58:902][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Terrain_2)
+[2021.06.09-08.27.17:761][790]CompilerResultsLog: New page: 컴파일 - 2021. 6. 10. 오전 2:27:17
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dpel9\Documents\GitHub\fossil).
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Building GameEngineProjectEditor...
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:   [1/4] GameEngineProjectCharacter.cpp
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:   [2/4] UE4Editor-GameEngineProject-9806.lib
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-9806.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-9806.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:   [3/4] UE4Editor-GameEngineProject-9806.dll
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-9806.suppressed.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-9806.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.27.17:763][790]CompilerResultsLog:   [4/4] GameEngineProjectEditor.target
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Total time in Parallel executor: 88.59 seconds
+[2021.06.09-08.27.17:763][790]CompilerResultsLog: Total execution time: 92.56 seconds
+[2021.06.09-08.27.17:764][790]LogMainFrame: MainFrame: Module compiling took 93.753 seconds
+[2021.06.09-08.27.18:455][790]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.27.18:457][790]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GameEngineProject' in 0.0004 seconds. Added 16 classes and 2 folders.
+[2021.06.09-08.27.18:466][790]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2021.06.09-08.27.18:895][790]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0438 seconds. Added 3617 classes and 861 folders.
+[2021.06.09-08.27.18:988][790]Display: HotReload took 95.9s.
+[2021.06.09-08.28.12:321][169]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.28.12:353][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.28.12:353][169]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:28:12)
+[2021.06.09-08.28.12:354][169]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.28.13:188][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.833974s)
+[2021.06.09-08.28.13:190][169]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.28.13:192][169]LogPlayLevel: PIE: World Init took: (0.003630s)
+[2021.06.09-08.28.13:193][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.839359s)
+[2021.06.09-08.28.13:584][169]LogUObjectHash: Compacting FUObjectHashTables data took   8.53ms
+[2021.06.09-08.28.13:590][169]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.28.13:590][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.28.13:590][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.28.13:591][169]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.28.13:592][169]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.28.13:600][169]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.28.13:600][169]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.28.13:632][169]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.28.13:633][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.28.13:633][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.28.13:633][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.28.13:634][169]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.28.13:634][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.28.13:634][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.28.13:663][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.28.13:663][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.28.13:663][169]LogInit: FAudioDevice initialized.
+[2021.06.09-08.28.13:663][169]LogAudio: Display: Audio Device (ID: 6) registered with world 'Map1'.
+[2021.06.09-08.28.13:680][169]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.28.13:941][169]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.28.13
+[2021.06.09-08.28.13:951][169]LogWorld: Bringing up level for play took: 0.270316
+[2021.06.09-08.28.13:952][169]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.06.09-08.28.13:970][169]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.28.13:972][169]PIE: 에디터에서 플레이 총 시작 시간 1.63초입니다.
+[2021.06.09-08.28.16:605][301]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.28.16:605][301]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.28.19:619][467]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.28.19:619][467]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.28.22:629][632]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.28.22:629][632]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.28.22:632][632]LogBlueprintUserMessages: [Cat03_AI_C_1] 누군가 들어왔어
+[2021.06.09-08.28.22:632][632]LogBlueprintUserMessages: [Cat03_AI_C_1] 공격
+[2021.06.09-08.28.23:672][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.28.23:672][688]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.28.23:681][688]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.28.23:744][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.28.23:761][688]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.28.23:822][688]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.28.23:892][688]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.28.23:893][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.28.23:894][688]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.28.24:295][688]LogUObjectHash: Compacting FUObjectHashTables data took   7.29ms
+[2021.06.09-08.28.24:383][689]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.06.09-08.28.25:349][704]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/Source/GameEngineProject/GameEngineProjectCharacter.h'
+[2021.06.09-08.28.42:259][873]Candidate modules for hot reload:
+[2021.06.09-08.28.42:259][873]  GameEngineProject
+[2021.06.09-08.28.42:259][873]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameEngineProject,1833 GameEngineProjectEditor Win64 Development -Project="C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject" "C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject"  -IgnoreJunk]
+[2021.06.09-08.28.42:271][873]Warning: Starting HotReload took  0.0s.
+[2021.06.09-08.28.57:516][479]LogEditorViewport: Clicking on Actor (context menu): Mud_Blueprint_C (Mud_Blueprint)
+[2021.06.09-08.28.59:428][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Terrain_2)
+[2021.06.09-08.29.21:201][610]CompilerResultsLog: New page: 컴파일 - 2021. 6. 10. 오전 2:29:21
+[2021.06.09-08.29.21:202][610]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dpel9\Documents\GitHub\fossil).
+[2021.06.09-08.29.21:202][610]CompilerResultsLog: Building GameEngineProjectEditor...
+[2021.06.09-08.29.21:202][610]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.09-08.29.21:202][610]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:   [1/4] GameEngineProjectCharacter.cpp
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:   [2/4] UE4Editor-GameEngineProject-1833.lib
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-1833.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-1833.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:   [3/4] UE4Editor-GameEngineProject-1833.dll
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-1833.suppressed.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-1833.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.29.21:202][610]CompilerResultsLog:   [4/4] GameEngineProjectEditor.target
+[2021.06.09-08.29.21:202][610]CompilerResultsLog: Total time in Parallel executor: 35.25 seconds
+[2021.06.09-08.29.21:203][610]CompilerResultsLog: Total execution time: 38.60 seconds
+[2021.06.09-08.29.21:203][610]LogMainFrame: MainFrame: Module compiling took 38.954 seconds
+[2021.06.09-08.29.21:787][610]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.29.21:791][610]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GameEngineProject' in 0.0006 seconds. Added 16 classes and 2 folders.
+[2021.06.09-08.29.21:802][610]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2021.06.09-08.29.21:997][610]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0181 seconds. Added 3617 classes and 861 folders.
+[2021.06.09-08.29.22:010][610]Display: HotReload took 39.8s.
+[2021.06.09-08.29.58:499][874]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.29.58:520][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.29.58:520][874]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:29:58)
+[2021.06.09-08.29.58:546][874]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.29.59:093][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.548212s)
+[2021.06.09-08.29.59:095][874]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.29.59:097][874]LogPlayLevel: PIE: World Init took: (0.003597s)
+[2021.06.09-08.29.59:098][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.552957s)
+[2021.06.09-08.29.59:204][874]LogUObjectHash: Compacting FUObjectHashTables data took   6.95ms
+[2021.06.09-08.29.59:209][874]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.29.59:209][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.29.59:209][874]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.29.59:209][874]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.29.59:216][874]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.29.59:216][874]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.29.59:237][874]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.29.59:238][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.29.59:238][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.29.59:238][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.29.59:238][874]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.29.59:238][874]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.29.59:238][874]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.29.59:259][874]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.29.59:259][874]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.29.59:259][874]LogInit: FAudioDevice initialized.
+[2021.06.09-08.29.59:260][874]LogAudio: Display: Audio Device (ID: 7) registered with world 'Map1'.
+[2021.06.09-08.29.59:270][874]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.29.59:484][874]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.29.59
+[2021.06.09-08.29.59:490][874]LogWorld: Bringing up level for play took: 0.218366
+[2021.06.09-08.29.59:491][874]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.06.09-08.29.59:503][874]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.29.59:503][874]PIE: 에디터에서 플레이 총 시작 시간 0.988초입니다.
+[2021.06.09-08.30.02:132][ 14]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.30.02:132][ 14]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.30.03:019][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.30.03:019][ 65]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.30.03:025][ 65]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.30.03:063][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.30.03:078][ 65]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.30.03:110][ 65]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.30.03:142][ 65]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.30.03:146][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.30.03:147][ 65]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.30.03:267][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2021.06.09-08.30.03:319][ 66]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.06.09-08.30.44:732][136]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.30.44:753][136]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.30.44:753][136]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:30:44)
+[2021.06.09-08.30.44:753][136]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.30.45:521][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.768440s)
+[2021.06.09-08.30.45:523][136]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.30.45:526][136]LogPlayLevel: PIE: World Init took: (0.005065s)
+[2021.06.09-08.30.45:527][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.774699s)
+[2021.06.09-08.30.45:577][136]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
+[2021.06.09-08.30.45:580][136]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.30.45:580][136]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.30.45:580][136]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.30.45:581][136]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.30.45:581][136]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.30.45:591][136]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.30.45:591][136]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.30.45:618][136]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.30.45:618][136]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.30.45:619][136]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.30.45:619][136]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.30.45:620][136]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.30.45:621][136]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.30.45:621][136]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.30.45:646][136]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.30.45:646][136]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.30.45:646][136]LogInit: FAudioDevice initialized.
+[2021.06.09-08.30.45:646][136]LogAudio: Display: Audio Device (ID: 8) registered with world 'Map1'.
+[2021.06.09-08.30.45:660][136]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.30.45:952][136]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.30.45
+[2021.06.09-08.30.45:961][136]LogWorld: Bringing up level for play took: 0.299019
+[2021.06.09-08.30.45:961][136]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.06.09-08.30.45:983][136]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.30.45:984][136]PIE: 에디터에서 플레이 총 시작 시간 1.234초입니다.
+[2021.06.09-08.30.47:578][211]LogRenderer: Reallocating scene render targets to support 1392x332 Format 10 NumSamples 1 (Frame:70).
+[2021.06.09-08.30.47:643][212]LogRenderer: Reallocating scene render targets to support 1392x396 Format 10 NumSamples 1 (Frame:71).
+[2021.06.09-08.30.47:730][213]LogRenderer: Reallocating scene render targets to support 1392x508 Format 10 NumSamples 1 (Frame:72).
+[2021.06.09-08.30.47:780][214]LogRenderer: Reallocating scene render targets to support 1392x572 Format 10 NumSamples 1 (Frame:73).
+[2021.06.09-08.30.47:847][215]LogRenderer: Reallocating scene render targets to support 1392x588 Format 10 NumSamples 1 (Frame:74).
+[2021.06.09-08.30.47:910][216]LogRenderer: Reallocating scene render targets to support 1392x620 Format 10 NumSamples 1 (Frame:75).
+[2021.06.09-08.30.47:962][217]LogRenderer: Reallocating scene render targets to support 1392x624 Format 10 NumSamples 1 (Frame:76).
+[2021.06.09-08.30.49:311][293]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.30.49:311][293]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.30.52:310][467]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.30.52:310][467]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.30.52:312][467]LogBlueprintUserMessages: [MyTomato_2] 토마토생성
+[2021.06.09-08.30.55:293][638]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.30.55:312][639]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.30.58:296][814]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.30.58:313][815]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.01:298][990]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.31.01:316][991]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.01:318][991]LogBlueprintUserMessages: [MyTomato2_2] 토마토생성
+[2021.06.09-08.31.04:308][169]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.04:309][169]LogBlueprintUserMessages: [MyTomato_C_1] 토마토생성
+[2021.06.09-08.31.04:309][169]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.31.04:325][170]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.07:309][347]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.07:324][348]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.07:324][348]LogBlueprintUserMessages: [MyTomato_C_0] Hello
+[2021.06.09-08.31.07:341][349]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.10:322][524]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.10:340][525]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.10:341][525]LogBlueprintUserMessages: [MyTomato_C_1] 토마토생성
+[2021.06.09-08.31.10:357][526]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.10:358][526]LogBlueprintUserMessages: [MyTomato2_2] 토마토생성
+[2021.06.09-08.31.13:328][698]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.13:328][698]LogBlueprintUserMessages: [MyTomato_C_3] Hello
+[2021.06.09-08.31.13:329][698]LogBlueprintUserMessages: [MyTomato_C_3] 토마토생성
+[2021.06.09-08.31.13:345][699]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.13:345][699]LogBlueprintUserMessages: [MyTomato_C_4] Hello
+[2021.06.09-08.31.13:362][700]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.16:322][874]LogBlueprintUserMessages: [MyTomato_C_5] Hello
+[2021.06.09-08.31.16:324][874]LogBlueprintUserMessages: [MyTomato_C_5] 토마토생성
+[2021.06.09-08.31.16:338][875]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.16:340][875]LogBlueprintUserMessages: [MyTomato_C_2] 토마토생성
+[2021.06.09-08.31.16:340][875]LogBlueprintUserMessages: [MyTomato_C_3] Hello
+[2021.06.09-08.31.16:355][876]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.16:356][876]LogBlueprintUserMessages: [MyTomato_C_1] 토마토생성
+[2021.06.09-08.31.16:356][876]LogBlueprintUserMessages: [MyTomato_C_4] Hello
+[2021.06.09-08.31.16:372][877]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.19:311][ 49]LogBlueprintUserMessages: [MyTomato_C_6] Hello
+[2021.06.09-08.31.19:326][ 50]LogBlueprintUserMessages: [MyTomato_C_5] Hello
+[2021.06.09-08.31.19:326][ 50]LogBlueprintUserMessages: [MyTomato_C_7] Hello
+[2021.06.09-08.31.19:344][ 51]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.19:344][ 51]LogBlueprintUserMessages: [MyTomato_C_3] Hello
+[2021.06.09-08.31.19:360][ 52]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.19:360][ 52]LogBlueprintUserMessages: [MyTomato_C_4] Hello
+[2021.06.09-08.31.19:379][ 53]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.19:380][ 53]LogBlueprintUserMessages: [MyTomato2_2] 토마토생성
+[2021.06.09-08.31.22:325][228]LogBlueprintUserMessages: [MyTomato_C_6] Hello
+[2021.06.09-08.31.22:325][228]LogBlueprintUserMessages: [MyTomato_C_6] 토마토생성
+[2021.06.09-08.31.22:341][229]LogBlueprintUserMessages: [MyTomato_C_5] Hello
+[2021.06.09-08.31.22:341][229]LogBlueprintUserMessages: [MyTomato_C_7] Hello
+[2021.06.09-08.31.22:342][229]LogBlueprintUserMessages: [MyTomato_C_7] 토마토생성
+[2021.06.09-08.31.22:360][230]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.22:360][230]LogBlueprintUserMessages: [MyTomato_C_3] Hello
+[2021.06.09-08.31.22:376][231]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.22:376][231]LogBlueprintUserMessages: [MyTomato_C_4] Hello
+[2021.06.09-08.31.22:376][231]LogBlueprintUserMessages: [MyTomato_C_9] Hello
+[2021.06.09-08.31.22:393][232]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.25:331][395]LogBlueprintUserMessages: [MyTomato_C_6] Hello
+[2021.06.09-08.31.25:331][395]LogBlueprintUserMessages: [MyTomato_C_11] Hello
+[2021.06.09-08.31.25:331][395]LogBlueprintUserMessages: [MyTomato_C_10] Hello
+[2021.06.09-08.31.25:350][396]LogBlueprintUserMessages: [MyTomato_C_5] Hello
+[2021.06.09-08.31.25:350][396]LogBlueprintUserMessages: [MyTomato_C_7] Hello
+[2021.06.09-08.31.25:371][397]LogBlueprintUserMessages: [MyTomato_C_2] Hello
+[2021.06.09-08.31.25:371][397]LogBlueprintUserMessages: [MyTomato_C_3] Hello
+[2021.06.09-08.31.25:394][398]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.31.25:394][398]LogBlueprintUserMessages: [MyTomato_C_1] Hello
+[2021.06.09-08.31.25:394][398]LogBlueprintUserMessages: [MyTomato_C_4] Hello
+[2021.06.09-08.31.25:394][398]LogBlueprintUserMessages: [MyTomato_C_9] Hello
+[2021.06.09-08.31.25:829][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.31.25:829][416]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.31.25:839][416]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.31.25:906][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.31.25:944][416]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.31.25:996][416]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.31.26:037][416]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.31.26:075][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.31.26:077][416]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.31.26:145][416]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.06.09-08.31.26:233][417]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.06.09-08.31.45:402][ 15]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.06.09-08.31.45:417][ 15]Candidate modules for hot reload:
+[2021.06.09-08.31.45:417][ 15]  GameEngineProject
+[2021.06.09-08.31.45:418][ 15]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameEngineProject,8570 GameEngineProjectEditor Win64 Development -Project="C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject" "C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject"  -IgnoreJunk]
+[2021.06.09-08.31.45:432][ 15]Warning: Starting HotReload took  0.0s.
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog: New page: 컴파일 - 2021. 6. 10. 오전 2:32:04
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dpel9\Documents\GitHub\fossil).
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog: Building GameEngineProjectEditor...
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:   [1/4] GameEngineProjectCharacter.cpp
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:   [2/4] UE4Editor-GameEngineProject-8570.lib
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-8570.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-8570.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:   [3/4] UE4Editor-GameEngineProject-8570.dll
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-8570.suppressed.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-8570.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.32.04:518][ 93]CompilerResultsLog:   [4/4] GameEngineProjectEditor.target
+[2021.06.09-08.32.04:519][ 93]CompilerResultsLog: Total time in Parallel executor: 15.14 seconds
+[2021.06.09-08.32.04:519][ 93]CompilerResultsLog: Total execution time: 18.83 seconds
+[2021.06.09-08.32.04:519][ 93]LogMainFrame: MainFrame: Module compiling took 19.116 seconds
+[2021.06.09-08.32.04:998][ 93]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.32.05:000][ 93]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GameEngineProject' in 0.0003 seconds. Added 16 classes and 2 folders.
+[2021.06.09-08.32.05:005][ 93]Display: HotReload successful (16 functions remapped  0 scriptstructs remapped)
+[2021.06.09-08.32.05:128][ 93]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0113 seconds. Added 3617 classes and 861 folders.
+[2021.06.09-08.32.05:135][ 93]Display: HotReload took 19.7s.
+[2021.06.09-08.32.34:129][757]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.32.34:143][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.32.34:143][757]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:32:34)
+[2021.06.09-08.32.34:143][757]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.32.34:517][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.372872s)
+[2021.06.09-08.32.34:518][757]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.32.34:519][757]LogPlayLevel: PIE: World Init took: (0.002650s)
+[2021.06.09-08.32.34:520][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.376307s)
+[2021.06.09-08.32.34:603][757]LogUObjectHash: Compacting FUObjectHashTables data took   8.49ms
+[2021.06.09-08.32.34:609][757]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.32.34:609][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.32.34:609][757]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.32.34:610][757]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.32.34:610][757]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.32.34:614][757]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.32.34:614][757]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.32.34:628][757]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.32.34:628][757]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.32.34:629][757]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.32.34:629][757]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.32.34:629][757]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.32.34:629][757]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.32.34:629][757]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.32.34:644][757]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.32.34:644][757]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.32.34:644][757]LogInit: FAudioDevice initialized.
+[2021.06.09-08.32.34:644][757]LogAudio: Display: Audio Device (ID: 9) registered with world 'Map1'.
+[2021.06.09-08.32.34:657][757]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.32.34:806][757]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.32.34
+[2021.06.09-08.32.34:811][757]LogWorld: Bringing up level for play took: 0.152434
+[2021.06.09-08.32.34:812][757]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.06.09-08.32.34:822][757]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.32.34:822][757]PIE: 에디터에서 플레이 총 시작 시간 0.681초입니다.
+[2021.06.09-08.32.37:439][898]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.32.37:440][898]LogBlueprintUserMessages: [MyTomato2_2] 토마토생성
+[2021.06.09-08.32.37:440][898]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.32.39:357][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.32.39:357][  9]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.32.39:361][  9]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.32.39:388][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.32.39:402][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.32.39:425][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.32.39:468][  9]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.09-08.32.39:475][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.32.39:477][  9]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.32.39:496][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.32.39:553][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.14ms
+[2021.06.09-08.32.39:614][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.06.09-08.32.41:741][111]LogTemp: Repeating last play command: 선택된 뷰포트
+[2021.06.09-08.32.41:758][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.09-08.32.41:758][111]PIE: New page: PIE 세션: Map1 (2021. 6. 10. 오전 2:32:41)
+[2021.06.09-08.32.41:758][111]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.32.42:146][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.387803s)
+[2021.06.09-08.32.42:147][111]LogAIModule: Creating AISystem for world Map1
+[2021.06.09-08.32.42:148][111]LogPlayLevel: PIE: World Init took: (0.002346s)
+[2021.06.09-08.32.42:149][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/Map1.Map1 to /Game/level/UEDPIE_0_Map1.Map1 (0.391072s)
+[2021.06.09-08.32.42:177][111]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.06.09-08.32.42:180][111]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.06.09-08.32.42:180][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.09-08.32.42:181][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.09-08.32.42:181][111]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.09-08.32.42:181][111]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.09-08.32.42:185][111]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.09-08.32.42:185][111]LogAudioMixer: Display: 1: FrontRight
+[2021.06.09-08.32.42:201][111]LogAudioMixer: Display: Using Audio Device 헤드폰(Realtek(R) Audio)
+[2021.06.09-08.32.42:201][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.09-08.32.42:201][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.09-08.32.42:201][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.09-08.32.42:202][111]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.09-08.32.42:202][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.09-08.32.42:202][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.09-08.32.42:217][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.09-08.32.42:217][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.09-08.32.42:217][111]LogInit: FAudioDevice initialized.
+[2021.06.09-08.32.42:217][111]LogAudio: Display: Audio Device (ID: 10) registered with world 'Map1'.
+[2021.06.09-08.32.42:225][111]LogLoad: Game class is 'GameEngineProjectGameMode'
+[2021.06.09-08.32.42:374][111]LogWorld: Bringing World /Game/level/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2021.06.09-17.32.42
+[2021.06.09-08.32.42:379][111]LogWorld: Bringing up level for play took: 0.153135
+[2021.06.09-08.32.42:380][111]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.06.09-08.32.42:390][111]PIE: 서버가 로그인했습니다.
+[2021.06.09-08.32.42:391][111]PIE: 에디터에서 플레이 총 시작 시간 0.636초입니다.
+[2021.06.09-08.32.45:022][255]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.32.45:022][255]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.32.48:031][425]LogBlueprintUserMessages: [MyTomato2_2] Hello
+[2021.06.09-08.32.48:032][425]LogBlueprintUserMessages: [MyTomato2_2] 토마토생성
+[2021.06.09-08.32.48:032][425]LogBlueprintUserMessages: [MyTomato_2] Hello
+[2021.06.09-08.32.49:414][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.32.49:414][504]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_Map1
+[2021.06.09-08.32.49:430][504]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2021.06.09-08.32.49:487][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.32.49:500][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.09-08.32.49:523][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.09-08.32.49:554][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.09-08.32.49:565][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.32.49:566][504]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.09-08.32.49:604][504]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.06.09-08.32.49:650][505]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.06.09-08.32.53:924][728]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Terrain_2)
+[2021.06.09-08.33.03:209][229]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Myeong/Widgets/GameOver.GameOver
+[2021.06.09-08.34.08:469][992]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/Widgets/GameOver" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Myeong/Widgets/GameOver.uasset" SILENT=true
+[2021.06.09-08.34.08:594][992]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/GameOver65BE746E4F8D7B80327FE7BB4FC1491C.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Myeong/Widgets/GameOver.uasset'
+[2021.06.09-08.34.08:628][992]AssetCheck: New page: 애셋 저장: GameOver
+[2021.06.09-08.34.08:628][992]LogContentValidation: Display: WidgetBlueprint /Game/Myeong/Widgets/GameOver.GameOver 유효성 검사
+[2021.06.09-08.34.08:949][  6]BlueprintLog: New page: GameOver 컴파일
+[2021.06.09-08.34.09:053][  6]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.06.09-08.34.23:905][733]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/MoleCharacter.MoleCharacter
+[2021.06.09-08.35.07:080][555]BlueprintLog: New page: MoleCharacter 컴파일
+[2021.06.09-08.35.07:187][555]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2021.06.09-08.35.07:846][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MoleCharacter" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/MoleCharacter.uasset" SILENT=true
+[2021.06.09-08.35.07:883][574]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/MoleCharacter266B0F4B4C8FA66A5091A3961806B499.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/MoleCharacter.uasset'
+[2021.06.09-08.35.07:903][574]AssetCheck: New page: 애셋 저장: MoleCharacter
+[2021.06.09-08.35.07:904][574]LogContentValidation: Display: Blueprint /Game/MoleCharacter.MoleCharacter 유효성 검사
+[2021.06.09-08.35.20:821][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MoleCharacter" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/MoleCharacter.uasset" SILENT=true
+[2021.06.09-08.35.20:848][167]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/MoleCharacter2701F64F4A4EECCDF9FC339EF9F5F91F.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/MoleCharacter.uasset'
+[2021.06.09-08.35.20:867][167]AssetCheck: New page: 애셋 저장: MoleCharacter
+[2021.06.09-08.35.20:867][167]LogContentValidation: Display: Blueprint /Game/MoleCharacter.MoleCharacter 유효성 검사
+[2021.06.09-08.35.46:467][206]BlueprintLog: New page: GameOver 컴파일
+[2021.06.09-08.35.46:537][206]LogUObjectHash: Compacting FUObjectHashTables data took   5.58ms
+[2021.06.09-08.35.46:916][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Myeong/Widgets/GameOver" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Myeong/Widgets/GameOver.uasset" SILENT=true
+[2021.06.09-08.35.46:944][211]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/GameOverAD7FBEA748D69A2F0404889542440D60.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Content/Myeong/Widgets/GameOver.uasset'
+[2021.06.09-08.35.46:965][211]AssetCheck: New page: 애셋 저장: GameOver
+[2021.06.09-08.35.46:965][211]LogContentValidation: Display: WidgetBlueprint /Game/Myeong/Widgets/GameOver.GameOver 유효성 검사
+[2021.06.09-08.36.42:685][676]LogUObjectHash: Compacting FUObjectHashTables data took   7.95ms
+[2021.06.09-08.36.42:690][676]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/level/Map1' took 0.077
+[2021.06.09-08.36.42:691][676]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MoleCharacter] ([1] browsable assets)...
+[2021.06.09-08.36.42:709][676]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MoleCharacter.MoleCharacter]
+[2021.06.09-08.36.42:709][676]OBJ SavePackage: Finished generating thumbnails for package [/Game/MoleCharacter]
+[2021.06.09-08.36.42:709][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MoleCharacter" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Autosaves/Game/MoleCharacter_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2021.06.09-08.36.42:765][676]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/MoleCharacter_Auto1F95C0AD9475C3BA464D16DA44342D475.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Autosaves/Game/MoleCharacter_Auto1.uasset'
+[2021.06.09-08.36.42:767][676]LogFileHelpers: Auto-saving content packages took 0.077
+[2021.06.09-08.53.17:416][178]LogUObjectHash: Compacting FUObjectHashTables data took   8.15ms
+[2021.06.09-08.53.17:436][178]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/level/Map1' took 0.136
+[2021.06.09-08.53.17:438][178]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/MoleCharacter] ([1] browsable assets)...
+[2021.06.09-08.53.17:488][178]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/MoleCharacter.MoleCharacter]
+[2021.06.09-08.53.17:489][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/MoleCharacter]
+[2021.06.09-08.53.17:503][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MoleCharacter" FILE="../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Autosaves/Game/MoleCharacter_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2021.06.09-08.53.18:032][178]LogSavePackage: Moving '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/MoleCharacter_Auto2FA2346F4437494CCDA8159867E709030.tmp' to '../../../../../../Users/dpel9/Documents/GitHub/fossil/perforce_mole/Saved/Autosaves/Game/MoleCharacter_Auto2.uasset'
+[2021.06.09-08.53.18:037][178]LogFileHelpers: Auto-saving content packages took 0.601
+[2021.06.09-08.55.06:435][536]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.06.09-08.55.06:456][536]Candidate modules for hot reload:
+[2021.06.09-08.55.06:456][536]  GameEngineProject
+[2021.06.09-08.55.06:458][536]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GameEngineProject,7877 GameEngineProjectEditor Win64 Development -Project="C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject" "C:/Users/dpel9/Documents/GitHub/fossil/perforce_mole/GameEngineProject.uproject"  -IgnoreJunk]
+[2021.06.09-08.55.06:470][536]Warning: Starting HotReload took  0.0s.
+[2021.06.09-08.55.40:250][771]CompilerResultsLog: New page: 컴파일 - 2021. 6. 10. 오전 2:55:40
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\dpel9\Documents\GitHub\fossil).
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Parsing headers for GameEngineProjectEditor
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\GameEngineProject.uproject" "C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\GameEngineProjectEditor\Development\GameEngineProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\dpel9\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Reflection code generated for GameEngineProjectEditor in 9.1241243 seconds
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Building GameEngineProjectEditor...
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Using Visual Studio 2019 14.28.29334 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.09-08.55.40:253][771]CompilerResultsLog: Building 9 actions with 8 processes...
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [1/9] GameEngineProject.init.gen.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [2/9] ProjectCatCharacter.gen.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [3/9] ProjectCatCharacter.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [4/9] GameEngineProjectCharacter.gen.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [5/9] GameEngineProjectCharacter.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [6/9] GameEngineProjectGameMode.cpp
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:   [7/9] UE4Editor-GameEngineProject-7877.lib
+[2021.06.09-08.55.40:253][771]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-7877.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-7877.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.55.40:254][771]CompilerResultsLog:   [8/9] UE4Editor-GameEngineProject-7877.dll
+[2021.06.09-08.55.40:254][771]CompilerResultsLog:      C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-7877.suppressed.lib ???̺귯?? ?? C:\Users\dpel9\Documents\GitHub\fossil\perforce_mole\Intermediate\Build\Win64\UE4Editor\Development\GameEngineProject\UE4Editor-GameEngineProject-7877.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.09-08.55.40:254][771]CompilerResultsLog:   [9/9] GameEngineProjectEditor.target
+[2021.06.09-08.55.40:254][771]CompilerResultsLog: Total time in Parallel executor: 22.17 seconds
+[2021.06.09-08.55.40:254][771]CompilerResultsLog: Total execution time: 33.61 seconds
+[2021.06.09-08.55.40:254][771]LogMainFrame: MainFrame: Module compiling took 33.819 seconds
+[2021.06.09-08.55.40:709][771]LogClass: Could not find existing class GameEngineProjectCharacter in package /Script/GameEngineProject for HotReload, assuming new class
+[2021.06.09-08.55.40:711][771]LogClass: Function CreateDustParticle is new.
+[2021.06.09-08.55.40:711][771]LogClass: Function CreateHole is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function EatTomato is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function GetCurrentDigPercent is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function GetHungryPoint is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function GetHungryPointText is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function GetSurviveTime is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function GetSurviveTimeText is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function MoveForward is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function MoveRight is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function OnOverlapBegin is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function OnOverlapEnd is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function Turn is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function UpdateDigTime is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function UpdateHungryPoint is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function UpdateSurviveTime is new.
+[2021.06.09-08.55.40:712][771]LogClass: Function ViewChange is new.
+[2021.06.09-08.55.40:803][771]LogHotReload: Re-instancing GameEngineProjectCharacter after hot-reload.
+[2021.06.09-08.55.41:063][771]LogTemp: Warning: SkeletalMesh Not Error
+[2021.06.09-08.55.41:066][771]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'GameEngineProject' in 0.0005 seconds. Added 16 classes and 2 folders.
+[2021.06.09-08.55.41:073][771]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.09-08.55.44:958][771]LogThreadingWindows: Error: Runnable thread PoolThread 20 crashed.
+[2021.06.09-08.55.44:959][771]LogWindows: Error: === Critical error: ===
+[2021.06.09-08.55.44:959][771]LogWindows: Error: 
+[2021.06.09-08.55.44:959][771]LogWindows: Error: Fatal error!
+[2021.06.09-08.55.44:959][771]LogWindows: Error: 
+[2021.06.09-08.55.44:959][771]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000000010000001a
+[2021.06.09-08.55.44:959][771]LogWindows: Error: 
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99b55fa28 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99b671d05 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99b6722d2 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99b66cfaa UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99b66c3de UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff95ee8ba5f UE4Editor-HotReload.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff95ee8b7ae UE4Editor-HotReload.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff99171c50d UE4Editor-Core.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff991b7898b UE4Editor-Core.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff991b71620 UE4Editor-Core.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff9f5cc7034 KERNEL32.DLL!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: [Callstack] 0x00007ff9f65c2651 ntdll.dll!UnknownFunction []
+[2021.06.09-08.55.44:959][771]LogWindows: Error: 
+[2021.06.09-08.55.44:959][771]LogWindows: Error: Crash in runnable thread PoolThread 20
+[2021.06.09-08.55.44:984][771]LogExit: Executing StaticShutdownAfterError
+[2021.06.09-08.55.44:984][771]LogWindows: FPlatformMisc::RequestExit(1)
+[2021.06.09-08.55.44:984][771]LogCore: Engine exit requested (reason: Win RequestExit)
+[2021.06.09-08.55.44:992][771]Log file closed, 06/09/21 17:55:44

@@ -72,10 +72,15 @@ public:
 	float maxHungryPoint;
 	float surviveTime;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	float cameraAngle;
+
 	UFUNCTION(BlueprintPure)
 		float GetHungryPoint();
 	UFUNCTION(BlueprintPure)
 		FText GetHungryPointText();
+	UFUNCTION(BlueprintPure)
+		float GetSurviveTime();
 	UFUNCTION(BlueprintPure)
 		FText GetSurviveTimeText();
 	UFUNCTION(BluePrintPure)
@@ -85,6 +90,7 @@ public:
 		void MoveForward(float value);
 	UFUNCTION()
 		void MoveRight(float value);
+
 	//UFUNCTION()
 	//	void LookUp(float value);
 	UFUNCTION()

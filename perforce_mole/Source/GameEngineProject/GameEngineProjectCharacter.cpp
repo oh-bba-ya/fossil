@@ -48,6 +48,7 @@ AGameEngineProjectCharacter::AGameEngineProjectCharacter()
 	currntHungryPoint = 100.f;
 	maxHungryPoint = 100.f;
 	surviveTime = 0.f;
+	cameraAngle = -10.f;
 	
 	static ConstructorHelpers::FClassFinder<ADustParticle> DUST_PARTICLE(TEXT("/Game/DustParticleBP"));
 	if (DUST_PARTICLE.Succeeded())
@@ -175,7 +176,7 @@ void AGameEngineProjectCharacter::SetViewMode(EMoleMode vm)
 		break;
 	case EMoleMode::GROUND:
 		SpringArm->TargetArmLength = 850.f;
-		SpringArm->SetRelativeRotation(FRotator(-45.f, 0.f, 0.f));
+		SpringArm->SetRelativeRotation(FRotator(-20.f, 0.f, 0.f));
 		SpringArm->bUsePawnControlRotation = true;
 		SpringArm->bInheritYaw = true;
 		bUseControllerRotationYaw = false;
@@ -282,6 +283,10 @@ FText AGameEngineProjectCharacter::GetHungryPointText()
 	FString HungryHUD = FString(TEXT("Hungry: ")) + HPS + FString(TEXT("%"));
 	FText HPText = FText::FromString(HungryHUD);
 	return HPText;
+}
+float AGameEngineProjectCharacter::GetSurviveTime()
+{
+	return FMath::RoundHalfFromZero(surviveTime);
 }
 FText AGameEngineProjectCharacter::GetSurviveTimeText()
 {

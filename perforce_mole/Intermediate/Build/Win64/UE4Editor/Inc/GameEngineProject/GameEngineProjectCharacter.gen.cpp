@@ -117,6 +117,13 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		*(FText*)Z_Param__Result=P_THIS->GetSurviveTimeText();
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(AGameEngineProjectCharacter::execGetSurviveTime)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(float*)Z_Param__Result=P_THIS->GetSurviveTime();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(AGameEngineProjectCharacter::execGetHungryPointText)
 	{
 		P_FINISH;
@@ -165,6 +172,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 			{ "GetCurrentDigPercent", &AGameEngineProjectCharacter::execGetCurrentDigPercent },
 			{ "GetHungryPoint", &AGameEngineProjectCharacter::execGetHungryPoint },
 			{ "GetHungryPointText", &AGameEngineProjectCharacter::execGetHungryPointText },
+			{ "GetSurviveTime", &AGameEngineProjectCharacter::execGetSurviveTime },
 			{ "GetSurviveTimeText", &AGameEngineProjectCharacter::execGetSurviveTimeText },
 			{ "MoveForward", &AGameEngineProjectCharacter::execMoveForward },
 			{ "MoveRight", &AGameEngineProjectCharacter::execMoveRight },
@@ -337,6 +345,38 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameEngineProjectCharacter_GetHungryPointText_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics
+	{
+		struct GameEngineProjectCharacter_eventGetSurviveTime_Parms
+		{
+			float ReturnValue;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(GameEngineProjectCharacter_eventGetSurviveTime_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGameEngineProjectCharacter, nullptr, "GetSurviveTime", nullptr, nullptr, sizeof(GameEngineProjectCharacter_eventGetSurviveTime_Parms), Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -768,6 +808,10 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TriggerCropChar_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_TriggerCropChar;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cameraAngle_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_cameraAngle;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -783,6 +827,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetCurrentDigPercent, "GetCurrentDigPercent" }, // 843250419
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetHungryPoint, "GetHungryPoint" }, // 2522127852
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetHungryPointText, "GetHungryPointText" }, // 2598889089
+		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTime, "GetSurviveTime" }, // 1548951560
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_GetSurviveTimeText, "GetSurviveTimeText" }, // 486702119
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_MoveForward, "MoveForward" }, // 35029540
 		{ &Z_Construct_UFunction_AGameEngineProjectCharacter_MoveRight, "MoveRight" }, // 604837756
@@ -852,6 +897,13 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar = { "TriggerCropChar", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, TriggerCropChar), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_cameraAngle_MetaData[] = {
+		{ "Category", "GameEngineProjectCharacter" },
+		{ "ModuleRelativePath", "GameEngineProjectCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_cameraAngle = { "cameraAngle", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGameEngineProjectCharacter, cameraAngle), METADATA_PARAMS(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_cameraAngle_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_cameraAngle_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGameEngineProjectCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Dust,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_Hole,
@@ -860,6 +912,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCapsule,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerTomato,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_TriggerCropChar,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGameEngineProjectCharacter_Statics::NewProp_cameraAngle,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGameEngineProjectCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGameEngineProjectCharacter>::IsAbstract,
@@ -888,7 +941,7 @@ void EmptyLinkFunctionForGeneratedCodeGameEngineProjectCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 3413937837);
+	IMPLEMENT_CLASS(AGameEngineProjectCharacter, 2786537977);
 	template<> GAMEENGINEPROJECT_API UClass* StaticClass<AGameEngineProjectCharacter>()
 	{
 		return AGameEngineProjectCharacter::StaticClass();
